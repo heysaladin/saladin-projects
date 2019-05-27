@@ -1,0 +1,137 @@
+[{
+    "id": 1,
+    "slug": "programmer-gadungan",
+    "name": "Programmer Gadungan",
+    "time": "23 May 2019 - 2:59 PM",
+    "price": 100000,
+    "sort_desc": "Programmer Gadungan",
+    "long_desc": "Programmer Gadungan",
+    "data": {
+        "compositions": "cutton",
+        "size": ["S", "M", "L", "XL"],
+        "color": "Black"
+    },
+    "image": [
+        "programmer-gadungan.jpg"
+    ],
+    "category": ["Man", "Clothing", "T-shirts"]
+}, {
+    "id": 2,
+    "slug": "penyuka-cowok-pinter",
+    "name": "Penyuka Cowok Pinter",
+    "time": "23 May 2019 - 2:59 PM",
+    "price": 100000,
+    "sort_desc": "Penyuka Cowok Pinter",
+    "long_desc": "Penyuka Cowok Pinter",
+    "data": {
+        "compositions": "cutton",
+        "size": ["S", "M", "L", "XL"],
+        "color": "Black"
+    },
+    "image": [
+        "penyuka-cowok-pinter.jpg"
+    ],
+    "category": ["Woman", "Clothing", "T-shirts"]
+}, {
+    "id": 3,
+    "slug": "try-catch",
+    "name": "Try Catch",
+    "time": "23 May 2019 - 2:59 PM",
+    "price": 100000,
+    "sort_desc": "Try Catch",
+    "long_desc": "Try Catch",
+    "data": {
+        "compositions": "cutton",
+        "size": ["S", "M", "L", "XL"],
+        "color": "Black"
+    },
+    "image": [
+        "try-catch.jpg"
+    ],
+    "category": ["Man", "Clothing", "T-shirts"]
+}, {
+    "id": 4,
+    "slug": "undefined",
+    "name": "Undefined",
+    "time": "23 May 2019 - 2:59 PM",
+    "price": 100000,
+    "sort_desc": "Undefined",
+    "long_desc": "Undefined",
+    "data": {
+        "compositions": "cutton",
+        "size": ["S", "M", "L", "XL"],
+        "color": "Black"
+    },
+    "image": [
+        "undefined.jpg"
+    ],
+    "category": ["Woman", "Clothing", "T-shirts"]
+}, {
+    "id": 5,
+    "slug": "ingat-liburan",
+    "name": "Ingat Liburan",
+    "time": "23 May 2019 - 2:59 PM",
+    "price": 100000,
+    "sort_desc": "Ingat Liburan",
+    "long_desc": "Ingat Liburan",
+    "data": {
+        "compositions": "cutton",
+        "size": ["S", "M", "L", "XL"],
+        "color": "Black"
+    },
+    "image": [
+        "ingat-liburan.jpg"
+    ],
+    "category": ["Equipment"]
+}, {
+    "id": 6,
+    "slug": "anti-coppas-coppas-club",
+    "name": "Anti Coppas Coppas Club",
+    "time": "23 May 2019 - 2:59 PM",
+    "price": 100000,
+    "sort_desc": "Anti Coppas Coppas Club",
+    "long_desc": "Anti Coppas Coppas Club",
+    "data": {
+        "compositions": "cutton",
+        "size": ["S", "M", "L", "XL"],
+        "color": "Black"
+    },
+    "image": [
+        "anti-coppas-coppas-club.jpg"
+    ],
+    "category": ["Man", "Woman", "Clothing", "Hoodie"]
+}, {
+    "id": 7,
+    "slug": "cannot-reverted",
+    "name": "Cannot Reverted",
+    "time": "23 May 2019 - 2:59 PM",
+    "price": 100000,
+    "sort_desc": "Cannot Reverted",
+    "long_desc": "Cannot Reverted",
+    "data": {
+        "compositions": "cutton",
+        "size": ["S", "M", "L", "XL"],
+        "color": "Black"
+    },
+    "image": [
+        "cannot-reverted.jpg"
+    ],
+    "category": ["Accessories"]
+}, {
+    "id": 8,
+    "slug": "programmers-daily-life",
+    "name": "Programmer's Daily Life",
+    "time": "23 May 2019 - 2:59 PM",
+    "price": 100000,
+    "sort_desc": "Programmer's Daily Life",
+    "long_desc": "Programmer's Daily Life",
+    "data": {
+        "compositions": "cutton",
+        "size": ["S", "M", "L", "XL"],
+        "color": "Black"
+    },
+    "image": [
+        "programmers-daily-life.jpg"
+    ],
+    "category": ["Man", "Clothing", "T-shirts"]
+}]
