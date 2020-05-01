@@ -110,7 +110,7 @@ a {
 }
 
 .header .menu-btn:checked~.menu {
-    max-height: 240px;
+    max-height: 525px;
 }
 
 .header .menu-btn:checked~.menu-icon .navicon {
@@ -137,6 +137,7 @@ a {
 #section1 {
     height: 600px;
     background-color: pink;
+    padding-top: 58px;
 }
 
 #section2 {
