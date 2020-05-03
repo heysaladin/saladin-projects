@@ -10,35 +10,52 @@
   <title>Tresnan</title>
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' />
   <link href="./styles/main.css" rel="stylesheet" />
+  <link href="./styles/content/hero-section.css" rel="stylesheet" />
+  <link href="./styles/content/form-section.css" rel="stylesheet" />
 </head>
 
 <body>
   <header class="header">
-    <a href="#section1" class="logo"><span></span></a>
+    <a href="#hero-section" class="logo" onclick='closeMenu()'><span></span></a>
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
-      <li><a href="#section2">Formulir</a></li>
-      <li><a href="#tresnan">Tresnan</a></li>
-      <li><a href="#why">Kenapa</a></li>
-      <li><a href="#testimony">Testimoni</a></li>
-      <li><a href="#event">Acara</a></li>
-      <li><a href="#affiliate">Afiliasi</a></li>
-      <li><a href="#news">Berita</a></li>
-      <li><a href="#contact">Kontak</a></li>
-      <li><a href="https://www.tresnan.co/" target="_blank">Blog</a></li>
+      <li><a href="#form-section" onclick='closeMenu()'>Formulir</a></li>
+      <li><a href="#tresnan" onclick='closeMenu()'>Tresnan</a></li>
+      <li><a href="#why" onclick='closeMenu()'>Kenapa</a></li>
+      <li><a href="#testimony" onclick='closeMenu()'>Testimoni</a></li>
+      <li><a href="#event" onclick='closeMenu()'>Acara</a></li>
+      <li><a href="#affiliate" onclick='closeMenu()'>Afiliasi</a></li>
+      <li><a href="#news" onclick='closeMenu()'>Berita</a></li>
+      <li><a href="#contact" onclick='closeMenu()'>Kontak</a></li>
+      <li><a href="https://www.tresnan.co/" target="_blank" onclick='closeMenu()'>Blog</a></li>
     </ul>
   </header>
   <content class="content">
-    <div class="main" id="section1">
-      <h2>Section 1</h2>
-      <p>Click on the link to see the "smooth" scrolling effect.</p>
-      <a href="#section2">Click Me to Smooth Scroll to Section 2 Below</a>
-      <p>Note: Remove the scroll-behavior property to remove smooth scrolling.</p>
+    <div class="main" id="hero-section">
+      <div class="container">
+        <div class="row">
+          <div class="column column-left">
+            <h1>Karena Hidup Kamu Begitu <span class="color-pink">Berharga</span></h1>
+            <h2>Pilihlah <span class="color-purple">Jodoh Terbaik</span> Untuk Menjalaninya</h2>
+            <p>Tresnan membantu kamu mencari jodoh berdasarkan algoritma pencocokan jodoh warisan nusantara yang tertuang dalam lontar Tri Premana dimana kecocokan jodoh dihitung berdasarkan hari kelahiran (pancawara, saptawara, & sadwara). Mari melestarikan warisan budaya leluhur kita.</p>
+          </div>
+          <div class="column column-right"></div>
+        </div>
+      </div>
     </div>
-    <div class="main" id="section2">
-      <h2>Section 2</h2>
-      <a href="#section1">Click Me to Smooth Scroll to Section 1 Above</a>
+    <div class="main" id="form-section">
+      <div class="container">
+        <div class="card">
+          <h2>form section</h2>
+          <a href="#form-section">Click Me to Smooth Scroll to Section 1 Above</a>
+        </div>
+        <div class="circle-bg"></div>
+        <div class="circle-gradient">
+          <span class="number">25647</span>
+          <span class="text">orang sudah<br/>mengecek</span>
+        </div>
+      </div>
     </div>
   </content>
   <footer class="footer">
@@ -53,7 +70,7 @@
         </ul>
       </div>
       <div class="row flex-right">
-        <span class="copyright">copyright</span>
+        <span class="copyright">Copyright © 2020, Tresnan. All Rights Reserved</span>
       </div>
     </div>
   </footer>

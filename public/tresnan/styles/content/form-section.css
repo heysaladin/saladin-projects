@@ -1,0 +1,89 @@
+#form-section {
+    /* background-color: rgba(0, 0, 0, .5); */
+    min-height: 1020px;
+    margin-top: -200px;
+}
+
+#form-section .card {
+    width: auto;
+    min-height: 817px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 48;
+}
+
+#form-section .circle-bg {
+    position: absolute;
+    z-index: 47;
+    width: 208px;
+    height: 208px;
+    border-radius: 50%;
+    margin: -69px 0 0;
+    background: linear-gradient(180deg, #FFEEF4 0%, rgba(255, 240, 246, 0) 100%);
+}
+
+#form-section .circle-gradient {
+    position: absolute;
+    z-index: 49;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: -49px 0 0 29px;
+    background: linear-gradient(150.69deg, #C7A1FF 16.38%, #FB6497 84.89%);
+    box-shadow: 0px 15px 15px rgba(255, 167, 195, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-section .circle-gradient .number {
+    font-family: Montserrat-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+}
+
+#form-section .circle-gradient .text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+}
+
+/* RESPONSIVE */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    #form-section {
+        margin-top: -400px;
+    }
+
+    #form-section .card {
+        position: absolute;
+        width: 1000px;
+        min-height: 817px;
+        margin: 0 auto;
+    }
+
+    #form-section .circle-bg {
+        position: absolute;
+        z-index: 97;
+        margin: -59px 0 0 -49px;
+    }
+
+    #form-section .circle-gradient {
+        position: absolute;
+        z-index: 99;
+        margin: -30px 0 0 -20px;
+    }
+}
