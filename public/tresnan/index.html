@@ -8,12 +8,13 @@
   <link rel="shortcut icon"
     href="https://www.gstatic.com/devrel-devsite/v6bd5a0b4c9254732f5f201c272fcfb160f0efe389bcfbc2a4719d82eac4acb09/firebase/images/favicon.png">
   <title>Tresnan</title>
-  <link href="./style.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' />
+  <link href="./styles/main.css" rel="stylesheet" />
 </head>
 
 <body>
   <header class="header">
-    <a href="#section1" class="logo">Tresnan</a>
+    <a href="#section1" class="logo"><span></span></a>
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
@@ -41,8 +42,22 @@
     </div>
   </content>
   <footer class="footer">
-    
+    <div class="container">
+      <div class="row">
+        <a href="#section1" class="logo"><span></span></a>
+        <ul>
+          <li><a href="#"><span class="social" id="fb"></span></a></li>
+          <li><a href="#"><span class="social" id="ig"></span></a></li>
+          <li><a href="#"><span class="social" id="wa"></span></a></li>
+          <li><a href="#"><span class="social" id="yt"></span></a></li>
+        </ul>
+      </div>
+      <div class="row flex-right">
+        <span class="copyright">copyright</span>
+      </div>
+    </div>
   </footer>
+  <script src="scripts/main.js"></script>
 </body>
 
 </html>

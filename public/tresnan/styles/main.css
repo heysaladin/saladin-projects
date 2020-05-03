@@ -6,12 +6,28 @@ html {
 
 body {
     margin: 0;
-    font-family: Helvetica, sans-serif;
+    padding: 0;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     background-color: #f4f4f4;
 }
 
 a {
     color: #000;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row.flex-right {
+    justify-content: flex-end;
 }
 
 /* end of general */
@@ -54,6 +70,14 @@ a {
     font-size: 2em;
     padding: 10px 20px;
     text-decoration: none;
+}
+
+.header .logo>span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #ffffff url('../assets/illustrations/svg/logo-mark-color.svg') left center no-repeat;
+    background-size: contain;
 }
 
 /* menu */
@@ -135,8 +159,8 @@ a {
 /* content */
 
 #section1 {
-    height: 600px;
-    background-color: pink;
+    height: 1000px;
+    background: #ffffff url('../assets/illustrations/svg/background-hero-section.svg') bottom center no-repeat;
     padding-top: 58px;
 }
 
@@ -150,8 +174,60 @@ a {
 /* footer */
 
 .footer {
-    height: 500px;
-    background-color: #333333;
+    height: 200px;
+    background: #333333 url('../assets/illustrations/svg/footer-ornament.svg') top center no-repeat;
+    color: #888888;
+    padding: 20em 0 1em;
+}
+
+.footer .logo>span {
+    background: url('../assets/illustrations/png/logo-grey.png') left center no-repeat;
+    display: block;
+    width: 170px;
+    height: 40px;
+    background-size: contain;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.footer ul li {
+    margin: 0 0.25rem;
+    padding: 0;
+}
+
+.footer ul li a {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    padding: 10px;
+    background: #888888;
+}
+
+.footer ul li a span {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.footer ul li a span#fb {
+    background: url('../assets/icons/svg/icon-social-fb.svg') center center no-repeat;
+}
+
+.footer ul li a span#ig {
+    background: url('../assets/icons/svg/icon-social-ig.svg') center center no-repeat;
+}
+
+.footer ul li a span#wa {
+    background: url('../assets/icons/svg/icon-social-wa.svg') center center no-repeat;
+}
+
+.footer ul li a span#yt {
+    background: url('../assets/icons/svg/icon-social-yt.svg') center center no-repeat;
 }
 
 /* end of footer */
@@ -178,4 +254,13 @@ a {
     .header .menu-icon {
         display: none;
     }
+
+    .header .logo>span {
+        background: #ffffff url('../assets/illustrations/svg/logo-color.svg') left center no-repeat;
+        display: block;
+        width: 170px;
+        height: 40px;
+        background-size: contain;
+    }
+
 }
