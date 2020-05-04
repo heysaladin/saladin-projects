@@ -1,6 +1,7 @@
 #hero-section {
     height: 940px;
     background: url('../../assets/illustrations/svg/background-hero-section.svg') bottom center no-repeat;
+    background-size: cover;
 }
 
 #hero-section .row {
@@ -69,7 +70,7 @@
 
     #hero-section .row .column-left {
         order: 1;
-        height: 510px;
+        height: 525px;
         margin: 0 0 0 1em;
     }
 

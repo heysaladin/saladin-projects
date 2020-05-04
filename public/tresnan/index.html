@@ -38,7 +38,9 @@
           <div class="column column-left">
             <h1>Karena Hidup Kamu Begitu <span class="color-pink">Berharga</span></h1>
             <h2>Pilihlah <span class="color-purple">Jodoh Terbaik</span> Untuk Menjalaninya</h2>
-            <p>Tresnan membantu kamu mencari jodoh berdasarkan algoritma pencocokan jodoh warisan nusantara yang tertuang dalam lontar Tri Premana dimana kecocokan jodoh dihitung berdasarkan hari kelahiran (pancawara, saptawara, & sadwara). Mari melestarikan warisan budaya leluhur kita.</p>
+            <p>Tresnan membantu kamu mencari jodoh berdasarkan algoritma pencocokan jodoh warisan nusantara yang
+              tertuang dalam lontar Tri Premana dimana kecocokan jodoh dihitung berdasarkan hari kelahiran (pancawara,
+              saptawara, & sadwara). Mari melestarikan warisan budaya leluhur kita.</p>
           </div>
           <div class="column column-right"></div>
         </div>
@@ -47,13 +49,80 @@
     <div class="main" id="form-section">
       <div class="container">
         <div class="card">
-          <h2>form section</h2>
-          <a href="#form-section">Click Me to Smooth Scroll to Section 1 Above</a>
+          <div class="card-content">
+            <div class="form-block" id="block-form">
+              <h2>Cek kecocokan jodoh* anda sekarang!</h2>
+              <form>
+                <div class="container-form">
+                  <div class="row">
+                    <div class="column">
+                      <label for="name"><b>Nama Anda</b></label>
+                      <input type="text" placeholder="contoh: Mr./Mrs. Smith" name="email" required>
+
+                      <label for="date"><b>Tanggal Lahir Anda</b></label>
+                      <input type="text" placeholder="01/01/1990" name="psw" required>
+                    </div>
+
+                    <div class="column">
+                      <label for="name"><b>Nama Pasangan Anda</b></label>
+                      <input type="text" placeholder="contoh: Mr./Mrs. Smith" name="email" required>
+
+                      <label for="date"><b>Tanggal Lahir Pasangan Anda</b></label>
+                      <input type="text" placeholder="01/01/1990" name="psw" required>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="column">
+                      <label for="psw-repeat"><b>Alamat Email Anda</b></label>
+                      <input type="email" placeholder="contoh: love@tresnan.co" name="psw-repeat" required>
+                    </div>
+                    <div class="column">
+                      Kami tidak akan membagikan email anda kepada siapapun
+                    </div>
+                  </div>
+                  <div class="row">
+                    <button type="text" class="registerbtn">Muat Ulang</button>
+                    <button type="submit" class="registerbtn" onclick='goCheck()'>Cek Sekarang</button>
+                  </div>
+
+                  <p>Dengan mengklik tombol "Cek Sekarang", anda setuju dengan segala <a href="#">Syarat & Ketentuan</a>
+                    tresnan.co</p>
+
+                </div>
+              </form>
+            </div>
+            <div class="form-block" id="block-waiting">
+              <h2>Mohon Menunggu!</h2>
+              <div class="container-heart">
+                <img src="./assets/illustrations/png/loading-illustration.png" class="human-heart" alt="human heart" />
+              </div>
+            </div>
+            <div class="form-block" id="block-result">
+              <h2>Hasil <span class="bold">kecocokan jodoh*</span> Suryasa & Kadek Dessy</h2>
+              <p>Suryasa lahir pada hari <span class="bold">Buda (Rabu), Paing, Aryang</span></p>
+              <p>dengan total urip = <span class="bold">22</span></p>
+              <br/>
+              <p>Kadek Dessy lahir pada hari <span class="bold">Buda (Rabu), Kliwon, Paniron</span></p>
+              <p>dengan total urip = <span class="bold">23</span></p>
+              <br/>
+              <p>Mohon diperhatikan bahwa hasil dari perhitungan pencocokan jodoh ini <span class="bold">tidaklah 100% benar</span>, semua dikembalikan kembali kepada anda dan pasangan anda untuk menyikapinya.</p>
+              <br/>
+              <p class="text-result">Berdasarkan perhitungan perjodohan dari Lontar Tri Premana, kecocokan <span class="bold">Suryasa</span> dan <span class="bold">Kadek Desssy</span> adalah <span class="bold color-pink">Baik</span>. Selamanya tidak kurang harta (kaya) dan panjang umur. Disarankan anda dan pasangan untuk tetap bersyukur dan lebih sering membantu orang yang membutuhkan.</p>
+              <br/>
+              <button type="submit" class="registerbtn" onclick='goForm()'>Coba Lagi</button>
+            </div>
+          </div>
+          <hr>
+          <div class="card-content" id="form-note">
+            <p>* Perhitungan kecocokan jodoh ini adalah berdasarkan warisan budaya nusantara (Lontar Tripramana)
+              berdasarkan kombinasi hari kelahiran pasangan (Saptawara, Pancawara, Sadwara).</p>
+          </div>
         </div>
         <div class="circle-bg"></div>
         <div class="circle-gradient">
           <span class="number">25647</span>
-          <span class="text">orang sudah<br/>mengecek</span>
+          <span class="text">orang sudah<br />mengecek</span>
         </div>
       </div>
     </div>
