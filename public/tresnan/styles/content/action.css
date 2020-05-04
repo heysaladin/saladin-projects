@@ -1,0 +1,91 @@
+#action {
+    background: #ffffff;
+    width: 100%;
+    min-height: 800px;
+    padding: 70px 0 50px;
+}
+
+#action .container h2 {
+    font-family: Montserrat-Bold;
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    line-height: 44px;
+    display: block;
+    margin: 0;
+}
+
+#action .container .row {
+    min-height: 380px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#action .container .row #phone {
+    width: 100%;
+    min-height: inherit;
+    background: url('../../assets/illustrations/png/phones.png') center center no-repeat;
+    background-size: contain;
+}
+
+#action .container .buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#action .container .buttons-wrapper button {
+    font-family: Montserrat-Bold;
+    background: #3B3B3B;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    width: 250px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-store {
+width: 28px;
+height: 28px;
+display: block;
+margin: 0 15px 0 0;
+}
+
+.app-store {
+    background: url('../../assets/icons/svg/icon-store-app.svg') center center no-repeat;
+    background-size: contain;
+}
+
+.play-store {
+    background: url('../../assets/icons/svg/icon-store-play.svg') center center no-repeat;
+    background-size: contain;
+}
+
+#action .container .buttons-wrapper button span {
+margin-top: 4px;
+}
+
+/* RESPONSIVE */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    #action .container .buttons-wrapper {
+        flex-direction: row;
+    }
+
+    #action .container .row {
+        min-height: 580px;
+        background: url('../../assets/illustrations/png/people.png') center center no-repeat;
+    }
+    
+    #action .container .row #phone {
+        width: 50%;
+    }
+}

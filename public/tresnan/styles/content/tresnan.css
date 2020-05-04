@@ -1,0 +1,79 @@
+#tresnan {
+    background: #FCFCFC;
+    width: 100%;
+    min-height: 470px;
+    margin-top: -209px;
+    padding-top: 380px;
+}
+
+#tresnan .row {
+    display: flex;
+    flex-direction: column;
+}
+
+#tresnan .row .column {
+    width: 100%;
+}
+
+#tresnan .row .column-left {
+    order: 1;
+    margin-top: 30px;
+    min-height: 380px;
+    background: url('../../assets/illustrations/svg/about-image.svg') center center no-repeat;
+    background-size: contain;
+}
+
+#tresnan .row .column-right {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0 80px;
+}
+
+#tresnan .row .column-right h2 {
+    font-family: Montserrat-Bold;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+}
+
+#tresnan .row .column-right h1 {
+    font-family: Montserrat-Bold;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+}
+
+#tresnan .row .column-right p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #4A4A4A;
+}
+
+/* RESPONSIVE */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    #tresnan {
+        padding-top: 250px;
+    }
+
+    #tresnan .row {
+        flex-direction: row;
+    }
+
+    #tresnan .row .column-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px 0 0px;
+    }
+
+    #tresnan .row .column-right button {
+        width: 50%;
+    }
+}

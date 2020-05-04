@@ -1,6 +1,6 @@
 #form-section {
     /* background-color: rgba(0, 0, 0, .5); */
-    min-height: 1020px;
+    min-height: 900px;
     margin-top: -200px;
 }
 
@@ -161,7 +161,8 @@ label {
 /* Full-width input fields */
 input[type=text],
 input[type=email],
-input[type=password] {
+input[type=password],
+textarea {
     font-family: 'Montserrat', Helvetica, sans-serif;
     width: 83%;
     padding: 13px;
@@ -179,14 +180,15 @@ input[type=password] {
 /* Add a background color when the inputs get focus */
 input[type=text]:focus,
 input[type=email]:focus,
-input[type=password]:focus {
+input[type=password]:focus,
+textarea:focus {
     background-color: #ddd;
     outline: none;
 }
 
 /* Set a style for all buttons */
 button {
-    font-family: 'Montserrat-Bold', Helvetica, sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     background-color: #ffffff;
     padding: 14px 20px;
     margin: 8px 0;
@@ -206,12 +208,17 @@ button {
 }
 
 button[type=submit] {
+    font-family: 'Montserrat-Bold', Helvetica, sans-serif;
     background-color: #FB6497;
     color: #FFFFFF;
 }
 
 button:hover {
     opacity: 1;
+}
+
+textarea {
+    width: 93%;
 }
 
 /* Extra styles for the cancel button */

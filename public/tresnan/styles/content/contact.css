@@ -1,0 +1,116 @@
+#contact {
+    background: #FCFCFC;
+    width: 100%;
+    min-height: 870px;
+    margin-top: -209px;
+    padding-top: 180px;
+}
+
+#contact .row {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .row .column {
+    width: 100%;
+}
+
+#contact .row .column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0 30px 0;
+}
+
+#contact .row .column-left h2 {
+    font-family: Montserrat-Bold;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+    margin: 0;
+}
+
+#contact .row .column-left p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #4A4A4A;
+}
+
+#contact a {
+    text-decoration: none;
+}
+
+#line-illustration {
+    width: 210px;
+    height: 120px;
+    background: url('../../assets/illustrations/svg/mail-line-illustration.svg') center center no-repeat;
+    background-size: contain;
+    margin: 30px 30px 0;
+}
+
+#contact .row .column-right form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0 80px 0;
+    width: 90%;
+    height: 570px;
+    /* left: 684px;
+    top: 6138px; */
+    background: #FBFBFB;
+    box-shadow: 0px 15px 15px rgba(101, 93, 95, 0.1);
+    border-radius: 10px;
+}
+
+#contact .row .column-right form h2 {
+    font-family: Montserrat-Bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+#contact .row .column-right form .column {
+    width: 76%;
+}
+
+#contact .row .column-right form .column input {
+    width: 93%;
+}
+
+#contact .row .column-right form button {
+    width: 56%;
+}
+
+/* RESPONSIVE */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    #contact {
+        padding-top: 250px;
+        min-height: 470px;
+    }
+
+    #contact .row {
+        flex-direction: row;
+    }
+
+    #contact .row .column-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 75px 0 0px 10%;
+    }
+
+    #contact .row .column-left button {
+        width: 50%;
+    }
+
+    #contact .row .column-right form {
+        width: 470px;
+    }
+}
