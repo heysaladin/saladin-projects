@@ -1,3 +1,8 @@
+#event {
+    width: 100%;
+    margin: 50px auto 100px;
+}
+
 #event .container>h2 {
     font-family: Montserrat-Bold;
     font-weight: bold;
@@ -5,31 +10,31 @@
     margin-bottom: 35px;
 }
 
-.slider-nav>div {
+#event-slider-nav>div {
     height: auto;
 }
 
-.slider-nav>div .slide-item {
+#event-slider-nav>div .slide-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.slider-nav>div .slide-item .image-wrapper {
+#event-slider-nav>div .slide-item .image-wrapper {
     width: 100%;
     border-radius: 30px;
     overflow: hidden;
     margin-top: 26px;
 }
 
-.slider-nav>div .slide-item .image-wrapper img {
+#event-slider-nav>div .slide-item .image-wrapper img {
     width: 100%;
     height: auto;
     display: block;
 }
 
-.slider-nav>div .slide-item .text-block {
+#event-slider-nav>div .slide-item .text-block {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,7 +42,7 @@
     margin: 20px 0 80px;
 }
 
-.slider-nav>div .slide-item .text-block h2 {
+#event-slider-nav>div .slide-item .text-block h2 {
     font-family: Montserrat-Bold;
     font-weight: bold;
     font-size: 18px;
@@ -45,7 +50,7 @@
     color: #525252;
 }
 
-.slider-nav>div .slide-item .text-block h1 {
+#event-slider-nav>div .slide-item .text-block h1 {
     font-family: Montserrat-Bold;
     font-weight: bold;
     font-size: 24px;
@@ -54,13 +59,13 @@
     margin: 8px 0;
 }
 
-.slider-nav>div .slide-item .text-block p {
+#event-slider-nav>div .slide-item .text-block p {
     font-size: 14px;
     line-height: 21px;
     color: #4A4A4A;
 }
 
-.slider-nav>div .slide-item .text-block button {
+#event-slider-nav>div .slide-item .text-block button {
     width: 98%;
 }
 
@@ -69,28 +74,28 @@
 /* 48em = 768px */
 
 @media (min-width: 48em) {
-    .slider-nav>div {
+    #event-slider-nav>div {
         height: 420px;
     }
-    .slider-nav>div .slide-item {
+    #event-slider-nav>div .slide-item {
         flex-direction: row;
         height: 420px;
     }
 
-    .slider-nav>div .slide-item .image-wrapper {
+    #event-slider-nav>div .slide-item .image-wrapper {
         width: 380px;
         height: 380px;
         box-shadow: 20px 20px 0 #FFB6CE;
     }
 
-    .slider-nav>div .slide-item .text-block {
+    #event-slider-nav>div .slide-item .text-block {
         display: block;
         width: 43%;
         padding-left: 7%;
         margin: 110px 0 80px;
     }
 
-    .slider-nav>div .slide-item .text-block button {
+    #event-slider-nav>div .slide-item .text-block button {
         width: 50%;
     }
 }
