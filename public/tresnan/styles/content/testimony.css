@@ -15,7 +15,7 @@
 }
 
 #testimony .container>h2 {
-    font-family: Montserrat-Bold;
+    font-family: 'Montserrat-Bold', 'Montserrat', Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
     margin-bottom: 55px;
@@ -55,7 +55,7 @@
 }
 
 #testimony-slider-nav>div .slide-item .card .person-name {
-    font-family: Montserrat-Bold;
+    font-family: 'Montserrat-Bold', 'Montserrat', Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;

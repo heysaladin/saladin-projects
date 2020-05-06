@@ -22,7 +22,7 @@
 
 #hero-section .row .column-left h1 {
     margin: 0;
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat-Bold', 'Montserrat', Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -31,7 +31,7 @@
 }
 
 #hero-section .row .column-left h2 {
-    font-family: 'Montserrat-Semibold';
+    font-family: 'Montserrat-Semibold', 'Montserrat', Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 21px;

@@ -16,7 +16,7 @@
 }
 
 #news .container>h2 {
-    font-family: Montserrat-Bold;
+    font-family: 'Montserrat-Bold', 'Montserrat', Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
     margin-bottom: 55px;
@@ -59,7 +59,7 @@
 }
 
 #news-slider-nav>div .slide-item .card .news-title {
-    font-family: Montserrat-Bold;
+    font-family: 'Montserrat-Bold', 'Montserrat', Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -74,7 +74,7 @@
 }
 
 #news-slider-nav>div .slide-item .news-tag {
-    font-family: Montserrat-Bold;
+    font-family: 'Montserrat-Bold', 'Montserrat', Helvetica, sans-serif;
     font-size: 16px;
     line-height: 20px;
     color: #A76EF1;

@@ -6,7 +6,7 @@
 }
 
 #action .container h2 {
-    font-family: Montserrat-Bold;
+    font-family: 'Montserrat-Bold', 'Montserrat', Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
     font-size: 32px;
@@ -38,7 +38,7 @@
 }
 
 #action .container .buttons-wrapper button {
-    font-family: Montserrat-Bold;
+    font-family: 'Montserrat-Bold', 'Montserrat', Helvetica, sans-serif;
     background: #3B3B3B;
     border-radius: 10px;
     border: none;
