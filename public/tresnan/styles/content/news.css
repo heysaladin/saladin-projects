@@ -1,6 +1,18 @@
 #news {
     width: 100%;
-    margin: 10px auto;
+    margin: 0px auto;
+    position: relative;
+    min-height: 867px;
+}
+
+#news .bg-color {
+    width: 100%;
+    height: 652px;
+    margin: 0px auto;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    background: linear-gradient(111.44deg, #FBF8FF 2.08%, #FFEFF5 96.57%);
 }
 
 #news .container>h2 {

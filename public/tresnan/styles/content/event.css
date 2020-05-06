@@ -86,6 +86,7 @@
         width: 380px;
         height: 380px;
         box-shadow: 20px 20px 0 #FFB6CE;
+        margin-top: 0px;
     }
 
     #event-slider-nav>div .slide-item .text-block {

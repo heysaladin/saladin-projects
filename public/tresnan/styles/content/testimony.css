@@ -1,6 +1,17 @@
 #testimony {
     width: 100%;
-    margin: 10px auto;
+    margin: 0px auto;
+    position: relative;
+}
+
+#testimony .bg-color {
+    width: 100%;
+    height: 446px;
+    margin: 0px auto;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background: linear-gradient(111.44deg, #FBF8FF 2.08%, #FFEFF5 96.57%);
 }
 
 #testimony .container>h2 {
@@ -40,7 +51,7 @@
     text-align: center;
     min-height: 175px;
     padding: 0px 35px 0px;
-    margin: 0px 0 25px;
+    margin: 25px 0 25px;
 }
 
 #testimony-slider-nav>div .slide-item .card .person-name {
@@ -84,10 +95,6 @@
 /* 48em = 768px */
 
 @media (min-width: 48em) {
-    #testimony-slider-nav>div {
-        /* overflow: unset; */
-    }
-
     #testimony-slider-nav>div .slide-item .card {
         width: 353px;
         height: 384px;
@@ -96,5 +103,9 @@
 
     #testimony-slider-nav>div .slide-item .card .image-wrapper {
         margin-bottom: -35px;
+    }
+
+    #testimony-slider-nav>div .slide-item .card .testimony-words {
+        margin: 0px 0 25px;
     }
 }

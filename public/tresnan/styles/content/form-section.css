@@ -170,7 +170,6 @@ textarea {
     display: inline-block;
     background: #FFFCFD;
     border: 1px solid #FFA0C0;
-    /* box-sizing: border-box; */
     border-radius: 10px;
     font-size: 16px;
     line-height: 20px;
@@ -378,11 +377,11 @@ hr {
     }
 
     /* blocks */
-    
+
     .form-block {
         width: 90%;
     }
-    
+
     /* end of blocks */
 
     /* waiting */
