@@ -30,6 +30,11 @@
     min-height: 620px;
 }
 
+#news-slider-nav>div .slide-item a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 #news-slider-nav>div .slide-item .card {
     position: relative;
     margin: 0 auto;
