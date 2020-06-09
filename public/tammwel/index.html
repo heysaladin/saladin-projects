@@ -1,17 +1,529 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="https://www.gstatic.com/devrel-devsite/v6bd5a0b4c9254732f5f201c272fcfb160f0efe389bcfbc2a4719d82eac4acb09/firebase/images/favicon.png">
-    <title>TAMMWEL</title>
-  </head>
-  <body style="margin: 0; padding: 0;">
-    <h1
-      style="width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center; text-align: center; margin: 0 auto; font-family: sans-serif; color: gray;"
-    >
-      TAMMWEL
-    </h1>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="tammwel" content="Tammwel" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="shortcut icon"
+    href="https://www.gstatic.com/devrel-devsite/v6bd5a0b4c9254732f5f201c272fcfb160f0efe389bcfbc2a4719d82eac4acb09/firebase/images/favicon.png">
+  <title>Tammwel</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link href="./styles/main.css" rel="stylesheet" />
+  <link href="./styles/content/hero-section.css" rel="stylesheet" />
+  <link href="./styles/content/form-section.css" rel="stylesheet" />
+  <link href="./styles/content/offers.css" rel="stylesheet" />
+  <link href="./styles/content/why.css" rel="stylesheet" />
+  <link href="./styles/content/affiliate.css" rel="stylesheet" />
+  <link href="./styles/content/news.css" rel="stylesheet" />
+  <link href="./styles/content/action.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+  <header class="header">
+    <a href="#hero-section" class="logo" onclick='closeMenu()'><span></span></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="#form-section" onclick='closeMenu()'>Search</a></li>
+      <li><a href="#offers" onclick='closeMenu()'>Offers</a></li>
+      <li><a href="#why" onclick='closeMenu()'>Benefits</a></li>
+      <li><a href="#affiliate" onclick='closeMenu()'>Affiliation</a></li>
+      <li><a href="#news" onclick='closeMenu()'>News</a></li>
+    </ul>
+  </header>
+  <content class="content">
+    <div class="main" id="hero-section">
+      <div class="">
+        <div class="slider slider-nav" id="hero-slider-nav">
+          <div>
+            <div class="slide-item">
+              <a href="#" target="">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/slider-1.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-title">Best Loan for Everything <br />for Daily Needs</span>
+                      <p class="news-text">A personal loan allows you to borrow money from a lender for almost any
+                        purpose, typically with a fixed-term, a fixed interest rate, and a regular monthly payment
+                        schedule. Collateral usually is not required.</p>
+                    </div>
+                    <button type="text" class="button" onclick="">GET NOW</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="#" target="">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/slider-2.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-title">Best Loan for Get Your <br />Dream Riding Vehicle</span>
+                      <p class="news-text">If you’re buying a new or used car, you need to borrow, and you want to own
+                        the car at the end of the deal, there are many types of finance you can get.</p>
+                    </div>
+                    <button type="text" class="button" onclick="">GET NOW</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="#" target="">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/slider-3.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-title">Best Loan for Get Your <br />Dream Properties & Assets</span>
+                      <p class="news-text">A home-equity loan is a consumer loan secured by a second mortgage, allowing
+                        homeowners to borrow against their equity in the home.</p>
+                    </div>
+                    <button type="text" class="button" onclick="">GET NOW</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main" id="form-section">
+      <div class="container">
+        <div class="card">
+          <div class="card-content">
+            <div class="form-block" id="block-form">
+              <form>
+                <div class="container-form">
+                  <div class="row">
+                    <div class="column">
+                      <h2>Find the loan offers that match with your preferences</h2>
+                    </div>
+
+                    <div class="column">
+                      <label for="couple_name"><b>How much you want to borrow?</b></label>
+                      <input type="text" placeholder="10.000" name="couple_name" required />
+                    </div>
+
+                    <div class="column">
+                      <label for="couple_name"><b>How long?</b></label>
+                      <input type="text" placeholder="12 Months" name="couple_name" required />
+                    </div>
+
+                    <div class="column">
+                      <label for="couple_name"><b>For what?</b></label>
+                      <input type="text" placeholder="Tammwel Inc" name="couple_name" required />
+                    </div>
+
+                    <div class="column">
+                      <label for="couple_name"></label>
+                      <button type="submit" class="button">Start Comparing</button>
+                    </div>
+                  </div>
+
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main" id="offers">
+      <div class="container">
+        <h2>Top 3 Favorite Loan Offers</h2>
+        <p>This is the best offers for you, selected by Tammwel team and systems.</p>
+        <div class="card">
+          <div class="column">
+            <div class="column-content">
+              <div class="logo-wrapper">
+                <img src="./assets/images/logo-vendor-1.png" alt="affiliate" />
+              </div>
+            </div>
+            <span>BANK ALBILAD</span>
+          </div>
+
+          <div class="column">
+            <div class="column-content">
+              <div class="row">
+                <span class="icon icon-check"></span>
+                <span>Shariah Compliant</span>
+              </div>
+              <div class="row">
+                <span class="icon icon-check"></span>
+                <span>Low Annual Rate</span>
+              </div>
+              <div class="row">
+                <span class="icon icon-warning"></span>
+                <span>Early settlement fee only available this week!</span>
+              </div>
+            </div>
+            <button type="text" class="button" onclick="">REQUEST CALL</button>
+          </div>
+
+          <div class="column">
+            <div class="column-content">
+              <div class="row">
+                <span class="text-big-label">Repayments</span>
+              </div>
+              <div class="row">
+                <span class="text-big"><b>2550</b>SR</span>
+              </div>
+              <div class="row">
+                <span class="text-desc">Monthly</span>
+              </div>
+            </div>
+            <button type="text" class="button" onclick="">LOAN DETAILS</button>
+          </div>
+
+          <div class="column">
+            <div class="column-content">
+              <div class="row">
+                <span class="text-big-label">APR</span>
+              </div>
+              <div class="row">
+                <span class="text-old-price">&nbsp;2.99 %&nbsp;</span>
+              </div>
+              <div class="row">
+                <span class="text-big"><b>2.5</b>%</span>
+              </div>
+              <div class="row">
+                <span class="text-range">to 5,5%</span>
+              </div>
+            </div>
+            <button type="submit" class="button">TAMMAWAL</button>
+          </div>
+        </div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+    </div>
+    <div class="main" id="why">
+      <div class="container">
+        <h2>Tammwel Easy Steps & Benefits</h2>
+        <div class="row">
+          <div class="column">
+            <img src="./assets/images/illustration-1.png" alt="1">
+            <h3>So Many Offers</h3>
+            <p>Tammwel has tons of interesting offers for you. You can also easily adjust to your needs in order to find
+              offers that really match.</p>
+          </div>
+          <div class="column">
+            <img src="./assets/images/illustration-2.png" alt="1">
+            <h3>Compare The Offers</h3>
+            <p>Hesitating when meeting more than one attractive offer? Don’t worry, with a sophisticated system, Tammwel
+              will help you compare offers to make your decision easier.</p>
+          </div>
+          <div class="column">
+            <img src="./assets/images/illustration-3.png" alt="1">
+            <h3>Get The Best Loan</h3>
+            <p>Yup, with all the facilities of the Tammwel system, you can easily and comfortably get a loan that suits
+              your needs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main" id="affiliate">
+      <div class="container">
+        <h2>Tammwel Partners</h2>
+        <div class="slider slider-nav" id="affiliate-slider-nav">
+          <div>
+            <div class="slide-item">
+              <div class="image-wrapper"><img src="./assets/images/logo-vendor-1.png" alt="affiliate" /></div>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <div class="image-wrapper"><img src="./assets/images/logo-vendor-2.png" alt="affiliate" /></div>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <div class="image-wrapper"><img src="./assets/images/logo-vendor-3.png" alt="affiliate" /></div>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <div class="image-wrapper"><img src="./assets/images/logo-vendor-1.png" alt="affiliate" /></div>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <div class="image-wrapper"><img src="./assets/images/logo-vendor-2.png" alt="affiliate" /></div>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <div class="image-wrapper"><img src="./assets/images/logo-vendor-3.png" alt="affiliate" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main" id="news">
+      <div class="container">
+        <h2>Explore new trends and offers on our blog</h2>
+        <div class="slider slider-nav" id="news-slider-nav">
+          <div>
+            <div class="slide-item">
+              <a href="https://www.tammwel.co/news/1" target="_blank">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/news-1.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-date">TRAVEL | DECEMBER 27, 2017</span>
+                      <span class="news-title">Top Saving Tips Only Known to Banking Experts</span>
+                      <p class="news-text">Monthly saving attempts often lead to failure without the right strategy.
+                        Below are 10 tips to help you achieve your target and save the amount of money you need …</p>
+                    </div>
+                    <span class="news-tag">See all banking articles</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="https://www.tammwel.co/news/2" target="_blank">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/news-2.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-date">BANKING | DECEMBER 17, 2017</span>
+                      <span class="news-title">Why do I Need Travel Insurance</span>
+                      <p class="news-text">Travel has become such an essential part of life – be it holidays with
+                        families and friends, or business trips.</p>
+                    </div>
+                    <span class="news-tag">See all travel articles</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="https://www.tammwel.co/news/3" target="_blank">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/news-3.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-date">5 Mei 2020</span>
+                      <span class="news-title">Hidden Costs of Owning your Home</span>
+                      <p class="news-text">Owning your home is one of the costliest investments you‘ll ever make. In
+                        addition to the expected costs you need to pay, a number of unexpected hidden costs will come
+                        along …</p>
+                    </div>
+                    <span class="news-tag">See all spending habits article</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="https://www.tammwel.co/news/1" target="_blank">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/news-1.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-date">TRAVEL | DECEMBER 27, 2017</span>
+                      <span class="news-title">Top Saving Tips Only Known to Banking Experts</span>
+                      <p class="news-text">Monthly saving attempts often lead to failure without the right strategy.
+                        Below are 10 tips to help you achieve your target and save the amount of money you need …</p>
+                    </div>
+                    <span class="news-tag">See all banking articles</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="https://www.tammwel.co/news/2" target="_blank">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/news-2.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-date">BANKING | DECEMBER 17, 2017</span>
+                      <span class="news-title">Why do I Need Travel Insurance</span>
+                      <p class="news-text">Travel has become such an essential part of life – be it holidays with
+                        families and friends, or business trips.</p>
+                    </div>
+                    <span class="news-tag">See all travel articles</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="https://www.tammwel.co/news/3" target="_blank">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/news-3.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-date">5 Mei 2020</span>
+                      <span class="news-title">Hidden Costs of Owning your Home</span>
+                      <p class="news-text">Owning your home is one of the costliest investments you‘ll ever make. In
+                        addition to the expected costs you need to pay, a number of unexpected hidden costs will come
+                        along …</p>
+                    </div>
+                    <span class="news-tag">See all spending habits article</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-color"></div>
+    </div>
+    <div class="main" id="action">
+      <div class="container">
+        <div class="row">
+          <div class="column column-left">
+            <h1>The Tammwel App</h1>
+            <p>Saudi Arabia’s best comparisons for on the go - compare, <br/>
+              change and save even easier now.</p>
+            <h2>Available for IOS and Android!</h2>
+            <button type="text" class="button"
+              onclick="window.open('https://docs.google.com/forms/','_blank')">Store</button>
+          </div>
+          <div class="column column-right">
+          </div>
+        </div>
+      </div>
+    </div>
+  </content>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <a href="#section1" class="logo"><span></span></a>
+        <!-- <ul>
+          <li><a href="https://www.facebook.com/tammwel.co/"><span class="social" id="fb"></span></a></li>
+          <li><a href="https://www.instagram.com/tammwel.bali/"><span class="social" id="ig"></span></a></li>
+          <li><a href="https://api.whatsapp.com/send?phone=6281338797128"><span class="social" id="wa"></span></a></li>
+          <li><a href="https://www.youtube.com/channel/tammwel.co/"><span class="social" id="yt"></span></a></li>
+        </ul> -->
+      </div>
+      <div class="row flex-right">
+        <span class="copyright">Copyright © 2020, Tammwel. All Rights Reserved</span>
+      </div>
+    </div>
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $('#affiliate-slider-nav').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      responsive: [{
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+    $('#news-slider-nav').slick({
+      infinite: true,
+      arrows: false,
+      dots: true,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      responsive: [{
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+    $('#hero-slider-nav').slick({
+      infinite: true,
+      arrows: false,
+      dots: true,
+      autoplay: true,
+      speed: 1500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      responsive: [{
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+  </script>
+  <style>
+    #news-slider-nav .slick-dots {
+      bottom: unset;
+      margin: 50px auto 0;
+    }
+
+    .slick-dots {
+      bottom: unset;
+    }
+
+    .slick-dots li button:before {
+      font-size: 12px;
+      opacity: 1.0;
+      color: #A5C2FF;
+    }
+
+    .slick-dots li.slick-active button:before,
+    .slick-dots li button[aria-selected=true]:before {
+      opacity: 1.0;
+      color: #FFFFFF;
+    }
+  </style>
+</body>
+
 </html>

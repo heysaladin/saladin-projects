@@ -1,0 +1,279 @@
+#form-section {
+    /* background-color: rgba(0, 0, 0, .5); */
+    /* min-height: 900px; */
+    /* margin-top: -200px; */
+}
+
+#form-section .card {
+    min-height: 152px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 48;
+    width: auto;
+}
+
+#form-section .card .card-content {
+    padding: 0%;
+}
+
+#form-section .card .card-content p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/* blocks */
+
+.form-block {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#block-form .row:nth-child(2) {
+    margin: 25px 0 40px;
+}
+
+/* end of blocks */
+
+/* FORM */
+
+label {
+    /* font-size: 16px; */
+    line-height: 20px;
+    margin-bottom: 5px;
+    display: block;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    /* line-height: 19px; */
+    /* identical to box height */
+
+    color: #070707;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=email],
+input[type=password],
+textarea {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    width: 83%;
+    padding: 13px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    background: #E5EDFD;
+    border: 1px solid #A5C2FF;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #747AB5;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    background-color: #E5EDFD;
+    padding: 14px 20px;
+    margin: 8px 0 22px 0;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border: 1px solid #E5EDFD;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-size: 16px;
+    line-height: 20px;
+
+    text-align: center;
+    font-weight: 500;
+
+    color: #2151B6;
+}
+
+button[type=submit] {
+    font-family: 'Montserrat-Bold', 'Montserrat', Helvetica, sans-serif;
+    background-color: #2151B6;
+    color: #FFFFFF;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+textarea {
+    width: 93%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container-form {
+    padding: 0px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+
+    .cancelbtn,
+    .signupbtn {
+        width: 100%;
+    }
+}
+
+/* RESPONSIVE */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    #form-section {
+        /* margin-top: -400px; */
+        margin-top: -110px;
+    }
+
+    #form-section .card {
+        position: absolute;
+        margin: 0 auto;
+        width: 1200px;
+        left: 0;
+        right: 0;
+    }
+
+    .form-block {
+        width: 710px;
+    }
+
+    #block-form .row>.column {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 0px 1px 12px;
+    }
+
+    #block-form .row:nth-child(1)>.column:nth-child(1) {
+        /* border-right: 1px solid #F6E7FF; */
+        background: #2151B6;
+        width: 100%;
+        height: 140px;
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 6px 30px 6px;
+        border-radius: 4px;
+    }
+
+    #block-form .row:nth-child(1)>.column:nth-child(1) h2 {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+
+    #block-form .row:nth-child(1)>.column:nth-child(2) {
+        /* padding-left: 26px; */
+        padding-left: 20px;
+    }
+
+    #block-form .row:nth-child(1)>.column:nth-child(5) {
+        padding-right: 20px;
+    }
+
+    #block-form .row:nth-child(2) {
+        margin: 25px 0;
+    }
+
+    #block-form .row:nth-child(3) {
+        justify-content: flex-start;
+    }
+
+    #block-form .row:nth-child(3)>button:nth-child(1) {
+        margin-right: 20px;
+    }
+
+    /* blocks */
+
+    .form-block {
+        width: 100%;
+    }
+
+    /* end of blocks */
+
+}

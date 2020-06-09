@@ -1,0 +1,38 @@
+#hero-section #hero-slider-nav .slide-item {
+    position: relative;
+}
+
+#hero-section #hero-slider-nav .slide-item .card {
+    width: 100%;
+}
+
+#hero-section #hero-slider-nav .slide-item .card .image-wrapper img {
+    width: 100%;
+}
+
+#hero-section #hero-slider-nav .slick-dots {
+    bottom: unset;
+    margin: -150px 0 0 0;
+}
+
+#hero-section #hero-slider-nav .slide-item .card .news-content {
+    position: absolute;
+    top: 225px;
+    left: 10.6%;
+    color: white;
+    width: 40%;
+    line-height: 24px;
+    font-family: 'Nunito Sans';
+}
+
+#hero-section #hero-slider-nav .slide-item .card .news-content .news-title {
+    font-size: 48px;
+    line-height: 57px;
+}
+
+#hero-section #hero-slider-nav .slide-item .card .news-content button {
+    width: 150px;
+    background: transparent;
+    border-color: white;
+    color: white;
+}
