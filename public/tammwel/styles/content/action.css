@@ -18,8 +18,8 @@
 
 #action .row .column-right {
     order: 2;
-    padding: 0px 100px 0px 0px;
-    min-height: 800px;
+    padding: 0px 0px 0px 0px;
+    min-height: 450px;
     background: url('../../assets/images/action.png') center center no-repeat;
     background-size: contain;
 }
@@ -29,8 +29,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 20px 0 80px 0;
-    padding: 0 50px 0 150px;
+    margin: 20px 0 0px 0;
+    padding: 0 0px 0 0px;
 }
 
 #action .row .column-left h2 {
@@ -67,16 +67,17 @@
     background: #3B3B3B;
     border-radius: 4px;
     border: none;
-    margin-top: 10px;
-    width: 180px;
+    margin-top: 0px;
+    width: 100%;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 12px;
 }
 
 #action .container .buttons-wrapper button:nth-child(2) {
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 .icon-store {
@@ -120,8 +121,28 @@
         margin: 25px 0 0px;
     }
 
+    #action .row .column-right {
+        padding: 0px 100px 0px 0px;
+        min-height: 800px;
+    }
+
     #action .container .buttons-wrapper {
         justify-content: flex-start;
         flex-direction: row;
+    }
+
+    #action .row .column-left {
+        margin: 20px 0 80px 0;
+        padding: 0 50px 0 150px;
+    }
+
+    #action .container .buttons-wrapper button {
+        margin-top: 10px;
+        width: 180px;
+        margin-bottom: 0px;
+    }
+    
+    #action .container .buttons-wrapper button:nth-child(2) {
+        margin-left: 10px;
     }
 }

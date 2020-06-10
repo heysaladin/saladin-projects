@@ -104,11 +104,12 @@ a {
     border: solid 1px white;
     color: white;
     text-decoration: none;
-    margin: 10px 25px;
+    margin: 10px 25px 0 0;
     text-align: center;
     padding: 8px;
     border-radius: 4px;
     text-transform: uppercase;
+    display: none;
 }
 
 /* menu */
@@ -200,7 +201,7 @@ a {
 /* footer mobile */
 
 .footer {
-    height: 550px;
+    height: 1250px;
     background: #0C1831 url('../assets/images/ornament-footer.png') bottom right no-repeat;
     color: #ffffff;
     padding: 7em 0 1em;
@@ -239,7 +240,7 @@ a {
 }
 
 .footer .row .column:nth-child(6) .list-title {
-    text-align: right;
+    text-align: left;
 }
 
 .footer .row:nth-child(1) {
@@ -258,11 +259,14 @@ a {
 .footer .text-footer {
     font-size: 14px;
     line-height: 21px;
+    display: block;
+    margin-right: 7%;
+    margin-bottom: 100px;
 }
 
 .footer .text-right-footer {
     color: #FFFFFF;
-    text-align: right;
+    text-align: left;
     display: block;
 }
 
@@ -402,6 +406,10 @@ a {
         background-size: contain;
     }
 
+    .header .button-header {
+        display: block;
+    }
+
     /* end of header */
 
     /* footer */
@@ -424,6 +432,19 @@ a {
 
     .footer .flex-right span {
         text-align: left;
+    }
+
+    .footer .text-footer {
+        margin-right: 37%;
+        margin-bottom: 0px;
+    }
+
+    .footer .row .column:nth-child(6) .list-title {
+        text-align: right;
+    }
+
+    .footer .text-right-footer {
+        text-align: right;
     }
 
     /* end of footer */

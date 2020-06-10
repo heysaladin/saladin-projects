@@ -10,6 +10,7 @@
     position: relative;
     z-index: 48;
     width: auto;
+    padding: 25px;
 }
 
 #form-section .card .card-content {
@@ -58,7 +59,7 @@ input[type=email],
 input[type=password],
 textarea {
     font-family: 'Montserrat', Helvetica, sans-serif;
-    width: 83%;
+    width: 90%;
     padding: 13px;
     margin: 5px 0 22px 0;
     display: inline-block;
@@ -275,5 +276,16 @@ textarea {
     }
 
     /* end of blocks */
+
+    #form-section .card {
+        padding: 0px;
+    }
+
+    input[type=text],
+    input[type=email],
+    input[type=password],
+    textarea {
+        width: 83%;
+    }
 
 }
