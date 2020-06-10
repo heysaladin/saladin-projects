@@ -32,12 +32,21 @@
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
-      <li><a href="#form-section" onclick='closeMenu()'>Search</a></li>
+
+      <!-- <li><a href="#form-section" onclick='closeMenu()'>Search</a></li>
       <li><a href="#offers" onclick='closeMenu()'>Offers</a></li>
       <li><a href="#why" onclick='closeMenu()'>Benefits</a></li>
       <li><a href="#affiliate" onclick='closeMenu()'>Affiliation</a></li>
-      <li><a href="#news" onclick='closeMenu()'>News</a></li>
+      <li><a href="#news" onclick='closeMenu()'>News</a></li> -->
+
+      <li><a href="#" onclick='closeMenu()'>HOME</a></li>
+      <li><a href="#" onclick='closeMenu()'>OFFERS</a></li>
+      <li><a href="#" onclick='closeMenu()'>NEWS</a></li>
+      <li><a href="#" onclick='closeMenu()'>TAMMWEL</a></li>
+      <li><a href="#" onclick='closeMenu()'>CONTACT</a></li>
+
     </ul>
+    <a href="#news" onclick='closeMenu()' class="button-header" id="outher-button-header">Login</a>
   </header>
   <content class="content">
     <div class="main" id="hero-section">
@@ -145,69 +154,243 @@
       <div class="container">
         <h2>Top 3 Favorite Loan Offers</h2>
         <p>This is the best offers for you, selected by Tammwel team and systems.</p>
-        <div class="card">
-          <div class="column">
-            <div class="column-content">
-              <div class="logo-wrapper">
-                <img src="./assets/images/logo-vendor-1.png" alt="affiliate" />
+        <div class="card-bg">
+          <div class="card">
+            <div class="column">
+              <div class="column-content">
+                <div class="logo-wrapper">
+                  <img src="./assets/images/logo-vendor-1.png" alt="affiliate" />
+                </div>
               </div>
+              <span>BANK ALBILAD</span>
             </div>
-            <span>BANK ALBILAD</span>
-          </div>
 
-          <div class="column">
-            <div class="column-content">
-              <div class="row">
-                <span class="icon icon-check"></span>
-                <span>Shariah Compliant</span>
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="icon icon-check"></span>
+                  <span>Shariah Compliant</span>
+                </div>
+                <div class="row">
+                  <span class="icon icon-check"></span>
+                  <span>Low Annual Rate</span>
+                </div>
+                <div class="row">
+                  <span class="icon icon-warning"></span>
+                  <span>Early settlement fee only available this week!</span>
+                </div>
               </div>
-              <div class="row">
-                <span class="icon icon-check"></span>
-                <span>Low Annual Rate</span>
-              </div>
-              <div class="row">
-                <span class="icon icon-warning"></span>
-                <span>Early settlement fee only available this week!</span>
-              </div>
+              <button type="text" class="button" onclick="">REQUEST CALL</button>
             </div>
-            <button type="text" class="button" onclick="">REQUEST CALL</button>
-          </div>
 
-          <div class="column">
-            <div class="column-content">
-              <div class="row">
-                <span class="text-big-label">Repayments</span>
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="text-big-label">Repayments</span>
+                </div>
+                <div class="row">
+                  <span class="text-big"><b>2550</b>SR</span>
+                </div>
+                <div class="row">
+                  <span class="text-desc">Monthly</span>
+                </div>
               </div>
-              <div class="row">
-                <span class="text-big"><b>2550</b>SR</span>
-              </div>
-              <div class="row">
-                <span class="text-desc">Monthly</span>
-              </div>
+              <button type="text" class="button" onclick="">LOAN DETAILS</button>
             </div>
-            <button type="text" class="button" onclick="">LOAN DETAILS</button>
-          </div>
 
-          <div class="column">
-            <div class="column-content">
-              <div class="row">
-                <span class="text-big-label">APR</span>
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="text-big-label">APR</span>
+                </div>
+                <div class="row">
+                  <span class="text-old-price">&nbsp;2.99 %&nbsp;</span>
+                </div>
+                <div class="row">
+                  <span class="text-big"><b>2.5</b>%</span>
+                </div>
+                <div class="row">
+                  <span class="text-range">to 5,5%</span>
+                </div>
               </div>
-              <div class="row">
-                <span class="text-old-price">&nbsp;2.99 %&nbsp;</span>
-              </div>
-              <div class="row">
-                <span class="text-big"><b>2.5</b>%</span>
-              </div>
-              <div class="row">
-                <span class="text-range">to 5,5%</span>
-              </div>
+              <button type="submit" class="button">TAMMAWAL</button>
             </div>
-            <button type="submit" class="button">TAMMAWAL</button>
+          </div>
+          <div class="card-footer">
+            <div class="star-wrapper">
+              <div class="stars">
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star-half"></span>
+                <span class="star-line"></span>
+              </div>
+              <span class="star-label">3.5</span>
+            </div>
+            <div class="compare-check">
+              <input type="checkbox" id="compare1" name="compare1" value="Compare1" />
+              <label for="vehicle1"> Add to Compare</label>
+            </div>
           </div>
         </div>
-        <div class="card"></div>
-        <div class="card"></div>
+        <div class="card-bg">
+          <div class="card">
+            <div class="column">
+              <div class="column-content">
+                <div class="logo-wrapper">
+                  <img src="./assets/images/logo-vendor-2.png" alt="affiliate" />
+                </div>
+              </div>
+              <span>BANK ALBILAD</span>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="icon icon-check"></span>
+                  <span>Shariah Compliant</span>
+                </div>
+                <div class="row">
+                  <span class="icon icon-check"></span>
+                  <span>Low Annual Rate</span>
+                </div>
+                <div class="row">
+                  <span class="icon icon-warning"></span>
+                  <span>Early settlement fee only available this week!</span>
+                </div>
+              </div>
+              <button type="text" class="button" onclick="">REQUEST CALL</button>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="text-big-label">Repayments</span>
+                </div>
+                <div class="row">
+                  <span class="text-big"><b>2550</b>SR</span>
+                </div>
+                <div class="row">
+                  <span class="text-desc">Monthly</span>
+                </div>
+              </div>
+              <button type="text" class="button" onclick="">LOAN DETAILS</button>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="text-big-label">APR</span>
+                </div>
+                <div class="row">
+                  <span class="text-old-price">&nbsp;2.99 %&nbsp;</span>
+                </div>
+                <div class="row">
+                  <span class="text-big"><b>2.5</b>%</span>
+                </div>
+                <div class="row">
+                  <span class="text-range">to 5,5%</span>
+                </div>
+              </div>
+              <button type="submit" class="button">TAMMAWAL</button>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="star-wrapper">
+              <div class="stars">
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star-half"></span>
+                <span class="star-line"></span>
+              </div>
+              <span class="star-label">3.5</span>
+            </div>
+            <div class="compare-check">
+              <input type="checkbox" id="compare1" name="compare1" value="Compare1" />
+              <label for="vehicle1"> Add to Compare</label>
+            </div>
+          </div>
+        </div>
+        <div class="card-bg">
+          <div class="card">
+            <div class="column">
+              <div class="column-content">
+                <div class="logo-wrapper">
+                  <img src="./assets/images/logo-vendor-3.png" alt="affiliate" />
+                </div>
+              </div>
+              <span>BANK ALBILAD</span>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="icon icon-check"></span>
+                  <span>Shariah Compliant</span>
+                </div>
+                <div class="row">
+                  <span class="icon icon-check"></span>
+                  <span>Low Annual Rate</span>
+                </div>
+                <div class="row">
+                  <span class="icon icon-warning"></span>
+                  <span>Early settlement fee only available this week!</span>
+                </div>
+              </div>
+              <button type="text" class="button" onclick="">REQUEST CALL</button>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="text-big-label">Repayments</span>
+                </div>
+                <div class="row">
+                  <span class="text-big"><b>2550</b>SR</span>
+                </div>
+                <div class="row">
+                  <span class="text-desc">Monthly</span>
+                </div>
+              </div>
+              <button type="text" class="button" onclick="">LOAN DETAILS</button>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="text-big-label">APR</span>
+                </div>
+                <div class="row">
+                  <span class="text-old-price">&nbsp;2.99 %&nbsp;</span>
+                </div>
+                <div class="row">
+                  <span class="text-big"><b>2.5</b>%</span>
+                </div>
+                <div class="row">
+                  <span class="text-range">to 5,5%</span>
+                </div>
+              </div>
+              <button type="submit" class="button">TAMMAWAL</button>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="star-wrapper">
+              <div class="stars">
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star-half"></span>
+                <span class="star-line"></span>
+              </div>
+              <span class="star-label">3.5</span>
+            </div>
+            <div class="compare-check">
+              <input type="checkbox" id="compare1" name="compare1" value="Compare1" />
+              <label for="vehicle1"> Add to Compare</label>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="main" id="why">
@@ -241,32 +424,32 @@
         <div class="slider slider-nav" id="affiliate-slider-nav">
           <div>
             <div class="slide-item">
-              <div class="image-wrapper"><img src="./assets/images/logo-vendor-1.png" alt="affiliate" /></div>
+              <div class="image-wrapper"><img src="./assets/images/afi-1.jpg" alt="affiliate" /></div>
             </div>
           </div>
           <div>
             <div class="slide-item">
-              <div class="image-wrapper"><img src="./assets/images/logo-vendor-2.png" alt="affiliate" /></div>
+              <div class="image-wrapper"><img src="./assets/images/afi-2.jpg" alt="affiliate" /></div>
             </div>
           </div>
           <div>
             <div class="slide-item">
-              <div class="image-wrapper"><img src="./assets/images/logo-vendor-3.png" alt="affiliate" /></div>
+              <div class="image-wrapper"><img src="./assets/images/afi-3.jpg" alt="affiliate" /></div>
             </div>
           </div>
           <div>
             <div class="slide-item">
-              <div class="image-wrapper"><img src="./assets/images/logo-vendor-1.png" alt="affiliate" /></div>
+              <div class="image-wrapper"><img src="./assets/images/afi-1.jpg" alt="affiliate" /></div>
             </div>
           </div>
           <div>
             <div class="slide-item">
-              <div class="image-wrapper"><img src="./assets/images/logo-vendor-2.png" alt="affiliate" /></div>
+              <div class="image-wrapper"><img src="./assets/images/afi-2.jpg" alt="affiliate" /></div>
             </div>
           </div>
           <div>
             <div class="slide-item">
-              <div class="image-wrapper"><img src="./assets/images/logo-vendor-3.png" alt="affiliate" /></div>
+              <div class="image-wrapper"><img src="./assets/images/afi-3.jpg" alt="affiliate" /></div>
             </div>
           </div>
         </div>
@@ -401,11 +584,16 @@
         <div class="row">
           <div class="column column-left">
             <h1>The Tammwel App</h1>
-            <p>Saudi Arabia’s best comparisons for on the go - compare, <br/>
+            <p>Saudi Arabia’s best comparisons for on the go - compare, <br />
               change and save even easier now.</p>
             <h2>Available for IOS and Android!</h2>
-            <button type="text" class="button"
-              onclick="window.open('https://docs.google.com/forms/','_blank')">Store</button>
+            <div class="buttons-wrapper">
+              <button type="text" class="button" onclick="location.href='https://apps.apple.com/in/app/co-tresnan';"><i
+                  class="icon-store app-store"></i><span>App Store</span></button>
+              <button type="text" class="button"
+                onclick="location.href='https://play.google.com/store/apps/details?id=co.tresnan';"><i
+                  class="icon-store play-store"></i><span>Play Store</span></button>
+            </div>
           </div>
           <div class="column column-right">
           </div>
@@ -416,7 +604,46 @@
   <footer class="footer">
     <div class="container">
       <div class="row">
-        <a href="#section1" class="logo"><span></span></a>
+        <div class="column">
+          <a href="#section1" class="logo"><span></span></a>
+          <span class="text-footer">Your broker financing application to get the best financing deals for you!</span>
+        </div>
+        <div class="column">
+          <span class="list-title">Explore</span>
+          <ul>
+            <li><a href="#"><span>Home</span></a></li>
+            <li><a href="#"><span>Offers</span></a></li>
+            <li><a href="#"><span>News</span></a></li>
+            <li><a href="#"><span>Tammwel</span></a></li>
+            <li><a href="#"><span>Contact</span></a></li>
+          </ul></div>
+        <div class="column">
+          <span class="list-title">Visit</span>
+          <ul>
+            <li><a href="#"><span>2191 Abdulwahid Ibn Ahmad, An Nakhil, Riyadh 12385 7351 Abdulwahid Ibn Ahmad, An Nakheel, Riyadh 12385 7351, Saudi Arabia</span></a></li>
+          </ul>
+          <span class="list-title">Contact Us</span>
+          <ul>
+            <li><a href="#"><span>info@tammwel.com</span></a></li>
+            <li><a href="#"><span>+9345799898</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">Follow</span>
+          <ul>
+            <li><a href="#"><span>Instagram</span></a></li>
+            <li><a href="#"><span>Twitter</span></a></li>
+            <li><a href="#"><span>Linkedin</span></a></li>
+          </ul></div>
+        <div class="column">
+          <span class="list-title">Legal</span>
+          <ul>
+            <li><a href="#"><span>Terms</span></a></li>
+            <li><a href="#"><span>Privacy</span></a></li>
+          </ul></div>
+        <div class="column">
+          <span class="list-title">HOTLINE</span>
+          <span class="text-right-footer">+9345799898</span></div>
         <!-- <ul>
           <li><a href="https://www.facebook.com/tammwel.co/"><span class="social" id="fb"></span></a></li>
           <li><a href="https://www.instagram.com/tammwel.bali/"><span class="social" id="ig"></span></a></li>
@@ -424,8 +651,8 @@
           <li><a href="https://www.youtube.com/channel/tammwel.co/"><span class="social" id="yt"></span></a></li>
         </ul> -->
       </div>
-      <div class="row flex-right">
-        <span class="copyright">Copyright © 2020, Tammwel. All Rights Reserved</span>
+      <div class="row flex-left">
+        <span class="copyright">©2020 TammwelInc. All Rights Reserved.</span>
       </div>
     </div>
   </footer>
@@ -503,6 +730,13 @@
     });
   </script>
   <style>
+    #affiliate-slider-nav .slick-prev:before,
+    #affiliate-slider-nav .slick-next:before {
+      color: #C6DEFF;
+      font-size: 30px;
+      margin: -5px;
+    }
+
     #news-slider-nav .slick-dots {
       bottom: unset;
       margin: 50px auto 0;
@@ -522,6 +756,18 @@
     .slick-dots li button[aria-selected=true]:before {
       opacity: 1.0;
       color: #FFFFFF;
+    }
+
+    #news-slider-nav .slick-dots li button:before {
+      font-size: 12px;
+      opacity: 1.0;
+      color: #A5C2FF;
+    }
+
+    #news-slider-nav .slick-dots li.slick-active button:before,
+    #news-slider-nav .slick-dots li button[aria-selected=true]:before {
+      opacity: 1.0;
+      color: #2151B6;
     }
   </style>
 </body>

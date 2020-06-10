@@ -17,8 +17,8 @@
 }
 
 #action .row .column-right {
-    order: 1;
-    margin-top: 0px;
+    order: 2;
+    padding: 0px 100px 0px 0px;
     min-height: 800px;
     background: url('../../assets/images/action.png') center center no-repeat;
     background-size: contain;
@@ -30,13 +30,13 @@
     flex-direction: column;
     justify-content: center;
     margin: 20px 0 80px 0;
-    padding: 0 50px 0 100px;
+    padding: 0 50px 0 150px;
 }
 
 #action .row .column-left h2 {
     font-family: 'Montserrat-Bold', 'Montserrat', Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 16px;
+    font-weight: normal;
+    font-size: 14px;
     line-height: 20px;
     color: #222222;
 }
@@ -44,7 +44,7 @@
 #action .row .column-left h1 {
     font-family: 'Montserrat-Bold', 'Montserrat', Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 32px;
     line-height: 29px;
     color: #222222;
 }
@@ -55,13 +55,58 @@
     color: #4A4A4A;
 }
 
+#action .container .buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#action .container .buttons-wrapper button {
+    font-family: 'Montserrat-Bold', 'Montserrat', Helvetica, sans-serif;
+    background: #3B3B3B;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+    width: 180px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#action .container .buttons-wrapper button:nth-child(2) {
+    margin-left: 10px;
+}
+
+.icon-store {
+    width: 28px;
+    height: 28px;
+    display: block;
+    margin: 0 15px 0 0;
+}
+
+.app-store {
+    background: url('../../assets/icons/svg/icon-store-app.svg') center center no-repeat;
+    background-size: contain;
+}
+
+.play-store {
+    background: url('../../assets/icons/svg/icon-store-play.svg') center center no-repeat;
+    background-size: contain;
+}
+
+#action .container .buttons-wrapper button span {
+    margin-top: 4px;
+}
+
 /* RESPONSIVE */
 
 /* 48em = 768px */
 
 @media (min-width: 48em) {
     #action {
-        padding-top: 50px;
+        padding-top: 80px;
     }
 
     #action .row {
@@ -75,7 +120,8 @@
         margin: 25px 0 0px;
     }
 
-    #action .row .column-left button {
-        width: 50%;
+    #action .container .buttons-wrapper {
+        justify-content: flex-start;
+        flex-direction: row;
     }
 }

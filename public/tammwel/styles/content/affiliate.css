@@ -1,6 +1,6 @@
 #affiliate {
     width: 100%;
-    margin: 0px auto 100px;
+    margin: 0px auto 120px;
 }
 
 #affiliate .container>h2 {
@@ -28,7 +28,8 @@
 
 #affiliate-slider-nav>div .slide-item .image-wrapper img {
     width: auto;
-    height: 60px;
+    height: 150px;
     display: block;
     margin: 0 auto;
+    border-radius: 10px;
 }
