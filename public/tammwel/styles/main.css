@@ -65,7 +65,6 @@ a {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    /* background-color: #2151B6; */
 }
 
 .header ul li {
@@ -81,7 +80,6 @@ a {
 .header li a {
     display: block;
     padding: 20px 20px;
-    /* border-right: 1px solid #2151B6; */
     text-decoration: none;
     text-align: center;
     color: white;
@@ -114,7 +112,6 @@ a {
     border: solid 1px white;
     color: white;
     text-decoration: none;
-    margin: 10px 25px 0 0;
     text-align: center;
     padding: 8px;
     border-radius: 4px;
@@ -314,59 +311,6 @@ a {
     max-width: 100%;
 }
 
-/* .footer ul {
-    display: flex;
-    justify-content: flex-start;
-    list-style-type: none;
-    padding: 0;
-    margin-left: -0.7em;
-}
-
-.footer ul li {
-    margin: 0 0.65rem;
-    padding: 0;
-}
-
-.footer ul li a {
-    display: block;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    padding: 10px;
-    background: #5B5B5B;
-}
-
-.footer ul li a span {
-    display: block;
-    width: 24px;
-    height: 24px;
-    opacity: 0.5;
-}
-
-.footer ul li a span#fb {
-    background: url('../assets/icons/svg/icon-social-fb.svg') center center no-repeat;
-}
-
-.footer ul li a span#ig {
-    background: url('../assets/icons/svg/icon-social-ig.svg') center center no-repeat;
-}
-
-.footer ul li a span#wa {
-    background: url('../assets/icons/svg/icon-social-wa.svg') center center no-repeat;
-}
-
-.footer ul li a span#yt {
-    background: url('../assets/icons/svg/icon-social-yt.svg') center center no-repeat;
-}
-
-.footer .flex-right {
-    justify-content: center;
-}
-
-.footer .flex-right span {
-    text-align: left;
-} */
-
 /* end of footer mobile */
 
 /* RESPONSIVE */
@@ -421,7 +365,16 @@ a {
         background-size: contain;
     }
 
-    .header .button-header {
+    .header ul li a.button-header {
+        display: none;
+    }
+
+    .header > a.button-header {
+        margin: 0px 25px 0 0;
+        display: block;
+    }
+
+    .header #outher-button-header {
         display: block;
     }
 
@@ -435,11 +388,6 @@ a {
     .footer .container {
         width: 90%;
     }
-
-    /* .footer ul {
-        justify-content: flex-end;
-        margin-left: 0em;
-    } */
 
     .footer .flex-right {
         justify-content: flex-end;

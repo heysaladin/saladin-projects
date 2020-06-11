@@ -1,8 +1,4 @@
-#form-section {
-    /* background-color: rgba(0, 0, 0, .5); */
-    /* min-height: 900px; */
-    /* margin-top: -200px; */
-}
+#form-section {}
 
 #form-section .card {
     min-height: 152px;
@@ -38,18 +34,13 @@
 /* FORM */
 
 label {
-    /* font-size: 16px; */
     line-height: 20px;
     margin-bottom: 5px;
     display: block;
-
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    /* line-height: 19px; */
-    /* identical to box height */
-
     color: #070707;
 }
 
@@ -92,13 +83,10 @@ button {
     border: 1px solid #E5EDFD;
     box-sizing: border-box;
     border-radius: 4px;
-
     font-size: 16px;
     line-height: 20px;
-
     text-align: center;
     font-weight: 500;
-
     color: #2151B6;
 }
 
