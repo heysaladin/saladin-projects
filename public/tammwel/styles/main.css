@@ -68,6 +68,16 @@ a {
     /* background-color: #2151B6; */
 }
 
+.header ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header ul li a.button-header {
+    margin: 35px 0 15px;
+}
+
 .header li a {
     display: block;
     padding: 20px 20px;
@@ -92,9 +102,9 @@ a {
 
 .header .logo>span {
     display: block;
-    width: 40px;
+    width: 120px;
     height: 40px;
-    background: transparent url('../assets/images/main-logo.png') left center no-repeat;
+    background: transparent url('../assets/images/logo-mobile.png') left center no-repeat;
     background-size: contain;
 }
 
@@ -109,6 +119,9 @@ a {
     padding: 8px;
     border-radius: 4px;
     text-transform: uppercase;
+}
+
+.header #outher-button-header {
     display: none;
 }
 
@@ -125,14 +138,14 @@ a {
 .header .menu-icon {
     cursor: pointer;
     display: inline-block;
-    float: none;
+    float: right;
     padding: 28px 20px;
     position: relative;
     user-select: none;
 }
 
 .header .menu-icon .navicon {
-    background: #333;
+    background: white;
     display: block;
     height: 2px;
     position: relative;
@@ -142,7 +155,7 @@ a {
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-    background: #333;
+    background: white;
     content: '';
     display: block;
     height: 100%;
@@ -166,7 +179,9 @@ a {
 }
 
 .header .menu-btn:checked~.menu {
-    max-height: 525px;
+    max-height: 667px;
+    padding: 50px 0;
+    background: #2151B6;
 }
 
 .header .menu-btn:checked~.menu-icon .navicon {
