@@ -1,0 +1,26 @@
+.contact-content {
+    padding: 15px 10% 50px;
+}
+
+.image-wrapper>img {
+    width: 100%;
+}
+
+.contact-content>h3 {
+    color: #2151B6;
+}
+
+
+.ol>span.list-title {
+    margin-left: -1em;
+}
+
+/* RESPONSIVE */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    .contact-content {
+        padding: 80px 20% 100px;
+    }
+}
