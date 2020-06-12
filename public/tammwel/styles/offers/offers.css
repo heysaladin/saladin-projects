@@ -1,0 +1,15 @@
+.offers-clean#offers {
+    padding: 0;
+    margin: 30px 0 0;
+}
+
+/* RESPONSIVE */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    .offers-clean#offers {
+        padding: 0;
+        margin: 30px 0 0;
+    }
+}

@@ -204,8 +204,65 @@ a {
 
 /* PART */
 
-.content>div {
-    /* padding-top: 58px; */
+.head-section {
+    background: #2151B6;
+    width: 100%;
+    min-height: 100px;
+}
+
+.head-section>.container:nth-child(1),
+.content-overlay>.container:nth-child(1) {
+    padding: 110px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container.column-1 {
+    justify-content: center;
+    text-align: center;
+}
+
+.container.column-2 {
+    justify-content: space-between;
+}
+.container .title-head-section {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+}
+
+.head-section .container > a,
+.content-overlay .container > a {
+    width: 40px;
+    height: 40px;
+    border: solid 1px #4B78D7;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-section .container a>span,
+.content-overlay .container > a>span {
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: transparent url('../assets/images/icon-filter.png') center center no-repeat;
+}
+
+.head-section-overlay {
+    min-height: 515px;
+    max-height: 515px;
+}
+
+.content-overlay {
+    margin-top: -500px;
+    margin-bottom: 50px;
+}
+
+.content-overlay .card {
+    overflow: hidden;
 }
 
 /* end of content mobile */
@@ -369,7 +426,7 @@ a {
         display: none;
     }
 
-    .header > a.button-header {
+    .header>a.button-header {
         margin: 0px 25px 0 0;
         display: block;
     }

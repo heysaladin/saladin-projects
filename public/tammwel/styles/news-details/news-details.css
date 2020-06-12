@@ -1,0 +1,83 @@
+.image-wrapper>img {
+    width: 100%;
+}
+
+.card hr {
+    width: 100%;
+    border: 1px solid #E8E8E8;
+    margin: 25px auto;
+    display: block;
+}
+
+.card .news-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px 25px 0;
+    min-height: 325px;
+}
+
+.news-date {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #9B9B9B;
+    margin: 30px auto 25px;
+    display: block
+}
+
+.card .news-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    color: #242424;
+    margin: 8px auto;
+    display: block;
+}
+
+.card .news-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4D4D4D;
+}
+
+.ads {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 30px 25px;
+}
+
+.ads>a {
+    display: block;
+    width: 100%;
+    padding: 5%;
+}
+
+.ads>a>img {
+    display: block;
+    width: 100%;
+}
+
+/* RESPONSIVE */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    .card .news-content {
+        padding: 35px 75px 0;
+    }
+
+    .ads {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .ads>a {
+        width: 30%;
+        padding: 1%;
+    }
+}
