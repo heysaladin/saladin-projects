@@ -1,0 +1,149 @@
+#account {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#account .card .column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#account .card .column:nth-child(1) {
+    /* margin-right: 0px;
+    margin-bottom: 5px;
+    min-height: 335px; */
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+/* #account .card .column:nth-child(2) {
+    margin-left: 0px;
+    margin-top: 5px;
+} */
+
+.account-content {
+    padding: 15px 2% 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-account-name {
+    margin: 14px 0 5px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #2A4C9E;
+}
+
+.text-account-info {
+    display: block;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #5B7FD5;
+}
+
+.icon-text-wrapper {
+    margin: 25px auto;
+}
+
+.icon-text-wrapper .row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon-text-wrapper .row .icon {
+    width: 24px;
+    height: 24px;
+    margin: 8px 14px 8px 0;
+    display: inline-block;
+}
+
+.icon-text-wrapper .row .account-icon-text {
+    font-size: 18px;
+    line-height: 22px;
+    color: #1D1D1D;
+}
+
+#icon-home {
+    background: url('../../assets/images/icon-account-home.png') center center no-repeat;
+}
+
+#icon-phone {
+    background: url('../../assets/images/icon-account-phone.png') center center no-repeat;
+}
+
+#icon-mail {
+    background: url('../../assets/images/icon-account-mail.png') center center no-repeat;
+}
+
+.account-content form .container-form {
+    padding: 25px 0%;
+    min-width: 300px;
+}
+
+.account-content form .container-form .row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.account-content form .container-form .row input {
+    width: 90%;
+}
+
+.account-content form .container-form .row button[type=submit] {
+    padding: 25px 0% 25px;
+    width: 100%;
+    margin: 0 auto;
+    /* color: #00247B; */
+    /* background-color: #F5CE4A; */
+}
+
+
+/* RESPONSIVE */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    #account {
+        flex-direction: row;
+    }
+
+    #account .card:nth-child(1) {
+        margin-right: 5px;
+        margin-bottom: 0px;
+        min-height: 595px;
+    }
+
+    #account .card:nth-child(2) {
+        margin-left: 5px;
+        margin-top: 0px;
+    }
+
+    .account-content {
+        padding: 40px 5%;
+    }
+
+    .account-content form .container-form .row input {
+        width: 94%;
+    }
+
+    .account-content form .container-form .row button[type=submit] {
+        width: 250px;
+    }
+
+    .account-content form .container-form {
+        min-width: 500px;
+    }
+}

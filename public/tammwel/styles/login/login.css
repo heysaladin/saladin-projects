@@ -1,0 +1,95 @@
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#login .card:nth-child(1) {
+    margin-right: 0px;
+    margin-bottom: 5px;
+    min-height: 335px;
+    background: url('../../assets/images/illustration-login.jpg') center center no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
+#login .card:nth-child(2) {
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.login-content {
+    padding: 15px 2% 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-content form .container-form {
+    padding: 25px 10%;
+}
+
+.login-content form .container-form .row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.login-content form .container-form .row input {
+    width: 88%;
+}
+
+.login-content form .container-form .row .note {
+    display: block;
+    padding: 25px 10% 20px;
+    text-align: center;
+}
+
+.login-content form .container-form .row button[type=submit] {
+    padding: 25px 0% 25px;
+    width: 100%;
+    margin: 0 auto;
+    color: #00247B;
+    background-color: #F5CE4A;
+}
+
+
+/* RESPONSIVE */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    #login {
+        flex-direction: row;
+    }
+
+    #login .card:nth-child(1) {
+        margin-right: 5px;
+        margin-bottom: 0px;
+        min-height: 595px;
+    }
+
+    #login .card:nth-child(2) {
+        margin-left: 5px;
+        margin-top: 0px;
+    }
+
+    .login-content {
+        padding: 40px 5%;
+    }
+
+    .login-content form .container-form .row input {
+        width: 94%;
+    }
+
+    .login-content form .container-form .row .note {
+        padding: 25px 20% 20px;
+    }
+    
+    .login-content form .container-form .row button[type=submit] {
+        width: 250px;
+    }
+}
