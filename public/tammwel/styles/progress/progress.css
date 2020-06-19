@@ -1,0 +1,364 @@
+#progress {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#progress .card .column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#progress>.card>.column {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding: 25px;
+    justify-content: flex-start;
+}
+
+.progress-content {
+    /* padding: 15px 2% 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.progress-content h3 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.tenors {}
+
+.tenor {
+    margin: 25px 0;
+    justify-content: flex-start;
+}
+
+.tenor .number-box {
+    width: 76px;
+    height: 76px;
+    border-radius: 30%;
+    margin-right: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tenor .number-box .number-circle {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tenor .number-box .number-circle span {
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tenor .box-normal {
+    background-color: #2A4C9E;
+}
+
+.tenor .box-late {
+    background-color: #FF9C96;
+}
+
+.tenor .box-normal .number-circle {
+    background-color: #446BC6;
+}
+
+.tenor .box-late .number-circle {
+    background-color: #FFB2AD;
+}
+
+.tenor .text-block h4 {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 29px;
+    color: #000000;
+    margin: 12px 0 3px
+}
+
+.tenor .text-block span {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3B3B3B;
+}
+
+.row-status {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.row-status .status {
+    width: 160px;
+    margin: 0 15px;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #218315;
+    border: solid 1px #218315;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.row-card {
+    margin: 50px 0;
+}
+
+.row-card>.card-small {
+    min-height: 170px;
+}
+
+.row-card .card {
+    /* width: 410px;
+    min-height: 160px; */
+    margin: 10px;
+}
+
+.row-card .card>* {
+    padding: 10px 30px;
+}
+
+
+
+.card-body .image-wrapper {
+    margin: 30px auto 30px;
+    border-radius: 10px;
+    background: #f3f3f3;
+    width: 130px;
+    height: 60px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    position: relative;
+}
+
+.card-body .image-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body>.row {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-body>.row>.column {
+    flex: 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 15%;
+}
+
+.text-big-label {
+    font-size: 25px;
+    color: #747AB5;
+}
+
+.text-big {
+    font-size: 24px;
+    color: #2151B6;
+}
+
+.text-big b {
+    font-weight: 800;
+    font-size: 42px;
+    margin: 0 5px 0 0;
+}
+
+.text-desc {
+    font-size: 21px;
+    color: #2151B6;
+    margin-top: -5px;
+}
+
+.star-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stars>span {
+    width: 26px;
+    height: 26px;
+    padding: 0 2px;
+}
+
+.star {
+    background: url('../../assets/images/star.png') center center no-repeat;
+}
+
+.star-half {
+    background: url('../../assets/images/star-half.png') center center no-repeat;
+}
+
+.star-line {
+    background: url('../../assets/images/star-line.png') center center no-repeat;
+}
+
+.star-label {
+    display: block;
+    margin: 7px 0 7px 14px;
+    font-size: 21px;
+}
+
+.stars span:nth-child(1) {
+    display: block;
+}
+
+.stars span:nth-child(2) {
+    display: none;
+}
+
+.stars span:nth-child(3) {
+    display: none;
+}
+
+.stars span:nth-child(4) {
+    display: none;
+}
+
+.stars span:nth-child(5) {
+    display: none;
+}
+
+.text-stars {
+    display: block;
+    margin: 25px auto 40px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.card-footer {
+    border-top: 1px solid #EAECFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card-footer>button {
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 17px;
+    color: #333333;
+    width: 170px;
+    background-color: transparent;
+    border: 1px solid #000000;
+}
+
+.row-chart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.chart-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background: url('../../assets/images/circle.png') center center no-repeat;
+    background-size: contain;
+    margin: 35px auto;
+}
+
+.chart-wrapper>span {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2E5ABA;
+}
+
+.chart-wrapper>span>b {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #2E5ABA;
+}
+
+/* RESPONSIVE */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    #progress {
+        flex-direction: row;
+    }
+
+    .progress-content {
+        /* padding: 40px 5%; */
+    }
+
+    .stars span:nth-child(1) {
+        display: block;
+    }
+
+    .stars span:nth-child(2) {
+        display: block;
+    }
+
+    .stars span:nth-child(3) {
+        display: block;
+    }
+
+    .stars span:nth-child(4) {
+        display: block;
+    }
+
+    .stars span:nth-child(5) {
+        display: block;
+    }
+
+    .text-stars {
+        margin: 25px auto 0px;
+    }
+
+    .chart-wrapper {
+        width: 300px;
+    }
+
+    .card-body>.row {
+        flex-direction: row;
+    }
+
+    .card-footer {
+        flex-direction: row;
+    }
+}

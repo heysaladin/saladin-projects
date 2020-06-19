@@ -14,7 +14,7 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet" />
   <link href="./styles/main.css" rel="stylesheet" />
-  <link href="./styles/ads/ads.css" rel="stylesheet" />
+  <link href="./styles/track/track.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" type="text/css"
     href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
@@ -33,71 +33,59 @@
       <li><a href="#" onclick='closeMenu()'>CONTACT</a></li>
       <li><a href="#" onclick='closeMenu()' class="button-header">LOGIN</a></li>
     </ul>
-    <a href="#news" oncliccc7 vck='closeMenu()' class="button-header" id="outher-button-header">Login</a>
+    <div class="button-header" id="outher-button-header">
+      <a href="#news" onclick='closeMenu()' class="button" style="display: none;">Login</a>
+      <a href="#news" onclick='closeMenu()' class="account" style="display: flex;">
+        <img src="./assets/images/photo-cs.png" alt="" class="photo-profile">
+        <span class="name">Khalid Al Ameri</span>
+      </a>
+    </div>
   </header>
   <content class="content">
     <div class="main head-section head-section-overlay">
     </div>
     <div class="main content-overlay">
-      <div class="container column-1">
-        <h1 class="title-head-section">Financial Advertisements</h1>
-      </div>
-      <div class="container">
+      <div class="container column-1"></div>
+      <div class="container" id="track">
         <div class="card">
-          <div class="ads-content">
-            <span class="title-grey">CHECK OUT THE LATEST FINANCING ADS.</span>
-            <div class="action-tab-wrapper">
-              <a href="" class="tab-menu tab-active"><span>Al Rajhi</span></a>
-              <a href="" class="tab-menu"><span>Al Inma</span></a>
-              <a href="" class="tab-menu"><span>Al Bilad</span></a>
-            </div>
-            <div class="slider slider-nav" id="ads-slider-nav">
-              <div>
-                <div class="slide-item">
-                  <a href="https://www.tammwel.co/news/1" target="_blank">
-                    <img src="./assets/images/ads-1.jpg" alt="affiliate" />
-                  </a>
-                </div>
+          <div class="tracks">
+            <div class="track-item">
+              <div class="row">
+                <span class="icon icon-track" id="icon-check"></span>
+                <span class="text-time">08 April 2020 - 09:08 PM</span>
               </div>
-              <div>
-                <div class="slide-item">
-                  <a href="https://www.tammwel.co/news/2" target="_blank">
-                    <img src="./assets/images/ads-2.jpg" alt="affiliate" />
-                  </a>
-                </div>
-              </div>
-              <div>
-                <div class="slide-item">
-                  <a href="https://www.tammwel.co/news/3" target="_blank">
-                    <img src="./assets/images/ads-3.jpg" alt="affiliate" />
-                  </a>
-                </div>
-              </div>
-              <div>
-                <div class="slide-item">
-                  <a href="https://www.tammwel.co/news/2" target="_blank">
-                    <img src="./assets/images/ads-4.jpg" alt="affiliate" />
-                  </a>
-                </div>
-              </div>
-              <div>
-                <div class="slide-item">
-                  <a href="https://www.tammwel.co/news/3" target="_blank">
-                    <img src="./assets/images/ads-3.jpg" alt="affiliate" />
-                  </a>
-                </div>
-              </div>
-              <div>
-                <div class="slide-item">
-                  <a href="https://www.tammwel.co/news/3" target="_blank">
-                    <img src="./assets/images/ads-1.jpg" alt="affiliate" />
-                  </a>
+              <div class="row">
+                <div class="box box-note box-note-success">
+                  <span>Congratulation, you have been pre-approved for AlAhli personal finance</span>
                 </div>
               </div>
             </div>
-            <div class="action">
-              <button type="text" class="button" onclick="">LOAD MORE</button>
-            </div>
+          </div>
+        </div>
+        <div class="card" id="card-contact">
+          <div class="row">
+            <span class="column-contact text-area">
+              <span class="text-grey">We will advise you by phone</span>
+              <span class="text-black-big">Tammwel Service Team</span>
+            </span>
+            <span class="column-contact icon-area" id="image-cs"></span>
+          </div>
+          <div class="row">
+            <a href="#">
+              <span class="column-contact text-area">
+                <span class="text-blue-big">+ 90 4343 3535</span>
+                <span class="text-grey">8 am to 8 pm | Monday - Sunday</span>
+              </span>
+              <span class="column-contact icon-area" id="icon-phone"></span>
+            </a></div>
+          <div class="row">
+            <a href="#">
+              <span class="column-contact text-area">
+                <span class="text-blue-big">Request via Email</span>
+                <span class="text-grey">contact@tammwel.com</span>
+              </span>
+              <span class="column-contact icon-area" id="icon-mail"></span>
+            </a>
           </div>
         </div>
       </div>

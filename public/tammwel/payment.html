@@ -14,7 +14,8 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet" />
   <link href="./styles/main.css" rel="stylesheet" />
-  <link href="./styles/ads/ads.css" rel="stylesheet" />
+  <link href="./styles/home/news.css" rel="stylesheet" />
+  <link href="./styles/payment/payment.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" type="text/css"
     href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
@@ -33,71 +34,63 @@
       <li><a href="#" onclick='closeMenu()'>CONTACT</a></li>
       <li><a href="#" onclick='closeMenu()' class="button-header">LOGIN</a></li>
     </ul>
-    <a href="#news" oncliccc7 vck='closeMenu()' class="button-header" id="outher-button-header">Login</a>
+    <div class="button-header" id="outher-button-header">
+      <a href="#news" onclick='closeMenu()' class="button" style="display: none;">Login</a>
+      <a href="#news" onclick='closeMenu()' class="account" style="display: flex;">
+        <img src="./assets/images/photo-cs.png" alt="" class="photo-profile">
+        <span class="name">Khalid Al Ameri</span>
+      </a>
+    </div>
   </header>
   <content class="content">
     <div class="main head-section head-section-overlay">
     </div>
     <div class="main content-overlay">
       <div class="container column-1">
-        <h1 class="title-head-section">Financial Advertisements</h1>
+        <h1 class="title-head-section">Check Out</h1>
       </div>
       <div class="container">
-        <div class="card">
-          <div class="ads-content">
-            <span class="title-grey">CHECK OUT THE LATEST FINANCING ADS.</span>
-            <div class="action-tab-wrapper">
-              <a href="" class="tab-menu tab-active"><span>Al Rajhi</span></a>
-              <a href="" class="tab-menu"><span>Al Inma</span></a>
-              <a href="" class="tab-menu"><span>Al Bilad</span></a>
-            </div>
-            <div class="slider slider-nav" id="ads-slider-nav">
-              <div>
-                <div class="slide-item">
-                  <a href="https://www.tammwel.co/news/1" target="_blank">
-                    <img src="./assets/images/ads-1.jpg" alt="affiliate" />
-                  </a>
+        <div class="clear-card">
+          <div class="image-wrapper"><img src="./assets/images/logo-vendor-1.png" alt="affiliate" />
+          </div>
+          <div class="payment-content">
+            <h3>Dear Anas</h3>
+            <p>
+              Dear Anas, in order to get you accurate offers we need to get  your credit information and the cost for this service will be deductible from the administrative fee when your application gets approved
+            </p>
+            <form>
+              <div class="container-form">
+                <div class="row">
+                  <label for="couple_name">Can we have the ID number</label>
+                  <input type="text" placeholder="1 0 x x x x x x x x " name="couple_name" required />
+                </div>
+                <div class="lined">
+                  <div class="logo-wrapper">
+                    <img src="./assets/images/visa.png" alt="sasaasa" />
+                    <span>VISA</span>
+                  </div>
+                  <button type="text" class="button button-small" onclick="">Change</button>
+                </div>
+                <div class="table">
+                  <div class="row">
+                    <span>Tax</span>
+                    <span>S.R <b>0</b></span>
+                  </div>
+                  <div class="row">
+                    <span>Service Fee</span>
+                    <span>S.R <b>49</b></span>
+                  </div>
+                  <div class="row">
+                    <span><b>Total</b></span>
+                    <span>S.R <b>49</b></span>
+                  </div>
+                </div>
+                <div class="row">
+                  <button type="submit" class="button" onclick="">SEE MATCHED LOAN</button>
+                  <button type="text" class="button button-ghost" onclick="">CANCEL ORDER</button>
                 </div>
               </div>
-              <div>
-                <div class="slide-item">
-                  <a href="https://www.tammwel.co/news/2" target="_blank">
-                    <img src="./assets/images/ads-2.jpg" alt="affiliate" />
-                  </a>
-                </div>
-              </div>
-              <div>
-                <div class="slide-item">
-                  <a href="https://www.tammwel.co/news/3" target="_blank">
-                    <img src="./assets/images/ads-3.jpg" alt="affiliate" />
-                  </a>
-                </div>
-              </div>
-              <div>
-                <div class="slide-item">
-                  <a href="https://www.tammwel.co/news/2" target="_blank">
-                    <img src="./assets/images/ads-4.jpg" alt="affiliate" />
-                  </a>
-                </div>
-              </div>
-              <div>
-                <div class="slide-item">
-                  <a href="https://www.tammwel.co/news/3" target="_blank">
-                    <img src="./assets/images/ads-3.jpg" alt="affiliate" />
-                  </a>
-                </div>
-              </div>
-              <div>
-                <div class="slide-item">
-                  <a href="https://www.tammwel.co/news/3" target="_blank">
-                    <img src="./assets/images/ads-1.jpg" alt="affiliate" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="action">
-              <button type="text" class="button" onclick="">LOAD MORE</button>
-            </div>
+            </form>
           </div>
         </div>
       </div>

@@ -135,7 +135,7 @@ a {
     height: 32px;
 }
 
-.header #outher-button-header a.account > span {
+.header #outher-button-header a.account>span {
     padding: 3px 0 0 12px;
 }
 
@@ -243,14 +243,26 @@ a {
     justify-content: space-between;
 }
 
+.container.column-2>* {
+    flex: 1;
+}
+
+.action-icon-wrapper {
+    width: 200px;
+    min-height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .container .title-head-section {
     color: white;
     margin: 0;
     font-size: 24px;
 }
 
-.head-section .container>a,
-.content-overlay .container>a {
+.head-section .container div>a.icon,
+.content-overlay .container div>a.icon {
     width: 40px;
     height: 40px;
     border: solid 1px #4B78D7;
@@ -258,14 +270,34 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 5px;
 }
 
-.head-section .container a>span,
-.content-overlay .container>a>span {
+.head-section .container div>a.icon>span,
+.content-overlay .container div>a.icon>span {
     width: 30px;
     height: 30px;
     display: block;
+}
+
+.head-section .container div>a.icon-filter>span,
+.content-overlay .container div>a.icon-filter>span {
     background: transparent url('../assets/images/icon-filter.png') center center no-repeat;
+}
+
+.head-section .container div>a.icon-notification>span,
+.content-overlay .container div>a.icon-notification>span {
+    background: transparent url('../assets/images/icon-notification.png') center center no-repeat;
+}
+
+.head-section .container div>a.icon-compare>span,
+.content-overlay .container div>a.icon-compare>span {
+    background: transparent url('../assets/images/icon-compare.png') center center no-repeat;
+}
+
+.head-section .container div>.icon-list>span,
+.content-overlay .container div>a.icon-list>span {
+    background: transparent url('../assets/images/icon-list.png') center center no-repeat;
 }
 
 .head-section-overlay {
@@ -387,6 +419,10 @@ a {
 
 /* end of footer mobile */
 /* FORM */
+
+form {
+    width: 100%;
+}
 
 label {
     line-height: 20px;

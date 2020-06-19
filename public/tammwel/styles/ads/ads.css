@@ -41,6 +41,26 @@
     color: #2A4C9E;
 }
 
+.action-tab-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.action-tab-wrapper a.tab-menu {
+    text-decoration: none;
+    background: transparent;
+    border: solid 1px #E2E4FF;
+    padding: 8px 18px;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.action-tab-wrapper a.tab-active {
+    background: #DBEAFF;
+    font-weight: bold;
+}
+
 /* RESPONSIVE */
 
 /* 48em = 768px */

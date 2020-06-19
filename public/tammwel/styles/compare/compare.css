@@ -119,7 +119,7 @@
     min-height: 100px;
 }
 
-.left-wrapper > .row {
+.left-wrapper>.row {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -244,5 +244,4 @@ span.icon-warning {
     .stars span:nth-child(5) {
         display: block;
     }
-}
 }

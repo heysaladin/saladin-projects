@@ -1,0 +1,138 @@
+.head-section-overlay {
+    min-height: 165px;
+}
+
+.content-overlay {
+    margin-top: -150px;
+}
+
+.image-wrapper {
+    margin: -0px auto 30px;
+    border-radius: 10px;
+    background: #f3f3f3;
+    width: 130px;
+    height: 60px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    position: relative;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.payment-content {
+    padding: 0px 10% 50px;
+}
+
+form .container-form {
+    padding: 45px 0% 10px;
+}
+
+form .container-form>.row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+form .container-form .row input {
+    width: 90%;
+}
+
+form .container-form .row button[type=submit] {
+    padding: 18px 0% 18px;
+    width: 100%;
+    margin: 25px auto 15px;
+    color: #00247B;
+    background-color: #F5CE4A;
+}
+
+.lined {
+    margin: 25px auto;
+    padding: 20px 0;
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo-wrapper>span {
+    margin: 20px;
+}
+
+.lined>button {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.table .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+.table .row>span {
+    padding: 15px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1C1C1C;
+}
+
+.table .row>span b {
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: right;
+    color: #1C1C1C;
+}
+
+.table .row:nth-child(odd) {
+    background: #EFF4FF;
+}
+
+/* RESPONSIVE */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    .head-section-overlay {
+        min-height: 215px;
+    }
+
+    .content-overlay {
+        margin-top: -200px;
+    }
+
+    .payment-content {
+        padding: 0px 20% 100px;
+    }
+
+    form .container-form .row input {
+        width: 96%;
+    }
+
+    form .container-form .row button[type=submit] {
+        width: 100%;
+    }
+
+    .lined {
+        padding: 20px;
+    }
+}
