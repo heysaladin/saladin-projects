@@ -1,0 +1,336 @@
+#my-loan {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#my-loan>.card>.column {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    justify-content: flex-start;
+}
+
+#my-loan>.card>.column:nth-child(1) {
+    flex: 1;
+    background: #F8FAFF;
+}
+
+#my-loan>.card>.column:nth-child(2) {
+    flex: 2;
+}
+
+.my-loan-sidebar {
+    width: 100%;
+    /* min-height: 875px; */
+    padding: 40px 0px;
+}
+
+.my-loan-block {
+    padding: 15px 25px;
+}
+
+.my-loan-title {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #737191;
+    margin: 5px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.my-loan-title .left a .icon {
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: #DBEAFF url('../../assets/images/icon-filter.png') center center no-repeat;
+}
+
+.my-loan-title .right span.label {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #2A4C9E;
+    margin: 0 20px;
+}
+
+.my-loan-item {
+    min-height: 100px;
+}
+
+.card-line {
+    background: #FFFFFF;
+    border: 1px solid #E2E3F0;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 15px #F5F7FF;
+    border-radius: 10px;
+}
+
+.card-line>* {
+    width: 100%;
+    min-height: 100px;
+}
+
+.card-line .card-header {
+    border-bottom: 1px solid #E2E3F0;
+}
+
+.card-line .card-body {
+    padding: 15px 0;
+}
+
+.card-line .card-footer {
+    border-top: 1px solid #E2E3F0;
+}
+
+.card-line .card-body>.row {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card-line .card-body .row span {
+    padding: 0 10px;
+}
+
+.card-line .card-body .row span.icon {
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin-top: -3px;
+    padding-right: 0px;
+    margin-left: 10px;
+}
+
+span.icon-check {
+    background: url('../../assets/images/green-check.png') center center no-repeat;
+}
+
+span.icon-warning {
+    background: url('../../assets/images/orange-warning.png') center center no-repeat;
+}
+
+.my-loan-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 50px 100px;
+}
+
+.card-header>.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-header>.row>.column {
+    /* flex: 1; */
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-footer {
+    /* border-top: 1px solid #EAECFF; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card-footer>.row {
+    padding: 0 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-footer>.row>* {
+    padding: 10px 10px;
+}
+
+.card-footer>.row>button {
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 17px;
+    color: #333333;
+    width: 170px;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    margin: 0;
+}
+
+.card-header .image-wrapper {
+    margin: 0px auto 0px;
+    border-radius: 10px;
+    background: #f3f3f3;
+    width: 200px;
+    height: 80px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card-header .image-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.text-big {
+    font-size: 14px;
+    color: #2151B6;
+}
+
+.text-big b {
+    font-weight: 800;
+    font-size: 24px;
+    margin: 0 5px 0 0;
+}
+
+.text-desc {
+    font-size: 14px;
+    color: #2151B6;
+    margin-top: -5px;
+}
+
+.star-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stars>span {
+    width: 26px;
+    height: 26px;
+    padding: 0 2px;
+}
+
+.star {
+    background: url('../../assets/images/star.png') center center no-repeat;
+}
+
+.star-half {
+    background: url('../../assets/images/star-half.png') center center no-repeat;
+}
+
+.star-line {
+    background: url('../../assets/images/star-line.png') center center no-repeat;
+}
+
+.star-label {
+    display: block;
+    margin: 7px 0 7px 14px;
+    font-size: 21px;
+}
+
+.stars span:nth-child(1) {
+    display: block;
+}
+
+.stars span:nth-child(2) {
+    display: none;
+}
+
+.stars span:nth-child(3) {
+    display: none;
+}
+
+.stars span:nth-child(4) {
+    display: none;
+}
+
+.stars span:nth-child(5) {
+    display: none;
+}
+
+.text-stars {
+    display: block;
+    margin: 25px auto 40px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+/* RESPONSIVE */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    #my-loan {
+        flex-direction: row;
+    }
+
+    .stars span:nth-child(1) {
+        display: block;
+    }
+
+    .stars span:nth-child(2) {
+        display: none;
+    }
+
+    .stars span:nth-child(3) {
+        display: none;
+    }
+
+    .stars span:nth-child(4) {
+        display: none;
+    }
+
+    .stars span:nth-child(5) {
+        display: none;
+    }
+
+    .text-stars {
+        margin: 25px auto 0px;
+    }
+
+    .card-body>.row {
+        flex-direction: row;
+    }
+
+    .card-footer {
+        flex-direction: row;
+    }
+
+    .card-header>.row {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    .card-footer>.row {
+        flex-direction: row;
+        padding-bottom: 0px;
+    }
+}
