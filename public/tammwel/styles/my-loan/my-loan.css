@@ -333,4 +333,9 @@ span.icon-warning {
         flex-direction: row;
         padding-bottom: 0px;
     }
+
+    .card-header .image-wrapper {
+        width: 80px;
+        height: 40px;
+    }
 }
