@@ -25,7 +25,7 @@
 }
 
 .information-form-content form .container-form {
-    padding: 45px 10% 10px;
+    padding: 45px 4% 10px;
 }
 
 .information-form-content form .container-form .row {
@@ -264,7 +264,7 @@ span.icon-warning {
 .form-picker {
     border: solid 1px #2151B6;
     border-radius: 10px;
-    width: 80%;
+    width: 86%;
     padding: 15px 20px;
     display: flex;
     flex-direction: row;
@@ -333,7 +333,7 @@ span.icon-warning {
 
 .form-card {
     padding: 20px;
-    width: 80%;
+    width: 87%;
 }
 
 .form-card>.row-card {
@@ -412,6 +412,14 @@ span.icon-warning {
         flex-direction: row;
     }
 
+    .information-form-content form .container-form {
+        padding: 45px 10% 10px;
+    }
+
+    .form-card {
+        width: 80%;
+    }
+
     #card-information>.row {
         flex-direction: row;
     }
@@ -473,5 +481,9 @@ span.icon-warning {
 
     .body-value {
         flex: 2;
+    }
+
+    .form-card-bordered {
+        width: 100%;
     }
 }
