@@ -133,7 +133,7 @@
 }
 
 .track-item-active {
-    border-left: 3px solid #2151B6;
+    border-left: 1px solid #2151B6;
 }
 
 .track-item::before {
