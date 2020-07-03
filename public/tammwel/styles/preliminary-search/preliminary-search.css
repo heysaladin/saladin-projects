@@ -1,0 +1,184 @@
+.offers-clean#offers {
+    padding: 120px 0 0;
+    margin: 0px 0 0;
+}
+
+.head-section {
+    height: 200px;
+}
+
+#form-section {
+    margin: 20px auto 50px;
+}
+
+.offers-clean#offers .container .row .column {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.offers-clean#offers .container .row .column>a.icon {
+    width: 40px;
+    height: 40px;
+    border: solid 1px #4B78D7;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px 30px;
+}
+
+.offers-clean#offers .container .row .column>a.icon-filter {
+    background: transparent url('../../assets/images/filter.png') center center no-repeat;
+}
+
+/* ---------------- modal */
+
+.modal {
+    padding-top: 0px;
+}
+
+.modal-window {
+    border-radius: 6px;
+    padding: 25px;
+    width: 80%;
+    margin: 6% auto;
+}
+
+.modal-window h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2A4C9E;
+}
+
+.modal-window .row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.modal-window .row>input {
+    width: 91%;
+}
+
+.modal-window .row button[type=submit] {
+    padding: 18px 10% 18px;
+    width: 100%;
+    margin: 25px auto;
+    color: #00247B;
+    background-color: #F5CE4A;
+}
+
+/* ---------------- end of modal */
+
+/* ============================== RESULT */
+
+.card-note {
+    background: #F2F8FF;
+    border: 1px solid #C0D9FD;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.card-note .card-content>* {
+    padding: 0 0px;
+}
+
+.card-content {
+    min-height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note-content {
+    min-height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.note-text {
+    height: auto;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 32px;
+    color: #1C1C1C;
+    margin-bottom: 20px;
+}
+
+.card-content button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #507BD6;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 250px;
+    margin: 0;
+}
+
+.icon-edit {
+    width: 18px;
+    height: 18px;
+    background: url('../../assets/images/edit.png') center center no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.button-text {
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+    margin-left: 10px;
+}
+
+/* ============================== end of RESULT */
+
+/* ============================== POP */
+
+
+
+/* ============================== end of POP */
+
+/* RESPONSIVE */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    .offers-clean#offers {
+        padding: 120px 0 0;
+        margin: 0px 0 0;
+    }
+
+    .card-note .card-content>* {
+        padding: 0 50px;
+    }
+
+    .note-content {
+        flex-direction: row;
+    }
+
+    .note-text {
+        margin-bottom: 0px;
+    }
+
+    .head-section {
+        height: auto;
+    }
+
+    .modal-window {
+        width: 50%;
+    }
+
+    .modal-window .row>input {
+        width: 96%;
+    }
+
+}
