@@ -18,6 +18,19 @@
     line-height: 21px;
 }
 
+.container-form .row select {
+    width: 95%;
+}
+
+.container-form .row .column {
+    position: relative;
+}
+
+.container-form .row .column .input-money {
+    bottom: 46px;
+    right: 25px;
+}
+
 /* blocks */
 
 .form-block {

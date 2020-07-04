@@ -43,7 +43,7 @@
       <a href="login.html" onclick='closeMenu()' class="button" style="display: block;">Login</a>
       <a href="login.html" onclick='closeMenu()' class="account" style="display: none;">
         <img src="./assets/images/photo-cs.png" alt="" class="photo-profile">
-      <span class="name">Khalid Al Ameri</span>
+        <span class="name">Khalid Al Ameri</span>
       </a>
     </div>
   </header>
@@ -64,7 +64,7 @@
                         purpose, typically with a fixed-term, a fixed interest rate, and a regular monthly payment
                         schedule. Collateral usually is not required.</p>
                     </div>
-                    <button type="text" class="button" onclick="">GET NOW</button>
+                    <button type="text" class="button" onclick="location.href='./offers.html';">GET NOW</button>
                   </div>
                 </div>
               </a>
@@ -82,7 +82,7 @@
                       <p class="news-text">If you’re buying a new or used car, you need to borrow, and you want to own
                         the car at the end of the deal, there are many types of finance you can get.</p>
                     </div>
-                    <button type="text" class="button" onclick="">GET NOW</button>
+                    <button type="text" class="button" onclick="location.href='./offers.html'">GET NOW</button>
                   </div>
                 </div>
               </a>
@@ -100,7 +100,7 @@
                       <p class="news-text">A home-equity loan is a consumer loan secured by a second mortgage, allowing
                         homeowners to borrow against their equity in the home.</p>
                     </div>
-                    <button type="text" class="button" onclick="">GET NOW</button>
+                    <button type="text" class="button" onclick="location.href='./offers.html'">GET NOW</button>
                   </div>
                 </div>
               </a>
@@ -124,21 +124,31 @@
                     <div class="column">
                       <label for="input"><b>How much you want to borrow?</b></label>
                       <input type="text" placeholder="10.000" name="input" required />
+                      <span class="input-money">SAR</span>
                     </div>
 
                     <div class="column">
                       <label for="input"><b>How long?</b></label>
-                      <input type="text" placeholder="12 Months" name="input" required />
+                      <select name="input">
+                        <option value="1">12 Months</option>
+                        <option value="2">12 Months</option>
+                        <option value="3">12 Months</option>
+                      </select>
                     </div>
 
                     <div class="column">
                       <label for="input"><b>For what?</b></label>
-                      <input type="text" placeholder="Tammwel Inc" name="input" required />
+                      <select name="input">
+                        <option value="1">Tammwel Inc</option>
+                        <option value="2">Tammwel Inc</option>
+                        <option value="3">Tammwel Inc</option>
+                      </select>
                     </div>
 
                     <div class="column">
                       <label for="input"></label>
-                      <button type="submit" class="button">Start Comparing</button>
+                      <button type="submit" class="button"
+                        onclick="location.href='./preliminary-search-result.html';">Start Comparing</button>
                     </div>
                   </div>
 
@@ -179,7 +189,7 @@
                   <span>Early settlement fee only available this week!</span>
                 </div>
               </div>
-              <button type="text" class="button" onclick="">REQUEST CALL</button>
+              <button type="text" class="button" onclick="location.href='tel:+9345799898';">REQUEST CALL</button>
             </div>
 
             <div class="column">
@@ -194,7 +204,7 @@
                   <span class="text-desc">Monthly</span>
                 </div>
               </div>
-              <button type="text" class="button" onclick="">LOAN DETAILS</button>
+              <button type="text" class="button" onclick="location.href='./details.html';">LOAN DETAILS</button>
             </div>
 
             <div class="column">
@@ -212,19 +222,22 @@
                   <span class="text-range">to 5,5%</span>
                 </div>
               </div>
-              <button type="submit" class="button">TAMMAWAL</button>
+              <button type="submit" class="button" onclick="location.href='./details.html';"
+                onclick="location.href='./information-form.html';">TAMMAWAL</button>
             </div>
           </div>
           <div class="card-footer">
             <div class="star-wrapper">
-              <div class="stars">
-                <span class="star"></span>
-                <span class="star"></span>
-                <span class="star"></span>
-                <span class="star-half"></span>
-                <span class="star-line"></span>
-              </div>
-              <span class="star-label">3.5</span>
+              <a href="./review.html">
+                <div class="stars">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star-half"></span>
+                  <span class="star-line"></span>
+                </div>
+                <span class="star-label">3.5</span>
+              </a>
             </div>
             <div class="compare-check">
               <input type="checkbox" id="compare1" name="compare1" value="Compare1" />
@@ -258,7 +271,7 @@
                   <span>Early settlement fee only available this week!</span>
                 </div>
               </div>
-              <button type="text" class="button" onclick="">REQUEST CALL</button>
+              <button type="text" class="button" onclick="location.href='tel:+9345799898';">REQUEST CALL</button>
             </div>
 
             <div class="column">
@@ -273,7 +286,7 @@
                   <span class="text-desc">Monthly</span>
                 </div>
               </div>
-              <button type="text" class="button" onclick="">LOAN DETAILS</button>
+              <button type="text" class="button" onclick="location.href='./details.html';">LOAN DETAILS</button>
             </div>
 
             <div class="column">
@@ -291,19 +304,21 @@
                   <span class="text-range">to 5,5%</span>
                 </div>
               </div>
-              <button type="submit" class="button">TAMMAWAL</button>
+              <button type="submit" class="button" onclick="location.href='./information-form.html';">TAMMAWAL</button>
             </div>
           </div>
           <div class="card-footer">
             <div class="star-wrapper">
-              <div class="stars">
-                <span class="star"></span>
-                <span class="star"></span>
-                <span class="star"></span>
-                <span class="star-half"></span>
-                <span class="star-line"></span>
-              </div>
-              <span class="star-label">3.5</span>
+              <a href="./review.html">
+                <div class="stars">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star-half"></span>
+                  <span class="star-line"></span>
+                </div>
+                <span class="star-label">3.5</span>
+              </a>
             </div>
             <div class="compare-check">
               <input type="checkbox" id="compare1" name="compare1" value="Compare1" />
@@ -337,7 +352,7 @@
                   <span>Early settlement fee only available this week!</span>
                 </div>
               </div>
-              <button type="text" class="button" onclick="">REQUEST CALL</button>
+              <button type="text" class="button" onclick="location.href='tel:+9345799898';">REQUEST CALL</button>
             </div>
 
             <div class="column">
@@ -352,7 +367,7 @@
                   <span class="text-desc">Monthly</span>
                 </div>
               </div>
-              <button type="text" class="button" onclick="">LOAN DETAILS</button>
+              <button type="text" class="button" onclick="location.href='./details.html';">LOAN DETAILS</button>
             </div>
 
             <div class="column">
@@ -370,19 +385,21 @@
                   <span class="text-range">to 5,5%</span>
                 </div>
               </div>
-              <button type="submit" class="button">TAMMAWAL</button>
+              <button type="submit" class="button" onclick="location.href='./information-form.html';">TAMMAWAL</button>
             </div>
           </div>
           <div class="card-footer">
             <div class="star-wrapper">
-              <div class="stars">
-                <span class="star"></span>
-                <span class="star"></span>
-                <span class="star"></span>
-                <span class="star-half"></span>
-                <span class="star-line"></span>
-              </div>
-              <span class="star-label">3.5</span>
+              <a href="./review.html">
+                <div class="stars">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star-half"></span>
+                  <span class="star-line"></span>
+                </div>
+                <span class="star-label">3.5</span>
+              </a>
             </div>
             <div class="compare-check">
               <input type="checkbox" id="compare1" name="compare1" value="Compare1" />
@@ -460,7 +477,7 @@
         <div class="slider slider-nav" id="news-slider-nav">
           <div>
             <div class="slide-item">
-              <a href="https://www.tammwel.co/news/1" target="_blank">
+              <a href="./news-details.html">
                 <div class="card">
                   <div class="image-wrapper"><img src="./assets/images/news-1.jpg" alt="affiliate" />
                   </div>
@@ -479,7 +496,7 @@
           </div>
           <div>
             <div class="slide-item">
-              <a href="https://www.tammwel.co/news/2" target="_blank">
+              <a href="./news-details.html">
                 <div class="card">
                   <div class="image-wrapper"><img src="./assets/images/news-2.jpg" alt="affiliate" />
                   </div>
@@ -498,7 +515,7 @@
           </div>
           <div>
             <div class="slide-item">
-              <a href="https://www.tammwel.co/news/3" target="_blank">
+              <a href="./news-details.html">
                 <div class="card">
                   <div class="image-wrapper"><img src="./assets/images/news-3.jpg" alt="affiliate" />
                   </div>
@@ -620,7 +637,9 @@
         <div class="column">
           <span class="list-title">Visit</span>
           <ul>
-            <li><a target="_blank" href="https://www.google.com/maps/place/2191+Abdulwahid+Ibn+Ahmad,+An+Nakheel,+Riyadh+12385%C2%A07351,+Saudi+Arabia/data=!4m2!3m1!1s0x3e2ee2438efc068d:0x7abee7cf303c3a40?sa=X&ved=2ahUKEwiltZDRwY7qAhXkILcAHQqMARoQ8gEwAHoECAkQAQ&hl=id"><span>2191 Abdulwahid Ibn Ahmad, An Nakhil, Riyadh 12385 7351 Abdulwahid Ibn Ahmad, An
+            <li><a target="_blank"
+                href="https://www.google.com/maps/place/2191+Abdulwahid+Ibn+Ahmad,+An+Nakheel,+Riyadh+12385%C2%A07351,+Saudi+Arabia/data=!4m2!3m1!1s0x3e2ee2438efc068d:0x7abee7cf303c3a40?sa=X&ved=2ahUKEwiltZDRwY7qAhXkILcAHQqMARoQ8gEwAHoECAkQAQ&hl=id"><span>2191
+                  Abdulwahid Ibn Ahmad, An Nakhil, Riyadh 12385 7351 Abdulwahid Ibn Ahmad, An
                   Nakheel, Riyadh 12385 7351, Saudi Arabia</span></a></li>
           </ul>
           <span class="list-title">Contact Us</span>

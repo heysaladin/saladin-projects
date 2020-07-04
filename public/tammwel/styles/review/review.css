@@ -8,6 +8,7 @@
 
 .review-content {
     padding: 15px 10%;
+    background: url('../../assets/images/ornament-top.png') top left no-repeat;
 }
 
 .review-bar-wrapper {
@@ -42,6 +43,13 @@
     line-height: 16px;
     color: #000000;
     padding: 0 15px;
+}
+
+.star-wrapper > a {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .star-wrapper {

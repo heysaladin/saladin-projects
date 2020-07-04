@@ -134,6 +134,13 @@
     margin: 0 8px;
 }
 
+.star-wrapper > a {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .star-wrapper {
     display: flex;
     justify-content: flex-start;

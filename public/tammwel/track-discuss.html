@@ -14,7 +14,7 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet" />
   <link href="./styles/main.css" rel="stylesheet" />
-  <link href="./styles/ads/ads.css" rel="stylesheet" />
+  <link href="./styles/track/track.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" type="text/css"
     href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
@@ -34,8 +34,8 @@
       <li><a href="login.html" onclick='closeMenu()' class="button-header">LOGIN</a></li>
     </ul>
     <div class="button-header" id="outher-button-header">
-      <a href="login.html" onclick='closeMenu()' class="button" style="display: block;">Login</a>
-      <a href="login.html" onclick='closeMenu()' class="account" style="display: none;">
+      <a href="login.html" onclick='closeMenu()' class="button" style="display: none;">Login</a>
+      <a href="login.html" onclick='closeMenu()' class="account" style="display: flex;">
         <img src="./assets/images/photo-cs.png" alt="" class="photo-profile">
         <span class="name">Khalid Al Ameri</span>
       </a>
@@ -45,65 +45,120 @@
     <div class="main head-section head-section-overlay">
     </div>
     <div class="main content-overlay">
-      <div class="container column-1">
-        <h1 class="title-head-section">Financial Advertisements</h1>
+      <div class="container column-2">
+        <h1 class="title-head-section"><a href="./account.html">Account</a> <a href="./my-loan.html">AL BILAD Product
+            Name </a> <span>Tracking</span></h1>
+        <div class="action-icon-wrapper">
+          <a href="./my-loan.html" class="icon icon-list"><span></span></a>
+          <a href="./compare.html" class="icon icon-compare"><span></span></a>
+          <a href="./notification.html" class="icon icon-notification"><span></span></a>
+        </div>
       </div>
-      <div class="container">
+      <div class="container" id="track">
         <div class="card">
-          <div class="ads-content">
-            <span class="title-grey">CHECK OUT THE LATEST FINANCING ADS.</span>
-            <div class="action-tab-wrapper">
-              <a href="" class="tab-menu tab-active"><span>Al Rajhi</span></a>
-              <a href="" class="tab-menu"><span>Al Inma</span></a>
-              <a href="" class="tab-menu"><span>Al Bilad</span></a>
+          <div class="tracks">
+            <div class="track-item track-item-active">
+              <div class="row">
+                <span class="icon icon-track icon-check"></span>
+                <span class="text-time">08 April 2020 - 09:08 PM</span>
+              </div>
+              <div class="row">
+                <div class="box box-note box-note-success">
+                  <span>Congratulation, you have been pre-approved for AlAhli personal finance</span>
+                </div>
+              </div>
+              <div class="row-column">
+                <div class="image-wrapper">
+                  <img src="./assets/images/logo-vendor-1.png" alt="venfor logo">
+                </div>
+                <button type="text" class="button circle-button small"><span>Reject</span></button>
+              </div>
+              <div class="row-column">
+                <div class="column">
+                  <div class="row">
+                    <span class="text-big-label">Repayments</span>
+                  </div>
+                  <div class="row">
+                    <span class="text-big"><b>2550</b>SR</span>
+                  </div>
+                  <div class="row">
+                    <span class="text-desc">Monthly</span>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="row">
+                    <span class="text-big-label">APR</span>
+                  </div>
+                  <div class="row">
+                    <span class="text-big"><b>2.5</b>%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="column">
+                  <div class="star-wrapper">
+                    <a href="./review.html">
+                      <div class="stars">
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star-half"></span>
+                        <span class="star-line"></span>
+                      </div>
+                      <span class="star-label">3.5</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="column">
+                  <button type="submit" class="button" onclick="location.href='./track.html';">Accept</button>
+                </div>
+                <div class="column">
+                  <button type="button" class="button" onclick="location.href='./offers.html';">See other offers</button>
+                </div>
+              </div>
             </div>
-            <div class="slider slider-nav" id="ads-slider-nav">
-              <div>
-                <div class="slide-item">
-                  <a href="">
-                    <img src="./assets/images/ads-1.jpg" alt="affiliate" />
-                  </a>
-                </div>
+            <div class="track-item">
+              <div class="row">
+                <span class="icon icon-track icon-dot"></span>
+                <span class="text-time">Write the message for discuss</span>
               </div>
-              <div>
-                <div class="slide-item">
-                  <a href="">
-                    <img src="./assets/images/ads-2.jpg" alt="affiliate" />
-                  </a>
-                </div>
+              <div class="row">
+                <textarea type="text" placeholder="Write your message here!" name="message" required></textarea>
               </div>
-              <div>
-                <div class="slide-item">
-                  <a href="">
-                    <img src="./assets/images/ads-3.jpg" alt="affiliate" />
-                  </a>
-                </div>
-              </div>
-              <div>
-                <div class="slide-item">
-                  <a href="">
-                    <img src="./assets/images/ads-4.jpg" alt="affiliate" />
-                  </a>
-                </div>
-              </div>
-              <div>
-                <div class="slide-item">
-                  <a href="">
-                    <img src="./assets/images/ads-3.jpg" alt="affiliate" />
-                  </a>
-                </div>
-              </div>
-              <div>
-                <div class="slide-item">
-                  <a href="">
-                    <img src="./assets/images/ads-1.jpg" alt="affiliate" />
-                  </a>
+              <div class="row">
+                <div class="column">
+                  <button type="button" class="button" onclick="">Send</button>
                 </div>
               </div>
             </div>
-            <div class="action">
-              <button type="text" class="button" onclick="">LOAD MORE</button>
-            </div>
+          </div>
+        </div>
+        <div class="card" id="card-contact">
+          <div class="row">
+            <span class="column-contact text-area">
+              <span class="text-grey">We will advise you by phone</span>
+              <span class="text-black-big">Tammwel Service Team</span>
+            </span>
+            <span class="column-contact icon-area" id="image-cs"></span>
+          </div>
+          <div class="row">
+            <a href="tel:9043433535">
+              <span class="column-contact text-area">
+                <span class="text-blue-big">+ 90 4343 3535</span>
+                <span class="text-grey">8 am to 8 pm | Monday - Sunday</span>
+              </span>
+              <span class="column-contact icon-area" id="icon-phone"></span>
+            </a></div>
+          <div class="row">
+            <a href="mailto:contact@tammwel.com">
+              <span class="column-contact text-area">
+                <span class="text-blue-big">Request via Email</span>
+                <span class="text-grey">contact@tammwel.com</span>
+              </span>
+              <span class="column-contact icon-area" id="icon-mail"></span>
+            </a>
           </div>
         </div>
       </div>

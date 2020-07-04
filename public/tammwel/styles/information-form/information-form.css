@@ -166,6 +166,20 @@
     margin-top: -5px;
 }
 
+.star-wrapper > a {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.star-wrapper > a {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .star-wrapper {
     display: flex;
     justify-content: flex-start;
