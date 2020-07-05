@@ -16,6 +16,10 @@
     margin-top: 5px;
 }
 
+.content-overlay {
+    background: url('../../assets/images/ornament-lines.png') bottom left no-repeat;
+}
+
 .information-form-content {
     padding: 15px 2% 50px;
     display: flex;

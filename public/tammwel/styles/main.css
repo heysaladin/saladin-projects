@@ -338,7 +338,7 @@ a {
 
 .content-overlay {
     margin-top: -500px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .content-overlay .card {
