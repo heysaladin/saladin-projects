@@ -1,0 +1,126 @@
+#notification {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#notification>.card>.column {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    justify-content: flex-start;
+}
+
+#notification>.card>.column:nth-child(1) {
+    flex: 1;
+    background: #F8FAFF;
+}
+
+#notification>.card>.column:nth-child(2) {
+    flex: 2;
+}
+
+.notification-sidebar {
+    width: 100%;
+    /* min-height: 875px; */
+    padding: 40px 0px;
+}
+
+.notification-block {
+    padding: 15px 25px;
+}
+
+.notification-title {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #737191;
+    margin: 5px 0;
+}
+
+.notification-list {}
+
+.notification-item {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notification-item .image-wrapper {
+    width: 100px;
+}
+
+.notification-item .text-wrapper {
+    margin-left: 25px;
+}
+
+.notification-item .text-wrapper>h3 {
+    margin: 0 0 5px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.notification-item .text-wrapper>p {
+    margin: 0;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #3B3B3B;
+}
+
+.notification-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 50px 100px;
+}
+
+.image-big > img{
+    width: 100%;
+    height: auto;
+}
+
+.notification-content h1 {
+    text-align: center;
+    margin: 50px auto 0px;
+}
+
+.notification-content p {
+    text-align: center;
+}
+
+.notification-content button {
+    color: #00247B;
+    background-color: #F5CE4A;
+}
+
+/* RESPONSIVE */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    #notification {
+        flex-direction: row;
+    }
+
+    .notification-block {
+        padding: 15px 50px;
+    }
+
+    .notification-content p {
+        width: 300px;
+    }
+    
+    .notification-content button {
+        width: 250px;
+    }
+}

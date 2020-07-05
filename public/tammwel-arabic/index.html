@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="tammwel" content="Tammwel" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="shortcut icon"
+    href="https://www.gstatic.com/devrel-devsite/v6bd5a0b4c9254732f5f201c272fcfb160f0efe389bcfbc2a4719d82eac4acb09/firebase/images/favicon.png">
+  <title>Tammwel</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link href="./styles/main.css" rel="stylesheet" />
+  <link href="./styles/home/hero-section.css" rel="stylesheet" />
+  <link href="./styles/home/form-section.css" rel="stylesheet" />
+  <link href="./styles/home/offers.css" rel="stylesheet" />
+  <link href="./styles/home/why.css" rel="stylesheet" />
+  <link href="./styles/home/affiliate.css" rel="stylesheet" />
+  <link href="./styles/home/news.css" rel="stylesheet" />
+  <link href="./styles/home/action.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html" class="logo" onclick='closeMenu()'><span></span></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="index.html" onclick='closeMenu()'>الرئيسية</a></li>
+      <li><a href="offers.html" onclick='closeMenu()'>عروض</a></li>
+      <li><a href="news.html" onclick='closeMenu()'>أخبار</a></li>
+      <li><a href="about.html" onclick='closeMenu()'>تمويل</a></li>
+      <li><a href="contact.html" onclick='closeMenu()'>اتصل</a></li>
+      <li><a href="login.html" onclick='closeMenu()' class="button-header">تسجيل الدخول</a></li>
+    </ul>
+    <div class="button-header" id="outher-button-header">
+      <a href="login.html" onclick='closeMenu()' class="button" style="display: block;">تسجيل الدخول</a>
+      <a href="login.html" onclick='closeMenu()' class="account" style="display: none;">
+        <img src="./assets/images/photo-cs.png" alt="" class="photo-profile">
+        <span class="name">Khalid Al Ameri</span>
+      </a>
+    </div>
+  </header>
+  <content class="content">
+    <div class="main" id="hero-section">
+      <div class="">
+        <div class="slider slider-nav" id="hero-slider-nav">
+          <div>
+            <div class="slide-item">
+              <a href="#" target="">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/slider-1.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-title">أفضل قرض لكل شيء<br />للاحتياجات اليومية</span>
+                      <p class="news-text">يتيح لك القرض الشخصي اقتراض الأموال من المقرض لأي غرض تقريبًا ، وعادةً ما يكون محدد المدة ومعدل فائدة ثابت وجدول دفع شهري منتظم. الضمانات غير مطلوبة عادة.</p>
+                    </div>
+                    <button type="text" class="button" onclick="location.href='./offers.html';">احصل الان</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="#" target="">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/slider-2.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-title">أفضل قرض للحصول على الخاص بك <br />مركبة ركوب الأحلام</span>
+                      <p class="news-text">إذا كنت تشتري سيارة جديدة أو مستعملة ، فأنت بحاجة إلى الاقتراض ، وتريد امتلاك السيارة في نهاية الصفقة ، فهناك العديد من أنواع التمويل التي يمكنك الحصول عليها.</p>
+                    </div>
+                    <button type="text" class="button" onclick="location.href='./offers.html'">احصل الان</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="#" target="">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/slider-3.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-title">أفضل قرض للحصول على الخاص بك <br />دريم للعقارات والأصول</span>
+                      <p class="news-text">القرض السكني هو قرض استهلاكي مضمون برهن عقاري ثان ، يسمح لأصحاب المنازل بالاقتراض مقابل حقوقهم في المنزل.</p>
+                    </div>
+                    <button type="text" class="button" onclick="location.href='./offers.html'">احصل الان</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main" id="form-section">
+      <div class="container">
+        <div class="card">
+          <div class="card-content">
+            <div class="form-block" id="block-form">
+              <form>
+                <div class="container-form">
+                  <div class="row">
+                    <div class="column">
+                      <h2>ابحث عن عروض القرض التي تتوافق مع تفضيلاتك</h2>
+                    </div>
+
+                    <div class="column">
+                      <label for="input"><b>كم تريد الاقتراض؟</b></label>
+                      <input type="text" placeholder="10.000" name="input" required />
+                      <span class="input-money">ريال</span>
+                    </div>
+
+                    <div class="column">
+                      <label for="input"><b>حتى متى؟</b></label>
+                      <select name="input">
+                        <option value="1">12 شهر</option>
+                        <option value="2">12 شهر</option>
+                        <option value="3">12 شهر</option>
+                      </select>
+                    </div>
+
+                    <div class="column">
+                      <label for="input"><b>على ماذا؟</b></label>
+                      <select name="input">
+                        <option value="1">مؤسسة تمويل</option>
+                        <option value="2">مؤسسة تمويل</option>
+                        <option value="3">مؤسسة تمويل</option>
+                      </select>
+                    </div>
+
+                    <div class="column">
+                      <label for="input"></label>
+                      <button type="submit" class="button"
+                        onclick="location.href='./preliminary-search-result.html';">ابدأ المقارنة</button>
+                    </div>
+                  </div>
+
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main" id="offers">
+      <div class="container">
+        <h2>عروض القروض المفضلة الثلاثة</h2>
+        <p>هذه أفضل العروض لك ، اختارها فريق وأنظمة "تمويل".</p>
+        <div class="card-bg">
+          <div class="card">
+            <div class="column">
+              <div class="column-content">
+                <div class="logo-wrapper">
+                  <img src="./assets/images/logo-vendor-1.png" alt="affiliate" />
+                </div>
+              </div>
+              <span>بنك البلاد</span>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="icon icon-check"></span>
+                  <span>متوافق مع أحكام الشريعة</span>
+                </div>
+                <div class="row">
+                  <span class="icon icon-check"></span>
+                  <span>معدل سنوي منخفض</span>
+                </div>
+                <div class="row">
+                  <span class="icon icon-warning"></span>
+                  <span>رسوم التسوية المبكرة متوفرة فقط هذا الأسبوع!</span>
+                </div>
+              </div>
+              <button type="text" class="button" onclick="location.href='tel:+9345799898';">طلب المكالمة</button>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="text-big-label">السداد</span>
+                </div>
+                <div class="row">
+                  <span class="text-big"><b>2550</b>ريال</span>
+                </div>
+                <div class="row">
+                  <span class="text-desc">شهريا</span>
+                </div>
+              </div>
+              <button type="text" class="button" onclick="location.href='./details.html';">تفاصيل القرض</button>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="text-big-label">APR</span>
+                </div>
+                <div class="row">
+                  <span class="text-old-price">&nbsp;2.99 %&nbsp;</span>
+                </div>
+                <div class="row">
+                  <span class="text-big"><b>2.5</b>%</span>
+                </div>
+                <div class="row">
+                  <span class="text-range">5,5% إلى</span>
+                </div>
+              </div>
+              <button type="submit" class="button" onclick="location.href='./details.html';"
+                onclick="location.href='./information-form-personal.html';">تموال</button>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="star-wrapper">
+              <a href="./review.html">
+                <div class="stars">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star-half"></span>
+                  <span class="star-line"></span>
+                </div>
+                <span class="star-label">3.5</span>
+              </a>
+            </div>
+            <div class="compare-check">
+              <input type="checkbox" id="compare1" name="compare1" value="Compare1" />
+              <label for="vehicle1"> أضف للمقارنة</label>
+            </div>
+          </div>
+        </div>
+        <div class="card-bg">
+          <div class="card">
+            <div class="column">
+              <div class="column-content">
+                <div class="logo-wrapper">
+                  <img src="./assets/images/logo-vendor-2.png" alt="affiliate" />
+                </div>
+              </div>
+              <span>بنك البلاد</span>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="icon icon-check"></span>
+                  <span>متوافق مع أحكام الشريعة</span>
+                </div>
+                <div class="row">
+                  <span class="icon icon-check"></span>
+                  <span>معدل سنوي منخفض</span>
+                </div>
+                <div class="row">
+                  <span class="icon icon-warning"></span>
+                  <span>رسوم التسوية المبكرة متوفرة فقط هذا الأسبوع!</span>
+                </div>
+              </div>
+              <button type="text" class="button" onclick="location.href='tel:+9345799898';">طلب المكالمة</button>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="text-big-label">السداد</span>
+                </div>
+                <div class="row">
+                  <span class="text-big"><b>2550</b>ريال</span>
+                </div>
+                <div class="row">
+                  <span class="text-desc">شهريا</span>
+                </div>
+              </div>
+              <button type="text" class="button" onclick="location.href='./details.html';">تفاصيل القرض</button>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="text-big-label">APR</span>
+                </div>
+                <div class="row">
+                  <span class="text-old-price">&nbsp;2.99 %&nbsp;</span>
+                </div>
+                <div class="row">
+                  <span class="text-big"><b>2.5</b>%</span>
+                </div>
+                <div class="row">
+                  <span class="text-range">5,5% إلى</span>
+                </div>
+              </div>
+              <button type="submit" class="button" onclick="location.href='./information-form-personal.html';">تموال</button>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="star-wrapper">
+              <a href="./review.html">
+                <div class="stars">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star-half"></span>
+                  <span class="star-line"></span>
+                </div>
+                <span class="star-label">3.5</span>
+              </a>
+            </div>
+            <div class="compare-check">
+              <input type="checkbox" id="compare1" name="compare1" value="Compare1" />
+              <label for="vehicle1"> أضف للمقارنة</label>
+            </div>
+          </div>
+        </div>
+        <div class="card-bg">
+          <div class="card">
+            <div class="column">
+              <div class="column-content">
+                <div class="logo-wrapper">
+                  <img src="./assets/images/logo-vendor-3.png" alt="affiliate" />
+                </div>
+              </div>
+              <span>بنك البلاد</span>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="icon icon-check"></span>
+                  <span>متوافق مع أحكام الشريعة</span>
+                </div>
+                <div class="row">
+                  <span class="icon icon-check"></span>
+                  <span>معدل سنوي منخفض</span>
+                </div>
+                <div class="row">
+                  <span class="icon icon-warning"></span>
+                  <span>رسوم التسوية المبكرة متوفرة فقط هذا الأسبوع!</span>
+                </div>
+              </div>
+              <button type="text" class="button" onclick="location.href='tel:+9345799898';">طلب المكالمة</button>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="text-big-label">السداد</span>
+                </div>
+                <div class="row">
+                  <span class="text-big"><b>2550</b>ريال</span>
+                </div>
+                <div class="row">
+                  <span class="text-desc">شهريا</span>
+                </div>
+              </div>
+              <button type="text" class="button" onclick="location.href='./details.html';">تفاصيل القرض</button>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="text-big-label">APR</span>
+                </div>
+                <div class="row">
+                  <span class="text-old-price">&nbsp;2.99 %&nbsp;</span>
+                </div>
+                <div class="row">
+                  <span class="text-big"><b>2.5</b>%</span>
+                </div>
+                <div class="row">
+                  <span class="text-range">5,5% إلى</span>
+                </div>
+              </div>
+              <button type="submit" class="button" onclick="location.href='./information-form-personal.html';">تموال</button>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="star-wrapper">
+              <a href="./review.html">
+                <div class="stars">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star-half"></span>
+                  <span class="star-line"></span>
+                </div>
+                <span class="star-label">3.5</span>
+              </a>
+            </div>
+            <div class="compare-check">
+              <input type="checkbox" id="compare1" name="compare1" value="Compare1" />
+              <label for="vehicle1"> أضف للمقارنة</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main" id="why">
+      <div class="container">
+        <h2>خطوات سهلة وفوائد</h2>
+        <div class="row">
+          <div class="column">
+            <img src="./assets/images/illustration-1.png" alt="1">
+            <h3>الكثير من العروض</h3>
+            <p>تمويل لديها الكثير من العروض المثيرة للاهتمام بالنسبة لك. يمكنك أيضًا التكيف بسهولة مع احتياجاتك للعثور على العروض التي تتطابق حقًا.</p>
+          </div>
+          <div class="column">
+            <img src="./assets/images/illustration-2.png" alt="1">
+            <h3>قارن العروض</h3>
+            <p>يتردد عند لقاء أكثر من عرض جذاب؟ لا تقلق ، مع نظام متطور ، ستساعدك Tammwel على مقارنة العروض لجعل قرارك أسهل.</p>
+          </div>
+          <div class="column">
+            <img src="./assets/images/illustration-3.png" alt="1">
+            <h3>احصل على أفضل قرض</h3>
+            <p>نعم ، مع كل تسهيلات نظام Tammwel ، يمكنك بسهولة وراحة الحصول على قرض يناسب احتياجاتك.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main" id="affiliate">
+      <div class="container">
+        <h2>شركاء تمويل</h2>
+        <div class="slider slider-nav" id="affiliate-slider-nav">
+          <div>
+            <div class="slide-item">
+              <div class="image-wrapper"><img src="./assets/images/afi-1.jpg" alt="affiliate" /></div>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <div class="image-wrapper"><img src="./assets/images/afi-2.jpg" alt="affiliate" /></div>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <div class="image-wrapper"><img src="./assets/images/afi-3.jpg" alt="affiliate" /></div>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <div class="image-wrapper"><img src="./assets/images/afi-1.jpg" alt="affiliate" /></div>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <div class="image-wrapper"><img src="./assets/images/afi-2.jpg" alt="affiliate" /></div>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <div class="image-wrapper"><img src="./assets/images/afi-3.jpg" alt="affiliate" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main" id="news">
+      <div class="container">
+        <h2>اكتشف الاتجاهات والعروض الجديدة على مدونتنا</h2>
+        <div class="slider slider-nav" id="news-slider-nav">
+          <div>
+            <div class="slide-item">
+              <a href="https://www.tammwel.co/news/1" target="_blank">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/news-1.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-date">TRAVEL | DECEMBER 27, 2017</span>
+                      <span class="news-title">أهم نصائح الادخار المعروفة فقط لخبراء البنوك</span>
+                      <p class="news-text">غالبًا ما تؤدي محاولات إنقاذ شهريا إلى الفشل بدون الاستراتيجية الصحيحة. فيما يلي 10 نصائح لمساعدتك في تحقيق هدفك وتوفير مبلغ المال الذي تحتاجه ...</p>
+                    </div>
+                    <span class="news-tag">انظر جميع المقالات المصرفية</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="https://www.tammwel.co/news/2" target="_blank">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/news-2.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-date">BANKING | DECEMBER 17, 2017</span>
+                      <span class="news-title">لماذا أحتاج تأمين السفر</span>
+                      <p class="news-text">أصبح السفر جزءًا أساسيًا من الحياة - سواء كان ذلك في إجازة مع العائلات والأصدقاء أو رحلات العمل.</p>
+                    </div>
+                    <span class="news-tag">اطلع على جميع مقالات السفر</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="https://www.tammwel.co/news/3" target="_blank">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/news-3.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-date">5 Mei 2020</span>
+                      <span class="news-title">التكاليف الخفية لامتلاك منزلك</span>
+                      <p class="news-text">يعد امتلاك منزلك أحد أغلى الاستثمارات التي ستقوم بها على الإطلاق. بالإضافة إلى التكاليف المتوقعة التي تحتاج إلى دفعها ، سيأتي عدد من التكاليف المخفية غير المتوقعة ...</p>
+                    </div>
+                    <span class="news-tag">انظر جميع مقال عادات الإنفاق</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="https://www.tammwel.co/news/1" target="_blank">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/news-1.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-date">TRAVEL | DECEMBER 27, 2017</span>
+                      <span class="news-title">أهم نصائح الادخار المعروفة فقط لخبراء البنوك</span>
+                      <p class="news-text">غالبًا ما تؤدي محاولات إنقاذ شهريا إلى الفشل بدون الاستراتيجية الصحيحة. فيما يلي 10 نصائح لمساعدتك في تحقيق هدفك وتوفير مبلغ المال الذي تحتاجه ...</p>
+                    </div>
+                    <span class="news-tag">انظر جميع المقالات المصرفية</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="https://www.tammwel.co/news/2" target="_blank">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/news-2.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-date">BANKING | DECEMBER 17, 2017</span>
+                      <span class="news-title">لماذا أحتاج تأمين السفر</span>
+                      <p class="news-text">أصبح السفر جزءًا أساسيًا من الحياة - سواء كان ذلك في إجازة مع العائلات والأصدقاء أو رحلات العمل.</p>
+                    </div>
+                    <span class="news-tag">اطلع على جميع مقالات السفر</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="https://www.tammwel.co/news/3" target="_blank">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/news-3.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-date">5 Mei 2020</span>
+                      <span class="news-title">التكاليف الخفية لامتلاك منزلك</span>
+                      <p class="news-text">يعد امتلاك منزلك أحد أغلى الاستثمارات التي ستقوم بها على الإطلاق. بالإضافة إلى التكاليف المتوقعة التي تحتاج إلى دفعها ، سيأتي عدد من التكاليف المخفية غير المتوقعة ...</p>
+                    </div>
+                    <span class="news-tag">انظر جميع مقال عادات الإنفاق</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-color"></div>
+    </div>
+    <div class="main" id="action">
+      <div class="container">
+        <div class="row">
+          <div class="column column-left">
+            <h1>تطبيق Tammwel</h1>
+            <p>أفضل مقارنات المملكة العربية السعودية أثناء التنقل - قارن ، <br />
+              تغيير وحفظ أسهل الآن.</p>
+            <h2>متاح لنظامي IOS و Android!</h2>
+            <div class="buttons-wrapper">
+              <button type="text" class="button" onclick="location.href='https://apps.apple.com/in/app/tammwel';"><i
+                  class="icon-store app-store"></i><span>App Store</span></button>
+              <button type="text" class="button"
+                onclick="location.href='https://play.google.com/store/apps/details?id=tammwel';"><i
+                  class="icon-store play-store"></i><span>Play Store</span></button>
+            </div>
+          </div>
+          <div class="column column-right">
+          </div>
+        </div>
+      </div>
+    </div>
+  </content>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <a href="#section1" class="logo"><span></span></a>
+          <span class="text-footer">تطبيق تمويل الوسيط الخاص بك للحصول على أفضل الصفقات التمويلية لك!</span>
+        </div>
+        <div class="column">
+          <span class="list-title">يكتشف</span>
+          <ul>
+            <li><a href="index.html"><span>الصفحة الرئيسية</span></a></li>
+            <li><a href="offers.html"><span>عروض</span></a></li>
+            <li><a href="news.html"><span>أخبار</span></a></li>
+            <li><a href="about.html"><span>تمويل</span></a></li>
+            <li><a href="contact.html"><span>اتصل</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">يزور</span>
+          <ul>
+            <li><a target="_blank"
+                href="https://www.google.com/maps/place/2191+Abdulwahid+Ibn+Ahmad,+An+Nakheel,+Riyadh+12385%C2%A07351,+Saudi+Arabia/data=!4m2!3m1!1s0x3e2ee2438efc068d:0x7abee7cf303c3a40?sa=X&ved=2ahUKEwiltZDRwY7qAhXkILcAHQqMARoQ8gEwAHoECAkQAQ&hl=id"><span>2191 عبدالواحد بن أحمد ، النخيل ، الرياض 12385 7351 عبدالواحد بن أحمد ، النخيل ، الرياض 12385 7351 ، المملكة العربية السعودية</span></a></li>
+          </ul>
+          <span class="list-title">اتصل بنا</span>
+          <ul>
+            <li><a href="mailto:info@tammwel.com"><span>info@tammwel.com</span></a></li>
+            <li><a href="tel:+9345799898"><span>+9345799898</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">إتبع</span>
+          <ul>
+            <li><a target="_blank" href="https://www.instagram.com/tammwelinc"><span>Instagram</span></a></li>
+            <li><a target="_blank" href="https://twitter.com/tammwelinc"><span>Twitter</span></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/tammwel/"><span>Linkedin</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">قانوني</span>
+          <ul>
+            <li><a href="termspolicies.html"><span>شروط</span></a></li>
+            <li><a href="termspolicies.html"><span>خصوصية</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">الخط الساخن</span>
+          <a href="tel:+9345799898"><span class="text-right-footer">+9345799898</span></a>
+        </div>
+      </div>
+      <div class="row flex-left">
+        <span class="copyright">© 2020 TammwelInc. كل الحقوق محفوظة.</span>
+      </div>
+    </div>
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $('#affiliate-slider-nav').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      responsive: [{
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+    $('#news-slider-nav').slick({
+      infinite: true,
+      arrows: false,
+      dots: true,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      responsive: [{
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+    $('#hero-slider-nav').slick({
+      infinite: true,
+      arrows: false,
+      dots: true,
+      autoplay: false,
+      speed: 1500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      responsive: [{
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+  </script>
+  <style>
+    #affiliate-slider-nav .slick-prev:before,
+    #affiliate-slider-nav .slick-next:before {
+      color: #C6DEFF;
+      font-size: 30px;
+      margin: -5px;
+    }
+
+    #news-slider-nav .slick-dots {
+      bottom: unset;
+      margin: 50px auto 0;
+    }
+
+    .slick-dots {
+      bottom: unset;
+    }
+
+    .slick-dots li button:before {
+      font-size: 12px;
+      opacity: 1.0;
+      color: #A5C2FF;
+    }
+
+    .slick-dots li.slick-active button:before,
+    .slick-dots li button[aria-selected=true]:before {
+      opacity: 1.0;
+      color: #FFFFFF;
+    }
+
+    #news-slider-nav .slick-dots li button:before {
+      font-size: 12px;
+      opacity: 1.0;
+      color: #A5C2FF;
+    }
+
+    #news-slider-nav .slick-dots li.slick-active button:before,
+    #news-slider-nav .slick-dots li button[aria-selected=true]:before {
+      opacity: 1.0;
+      color: #2151B6;
+    }
+  </style>
+</body>
+
+</html>

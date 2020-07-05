@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="tammwel" content="Tammwel" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="shortcut icon"
+    href="https://www.gstatic.com/devrel-devsite/v6bd5a0b4c9254732f5f201c272fcfb160f0efe389bcfbc2a4719d82eac4acb09/firebase/images/favicon.png">
+  <title>Tammwel</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link href="./styles/main.css" rel="stylesheet" />
+  <link href="./styles/home/news.css" rel="stylesheet" />
+  <link href="./styles/details/details.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html" class="logo" onclick='closeMenu()'><span></span></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="index.html" onclick='closeMenu()'>HOME</a></li>
+      <li><a href="offers.html" onclick='closeMenu()'>OFFERS</a></li>
+      <li><a href="news.html" onclick='closeMenu()'>NEWS</a></li>
+      <li><a href="about.html" onclick='closeMenu()'>TAMMWEL</a></li>
+      <li><a href="contact.html" onclick='closeMenu()'>CONTACT</a></li>
+      <li><a href="login.html" onclick='closeMenu()' class="button-header">LOGIN</a></li>
+    </ul>
+    <div class="button-header" id="outher-button-header">
+      <a href="login.html" onclick='closeMenu()' class="button" style="display: block;">Login</a>
+      <a href="login.html" onclick='closeMenu()' class="account" style="display: none;">
+        <img src="./assets/images/photo-cs.png" alt="" class="photo-profile">
+        <span class="name">Khalid Al Ameri</span>
+      </a>
+    </div>
+  </header>
+  <content class="content">
+    <div class="main head-section head-section-overlay">
+    </div>
+    <div class="main content-overlay">
+      <div class="container column-2">
+        <p class="title-head-section">تفاصيل المنتج</p>
+      </div>
+      <div class="container">
+        <div class="card">
+          <div class="bg-image-wrapper">
+            <img src="./assets/images/details.jpg" alt="details" />
+          </div>
+          <div class="opening">
+            <div class="image-wrapper">
+              <img src="./assets/images/logo-vendor-1.png" alt="details" />
+            </div>
+            <span class="logo-name">بنك البلاد</span>
+          </div>
+          <div class="tabs">
+            <div class="row">
+              <a href="details.html" class="tab tab-inactive">
+                <span>تفاصيل عرض القرض</span>
+              </a>
+              <a href="#" class="tab tab-active">
+                <span>منتجات اخرى</span>
+              </a>
+            </div>
+          </div>
+          <div class="details-content">
+            <div class="row row-data">
+
+              <div class="column" id="contant-text">
+                <h3> معايير الأهلية </h3>
+                <p> الحد الأدنى لفترة العمل شهر واحد ويصل إلى 12 شهرًا حسب صاحب العمل
+                  <br /> <br />
+                  تحويل الراتب إلى مصرف الراجحي
+                  الحد الأدنى للراتب الشهري يبدأ من 2،000 ريال حسب جهة العمل. أن لا يتجاوز العمر 60 سنة
+                  سنوات عندما تقوم بتسديد القسط الأخير
+                  <br /> <br />
+                  (بافتراض أن سن التقاعد 60 سنة)
+                </p>
+                <h3> المستندات المطلوبة </h3>
+                <p> نموذج طلب مستكمل للتمويل الشخصي
+                  <br />
+                  نسخة من البطاقة الوطنية
+                  <br />
+                  شهادة الراتب
+                  <br />
+                  خطاب تحويل الراتب
+                </p>
+              </div>
+
+            </div>
+
+            <div class="row row-action">
+              <div class="column">
+                <div class="video-wrapper">
+                  <img src="./assets/images/video-image.jpg" alt="video" />
+                </div>
+              </div>
+            </div>
+
+            <div class="row row-action">
+
+              <div class="column"></div>
+
+              <div class="column">
+                <button type="submit" class="button"
+                  onclick="location.href='./information-form-personal.html';">تموال</button>
+              </div>
+
+              <div class="column"></div>
+
+            </div>
+            <div class="row row-footer">
+              <div class="star-wrapper">
+                <a href="./review.html">
+                  <div class="stars">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star-half"></span>
+                    <span class="star-line"></span>
+                  </div>
+                  <span class="star-label">3.5</span>
+                </a>
+              </div>
+              <div class="compare-check">
+                <input type="checkbox" id="compare1" name="compare1" value="Compare1" />
+                <label for="vehicle1"> أضف للمقارنة</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </content>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <a href="#section1" class="logo"><span></span></a>
+          <span class="text-footer">Your broker financing application to get the best financing deals for you!</span>
+        </div>
+        <div class="column">
+          <span class="list-title">Explore</span>
+          <ul>
+            <li><a href="index.html"><span>Home</span></a></li>
+            <li><a href="offers.html"><span>Offers</span></a></li>
+            <li><a href="news.html"><span>News</span></a></li>
+            <li><a href="about.html"><span>Tammwel</span></a></li>
+            <li><a href="contact.html"><span>Contact</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">Visit</span>
+          <ul>
+            <li><a target="_blank"
+                href="https://www.google.com/maps/place/2191+Abdulwahid+Ibn+Ahmad,+An+Nakheel,+Riyadh+12385%C2%A07351,+Saudi+Arabia/data=!4m2!3m1!1s0x3e2ee2438efc068d:0x7abee7cf303c3a40?sa=X&ved=2ahUKEwiltZDRwY7qAhXkILcAHQqMARoQ8gEwAHoECAkQAQ&hl=id"><span>2191
+                  Abdulwahid Ibn Ahmad, An Nakhil, Riyadh 12385 7351 Abdulwahid Ibn Ahmad, An
+                  Nakheel, Riyadh 12385 7351, Saudi Arabia</span></a></li>
+          </ul>
+          <span class="list-title">Contact Us</span>
+          <ul>
+            <li><a href="mailto:info@tammwel.com"><span>info@tammwel.com</span></a></li>
+            <li><a href="tel:+9345799898"><span>+9345799898</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">Follow</span>
+          <ul>
+            <li><a target="_blank" href="https://www.instagram.com/tammwelinc"><span>Instagram</span></a></li>
+            <li><a target="_blank" href="https://twitter.com/tammwelinc"><span>Twitter</span></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/tammwel/"><span>Linkedin</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">Legal</span>
+          <ul>
+            <li><a href="termspolicies.html"><span>Terms</span></a></li>
+            <li><a href="termspolicies.html"><span>Privacy</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">HOTLINE</span>
+          <a href="tel:+9345799898"><span class="text-right-footer">+9345799898</span></a>
+        </div>
+      </div>
+      <div class="row flex-left">
+        <span class="copyright">©2020 TammwelInc. All Rights Reserved.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

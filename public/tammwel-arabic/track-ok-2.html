@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="tammwel" content="Tammwel" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="shortcut icon"
+    href="https://www.gstatic.com/devrel-devsite/v6bd5a0b4c9254732f5f201c272fcfb160f0efe389bcfbc2a4719d82eac4acb09/firebase/images/favicon.png">
+  <title>Tammwel</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link href="./styles/main.css" rel="stylesheet" />
+  <link href="./styles/track/track.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html" class="logo" onclick='closeMenu()'><span></span></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="index.html" onclick='closeMenu()'>HOME</a></li>
+      <li><a href="offers.html" onclick='closeMenu()'>OFFERS</a></li>
+      <li><a href="news.html" onclick='closeMenu()'>NEWS</a></li>
+      <li><a href="about.html" onclick='closeMenu()'>TAMMWEL</a></li>
+      <li><a href="contact.html" onclick='closeMenu()'>CONTACT</a></li>
+      <li><a href="login.html" onclick='closeMenu()' class="button-header">LOGIN</a></li>
+    </ul>
+    <div class="button-header" id="outher-button-header">
+      <a href="login.html" onclick='closeMenu()' class="button" style="display: none;">Login</a>
+      <a href="account.html" onclick='closeMenu()' class="account" style="display: flex;">
+        <img src="./assets/images/profile-image.png" alt="" class="photo-profile">
+      <span class="name">Khalid Al Ameri</span>
+      </a>
+    </div>
+  </header>
+  <content class="content">
+    <div class="main head-section head-section-overlay">
+    </div>
+    <div class="main content-overlay">
+      <div class="container column-2">
+        <h1 class="title-head-section"><a href="./account.html">الحساب</a> <a href="./my-loan.html">اسم المنتج البلاد</a> <span>تتبع</span></h1>
+        <div class="action-icon-wrapper">
+          <a href="./my-loan.html" class="icon icon-list"><span></span></a>
+          <a href="./compare.html" class="icon icon-compare"><span></span></a>
+          <a href="./notification.html" class="icon icon-notification"><span></span></a>
+        </div>
+      </div>
+      <div class="container" id="track">
+        <div class="card">
+          <div class="track-header">
+            <div class="badge-file">
+              <span class="icon icon-file"></span>
+              <span class="badge-text">مستندات</span>
+              <div class="number"><span>2</span></div>
+            </div>
+          </div>
+          <div class="tracks">
+            <div class="track-item track-item-active">
+              <div class="row">
+                <span class="icon icon-track icon-check"></span>
+                <span class="text-time">08 April 2020 - 09:08 PM</span>
+              </div>
+              <div class="row">
+                <div class="box box-note box-note-success">
+                  <span>مبروك ، لقد تم اعتمادك مسبقًا للتمويل الشخصي من الأهلي</span>
+                </div>
+              </div>
+              <div class="row-column">
+                <div class="image-wrapper">
+                  <img src="./assets/images/logo-vendor-1.png" alt="venfor logo">
+                </div>
+                <button type="text" class="button circle-button small" onclick="location.href='./track-رفض.html';"><span>رفض</span></button>
+              </div>
+              <div class="row-column">
+                <div class="column">
+                  <div class="row">
+                    <span class="text-big-label">السداد</span>
+                  </div>
+                  <div class="row">
+                    <span class="text-big"><b>2550</b>SR</span>
+                  </div>
+                  <div class="row">
+                    <span class="text-desc">شهريا</span>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="row">
+                    <span class="text-big-label">APR</span>
+                  </div>
+                  <div class="row">
+                    <span class="text-big"><b>2.5</b>%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="column">
+                  <div class="star-wrapper">
+                    <a href="./review.html">
+                      <div class="stars">
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star-half"></span>
+                        <span class="star-line"></span>
+                      </div>
+                      <span class="star-label">3.5</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="track-item track-item-active">
+              <div class="row">
+                <span class="icon icon-track icon-dot"></span>
+                <span class="text-time">المستندات المطلوبة</span>
+              </div>
+              <div class="row">
+                <div class="card">
+                  <ol>
+                    <li class="done">بطاقة التعريف</li>
+                    <li class="done">تقرير SIMH</li>
+                    <li>وثيقة</li>
+                    <li>وثيقة أخرى</li>
+                  </ol>
+                  <div class="picker-wrapper">
+                    <div class="picker-item">
+                      <span class="number done"><span>1</span></span>
+                      <button type="button" class="button button-picker"><span class="plus"></span></button>
+                    </div>
+                    <div class="picker-item">
+                      <span class="number done"><span>2</span></span>
+                      <button type="button" class="button button-picker"><span class="plus"></span></button>
+                    </div>
+                    <div class="picker-item">
+                      <span class="number fail"><span>3</span></span>
+                      <button type="button" class="button button-picker"><span class="plus"></span></button>
+                    </div>
+                    <div class="picker-item">
+                      <span class="number"><span>4</span></span>
+                      <button type="button" class="button button-picker"><span class="plus"></span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="track-item track-item-active">
+              <div class="row">
+                <span class="icon icon-track icon-check"></span>
+                <span class="text-time">08 April 2020 - 09:08 PM</span>
+              </div>
+              <div class="row">
+                <div class="box box-note box-note-success">
+                  <span>تم تحميل الوثيقة التعريف بنجاح</span>
+                </div>
+              </div>
+            </div>
+            <div class="track-item track-item-active">
+              <div class="row">
+                <span class="icon icon-track icon-check"></span>
+                <span class="text-time">08 April 2020 - 09:08 PM</span>
+              </div>
+              <div class="row">
+                <div class="box box-note box-note-success">
+                  <span>تم تحميل تقرير SIMH بنجاح</span>
+                </div>
+              </div>
+            </div>
+            <div class="track-item">
+              <div class="row">
+                <span class="icon icon-track icon-cross"></span>
+                <span class="text-time">08 April 2020 - 09:08 PM</span>
+              </div>
+              <div class="row">
+                <div class="box box-note box-note-fail">
+                  <span>تم تحميل الوثيقة بنجاح</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="card-contact">
+          <div class="row">
+            <span class="column-contact text-area">
+              <span class="text-grey">سننصحك عبر الهاتف</span>
+              <span class="text-black-big">فريق خدمة تمويل</span>
+            </span>
+            <span class="column-contact icon-area" id="image-cs"></span>
+          </div>
+          <div class="row">
+            <a href="tel:9043433535">
+              <span class="column-contact text-area">
+                <span class="text-blue-big">+ 90 4343 3535</span>
+                <span class="text-grey">8 صباحًا حتى 8 مساءً | الاثنين - الأحد</span>
+              </span>
+              <span class="column-contact icon-area" id="icon-phone"></span>
+            </a></div>
+          <div class="row">
+            <a href="mailto:contact@tammwel.com">
+              <span class="column-contact text-area">
+                <span class="text-blue-big">الطلب عبر البريد الإلكتروني</span>
+                <span class="text-grey">contact@tammwel.com</span>
+              </span>
+              <span class="column-contact icon-area" id="icon-mail"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </content>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <a href="#section1" class="logo"><span></span></a>
+          <span class="text-footer">Your broker financing application to get the best financing deals for you!</span>
+        </div>
+        <div class="column">
+          <span class="list-title">Explore</span>
+          <ul>
+            <li><a href="index.html"><span>Home</span></a></li>
+            <li><a href="offers.html"><span>Offers</span></a></li>
+            <li><a href="news.html"><span>News</span></a></li>
+            <li><a href="about.html"><span>Tammwel</span></a></li>
+            <li><a href="contact.html"><span>Contact</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">Visit</span>
+          <ul>
+            <li><a target="_blank"
+                href="https://www.google.com/maps/place/2191+Abdulwahid+Ibn+Ahmad,+An+Nakheel,+Riyadh+12385%C2%A07351,+Saudi+Arabia/data=!4m2!3m1!1s0x3e2ee2438efc068d:0x7abee7cf303c3a40?sa=X&ved=2ahUKEwiltZDRwY7qAhXkILcAHQqMARoQ8gEwAHoECAkQAQ&hl=id"><span>2191
+                  Abdulwahid Ibn Ahmad, An Nakhil, Riyadh 12385 7351 Abdulwahid Ibn Ahmad, An
+                  Nakheel, Riyadh 12385 7351, Saudi Arabia</span></a></li>
+          </ul>
+          <span class="list-title">Contact Us</span>
+          <ul>
+            <li><a href="mailto:info@tammwel.com"><span>info@tammwel.com</span></a></li>
+            <li><a href="tel:+9345799898"><span>+9345799898</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">Follow</span>
+          <ul>
+            <li><a target="_blank" href="https://www.instagram.com/tammwelinc"><span>Instagram</span></a></li>
+            <li><a target="_blank" href="https://twitter.com/tammwelinc"><span>Twitter</span></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/tammwel/"><span>Linkedin</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">Legal</span>
+          <ul>
+            <li><a href="termspolicies.html"><span>Terms</span></a></li>
+            <li><a href="termspolicies.html"><span>Privacy</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">HOTLINE</span>
+          <a href="tel:+9345799898"><span class="text-right-footer">+9345799898</span></a>
+        </div>
+      </div>
+      <div class="row flex-left">
+        <span class="copyright">©2020 TammwelInc. All Rights Reserved.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+#form-section {}
+
+#form-section .card {
+    min-height: 152px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 48;
+    width: auto;
+    padding: 25px;
+}
+
+#form-section .card .card-content {
+    padding: 0%;
+}
+
+#form-section .card .card-content p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.container-form .row select {
+    width: 95%;
+}
+
+.container-form .row .column {
+    position: relative;
+}
+
+.container-form .row .column .input-money {
+    bottom: 46px;
+    right: 25px;
+}
+
+/* blocks */
+
+.form-block {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#block-form .row:nth-child(2) {
+    margin: 25px 0 40px;
+}
+
+/* end of blocks */
+
+/* RESPONSIVE */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    #form-section {
+        /* margin-top: -400px; */
+        margin-top: -110px;
+    }
+
+    #form-section .card {
+        position: absolute;
+        margin: 0 auto;
+        width: 1200px;
+        left: 0;
+        right: 0;
+    }
+
+    .form-block {
+        width: 710px;
+    }
+
+    #block-form .row>.column {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 0px 1px 12px;
+    }
+
+    #block-form .row:nth-child(1)>.column:nth-child(1) {
+        /* border-right: 1px solid #F6E7FF; */
+        background: #2151B6;
+        width: 100%;
+        height: 140px;
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 6px 30px 6px;
+        border-radius: 4px;
+    }
+
+    #block-form .row:nth-child(1)>.column:nth-child(1) h2 {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+
+    #block-form .row:nth-child(1)>.column:nth-child(2) {
+        /* padding-left: 26px; */
+        padding-left: 20px;
+    }
+
+    #block-form .row:nth-child(1)>.column:nth-child(5) {
+        padding-right: 20px;
+    }
+
+    #block-form .row:nth-child(2) {
+        margin: 25px 0;
+    }
+
+    #block-form .row:nth-child(3) {
+        justify-content: flex-start;
+    }
+
+    #block-form .row:nth-child(3)>button:nth-child(1) {
+        margin-right: 20px;
+    }
+
+    /* blocks */
+
+    .form-block {
+        width: 100%;
+    }
+
+    /* end of blocks */
+
+    #form-section .card {
+        padding: 0px;
+    }
+
+}

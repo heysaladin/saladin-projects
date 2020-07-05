@@ -1,0 +1,285 @@
+#offers {
+    background: #F2F6FF;
+    width: 100%;
+    min-height: 470px;
+    margin-top: -309px;
+    padding-top: 380px;
+    padding-bottom: 25px;
+}
+
+#offers h2 {
+    margin: 15px 0 0;
+}
+
+#offers p {
+    margin: 10px 0 30px;
+}
+
+#offers .card-bg {
+    min-height: 340px;
+    background-color: #F8FAFF;
+    margin: 0 0 20px;
+    box-shadow: 0px 5px 15px rgba(162, 162, 162, .05);
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0 40px;
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.compare-check {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.compare-check>input {
+    margin: 0 10px 7px 0;
+}
+
+.star-wrapper > a {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.star-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.stars {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.stars>span {
+    width: 26px;
+    height: 26px;
+    padding: 0 2px;
+}
+
+.star {
+    background: url('../../assets/images/star.png') center center no-repeat;
+}
+
+.star-half {
+    background: url('../../assets/images/star-half.png') center center no-repeat;
+}
+
+.star-line {
+    background: url('../../assets/images/star-line.png') center center no-repeat;
+}
+
+.star-label {
+    display: block;
+    margin: 14px 0 7px 14px;
+    font-size: 21px;
+}
+
+.stars span:nth-child(1) {
+    display: block;
+}
+
+.stars span:nth-child(2) {
+    display: none;
+}
+
+.stars span:nth-child(3) {
+    display: none;
+}
+
+.stars span:nth-child(4) {
+    display: none;
+}
+
+.stars span:nth-child(5) {
+    display: none;
+}
+
+#offers .card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 15px rgba(162, 162, 162, .05);
+}
+
+#offers .card .column {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px 10px;
+}
+
+#offers .card .column:nth-child(1) {
+    padding-left: 20px;
+}
+
+#offers .card .column:nth-child(4) {
+    padding-right: 35px;
+}
+
+#offers .card .column .column-content {
+    min-height: 150px;
+    padding-top: 12px;
+}
+
+#offers .card .column>span {
+    display: block;
+    width: 100%;
+    padding: 14px 0px;
+    margin: 8px 0 22px 0;
+    text-align: center;
+    color: #2151B6;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#offers .card .column:nth-child(2) .column-content>.row {
+    margin: 10px 0;
+    justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#offers .card .column .row span.icon {
+    display: block;
+    width: 26px;
+    height: 26px;
+    padding: 0 10px;
+    margin-top: -3px;
+}
+
+span.icon-check {
+    background: url('../../assets/images/green-check.png') center center no-repeat;
+}
+
+span.icon-warning {
+    background: url('../../assets/images/orange-warning.png') center center no-repeat;
+}
+
+#offers .card .column .column-content .logo-wrapper {
+    width: 80%;
+    min-height: 80px;
+    background: -webkit-linear-gradient(top, rgba(250, 251, 255, 1) 0%, rgba(242, 244, 255, 1) 100%);
+    background: linear-gradient(to bottom, rgba(250, 251, 255, 1) 0%, rgba(242, 244, 255, 1) 100%);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+#offers .card .column .column-content .logo-wrapper img {
+    display: block;
+    width: 100%;
+}
+
+.text-big-label {
+    font-size: 25px;
+    color: #747AB5;
+}
+
+.text-big {
+    font-size: 24px;
+    color: #2151B6;
+}
+
+.text-big b {
+    font-weight: 800;
+    font-size: 42px;
+    margin: 0 5px 0 0;
+}
+
+.text-desc {
+    font-size: 21px;
+    color: #2151B6;
+    margin-top: -5px;
+}
+
+.text-old-price {
+    font-weight: 500;
+    font-size: 18px;
+    color: #464646;
+    display: block;
+}
+
+.text-old-price::after {
+    content: "";
+    width: 25%;
+    height: 1px;
+    border-top: 1px solid red;
+    display: block;
+    margin-top: -13px;
+}
+
+.text-range {
+    font-size: 21px;
+    color: #A7A7A7;
+    margin-top: -5px;
+}
+
+/* RESPONSIVE */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    #offers {
+        padding-top: 385px;
+    }
+
+    #offers .card {
+        flex-direction: row;
+    }
+
+    #offers .card .column {
+        width: 25%;
+    }
+
+    #offers .card .column:nth-child(1) {
+        padding-left: 35px;
+    }
+
+    #offers .card .column {
+        width: 100%;
+    }
+
+    .text-old-price::after {
+        width: 100%;
+    }
+
+    .stars span:nth-child(1) {
+        display: block;
+    }
+
+    .stars span:nth-child(2) {
+        display: block;
+    }
+
+    .stars span:nth-child(3) {
+        display: block;
+    }
+
+    .stars span:nth-child(4) {
+        display: block;
+    }
+
+    .stars span:nth-child(5) {
+        display: block;
+    }
+}

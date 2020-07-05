@@ -1,0 +1,254 @@
+#compare {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#compare .card .column {
+    flex: 1;
+    display: block;
+    padding: 10px;
+}
+
+#compare .card .row .column .card {
+    min-height: 100px;
+    /* padding: 15px; */
+    /* margin: 15px; */
+    border: 1px solid #E2E3F0;
+    border-radius: 10px;
+}
+
+#compare .image-wrapper {
+    margin: 10px;
+    border-radius: 10px;
+    background: #f3f3f3;
+    width: 130px;
+    height: 60px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+#compare .image-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+#compare .text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+}
+
+#compare .text-wrapper span {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2A4C9E;
+}
+
+#compare button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#compare button#button-apply {
+    color: #00247B;
+    background-color: #F5CE4A;
+    flex: 2;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#compare button#button-remove {
+    flex: 1;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.table-header {
+    background: #F2F3F5;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 8px 10px 0;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.table-header span {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #2A2A2B;
+}
+
+#compare .table .row .column {
+    padding-top: 0;
+}
+
+.center-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100px;
+}
+
+.center-wrapper>.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100px;
+}
+
+.left-wrapper>.row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text-big {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #2A4C9E;
+    margin: 0 8px;
+}
+
+.star-wrapper > a {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.star-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.stars {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.stars>span {
+    width: 26px;
+    height: 26px;
+    padding: 0 2px;
+}
+
+.star {
+    background: url('../../assets/images/star.png') center center no-repeat;
+}
+
+.star-half {
+    background: url('../../assets/images/star-half.png') center center no-repeat;
+}
+
+.star-line {
+    background: url('../../assets/images/star-line.png') center center no-repeat;
+}
+
+.star-label {
+    display: block;
+    margin: 14px 0 7px 14px;
+    font-size: 21px;
+}
+
+.stars span:nth-child(1) {
+    display: block;
+}
+
+.stars span:nth-child(2) {
+    display: none;
+}
+
+.stars span:nth-child(3) {
+    display: none;
+}
+
+.stars span:nth-child(4) {
+    display: none;
+}
+
+.stars span:nth-child(5) {
+    display: none;
+}
+
+span.icon {
+    display: block;
+    width: 26px;
+    height: 26px;
+    padding: 0 10px;
+    margin-top: -3px;
+}
+
+span.icon-check {
+    background: url('../../assets/images/green-check.png') center center no-repeat;
+}
+
+span.icon-warning {
+    background: url('../../assets/images/orange-warning.png') center center no-repeat;
+}
+
+/* RESPONSIVE */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    #compare {
+        flex-direction: row;
+    }
+
+    #compare button#button-apply {
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    #compare button#button-remove {
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+
+    .stars span:nth-child(1) {
+        display: block;
+    }
+
+    .stars span:nth-child(2) {
+        display: block;
+    }
+
+    .stars span:nth-child(3) {
+        display: block;
+    }
+
+    .stars span:nth-child(4) {
+        display: block;
+    }
+
+    .stars span:nth-child(5) {
+        display: block;
+    }
+}

@@ -1,0 +1,109 @@
+#news {
+    width: 100%;
+    margin: 0px auto 0px;
+    position: relative;
+    min-height: 867px;
+}
+
+#news .bg-color {
+    width: 100%;
+    height: 640px;
+    margin: 0px auto;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background: #F2F6FF;
+}
+
+#news .container>h2 {
+    font-family: 'Montserrat-Bold', 'Montserrat', Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 55px;
+    padding-top: 50px;
+}
+
+#news-slider-nav>div {
+    height: auto;
+}
+
+#news-slider-nav>div .slide-item {
+    min-height: 620px;
+}
+
+#news-slider-nav>div .slide-item a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#news-slider-nav>div .slide-item .card {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 565px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(162, 162, 162, .05);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+#news-slider-nav>div .slide-item .card .news-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px 35px 0;
+    height: 325px;
+}
+
+#news-slider-nav>div .slide-item .news-date {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7B7B7B;
+    margin: 0px auto 20px;
+    display: block
+}
+
+#news-slider-nav>div .slide-item .card .news-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 8px auto;
+    display: block;
+}
+
+#news-slider-nav>div .slide-item .card .news-text {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+#news-slider-nav>div .slide-item .news-tag {
+    font-size: 14px;
+    line-height: 19px;
+    color: #4D4D4D;
+    margin: 0px 0 20px;
+    display: block;
+}
+
+#news-slider-nav>div .slide-item .card .image-wrapper {
+    width: 100%;
+    height: auto;
+}
+
+#news-slider-nav>div .slide-item .card .image-wrapper img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* RESPONSIVE */
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    #news-slider-nav>div .slide-item .card {
+        width: 353px;
+        height: 384px;
+    }
+}
