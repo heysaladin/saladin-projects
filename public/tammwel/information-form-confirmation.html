@@ -35,9 +35,9 @@
     </ul>
     <div class="button-header" id="outher-button-header">
       <a href="login.html" onclick='closeMenu()' class="button" style="display: none;">Login</a>
-      <a href="login.html" onclick='closeMenu()' class="account" style="display: flex;">
-        <img src="./assets/images/photo-cs.png" alt="" class="photo-profile">
-        <span class="name">Khalid Al Ameri</span>
+      <a href="account.html" onclick='closeMenu()' class="account" style="display: flex;">
+        <img src="./assets/images/profile-image.png" alt="" class="photo-profile">
+      <span class="name">Khalid Al Ameri</span>
       </a>
     </div>
   </header>
@@ -45,7 +45,10 @@
     <div class="main head-section head-section-overlay">
     </div>
     <div class="main content-overlay">
-      <div class="container column-1"></div>
+      <div class="container column-2">
+        <h1 class="title-head-section"><a href="./preliminary-search-result.html">Search results</a> <a
+            href="./details.html">AL BILAD Product Name </a> <span>Completeness of information</span></h1>
+      </div>
       <div class="container" id="information-form">
         <div class="card" id="card-information">
           <div class="header-image">
@@ -99,80 +102,12 @@
           <div class="information-form-content">
             <div class="progress-bar-wrapper">
               <div class="progress-bar">
-                <div class="progress-active"></div>
+                <div class="progress-active" id="progress-bar-6"></div>
               </div>
-              <span class="progress-bar-text" id="progress-1">Personal Information</span>
+              <span class="progress-bar-text" id="progress-6">Disclouser</span>
             </div>
             <form>
               <div class="container-form">
-                <div class="row">
-                  <label for="input">What’s your social status</label>
-                  <select name="input">
-                    <option value="1">Single</option>
-                    <option value="2">Single</option>
-                    <option value="3">Single</option>
-                  </select>
-                </div>
-                <div class="row">
-                  <label for="input"> Your family members</label>
-                  <input type="text" placeholder="1" name="input" required />
-                  <span class="input-money">SAR</span>
-                </div>
-                <div class="row">
-                  <label for="input">Number of family members have educational fee</label>
-                  <input type="text" placeholder="1" name="input" required />
-                </div>
-                <div class="row">
-                  <label for="input">City</label>
-                  <input type="text" placeholder="Riyadh" name="input" required />
-                </div>
-                <div class="row-inline">
-                  <label for="input">Do you have a REDF</label>
-                  <div class="radio-wrapper">
-                    <input type="radio" id="male" name="gender" value="male">
-                    <label for="male">Yes</label>
-                    <input type="radio" id="female" name="gender" value="female">
-                    <label for="female">No</label>
-                  </div>
-                </div>
-                <div class="row">
-                  <label for="input">Home ownership</label>
-                  <input type="text" placeholder="Renting" name="input" required />
-                </div>
-                <div class="row-inline">
-                  <label for="input">Do you have insurance fees</label>
-                  <div class="radio-wrapper">
-                    <input type="radio" id="male" name="gender" value="male">
-                    <label for="male">Yes</label>
-                    <input type="radio" id="female" name="gender" value="female">
-                    <label for="female">No</label>
-                  </div>
-                </div>
-                <div class="row">
-                  <label for="input">Scan your ID and sign on it</label>
-                  <div class="form-picker">
-                    <span class="picker-label">Upload the National ID</span>
-                    <button type="text" class="button circle-button blue"><span>+</span></button>
-                  </div>
-                </div>
-                <div class="row form-card-wrapper">
-                  <div class="card form-card">
-                    <div class="row-card">
-                      <h3 class="form-card-title">Other allowance</h3>
-                      <button type="text" class="button circle-button red"><span>x</span></button>
-                    </div>
-                    <div class="row">
-                      <label for="input">Home ownership</label>
-                      <input type="text" placeholder="Renting" name="input" required />
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="form-picker">
-                    <span class="picker-label">Upload the National ID</span>
-                    <button type="text" class="button circle-button white"><span class="icon-doc"></span></button>
-                  </div>
-                </div>
                 <div class="row">
                   <div class="form-note">
                     <span>
@@ -186,7 +121,8 @@
                     <div class="card form-card form-card-bordered">
                       <div class="row-card">
                         <h3 class="form-card-title">Personal information</h3>
-                        <button type="text" class="button circle-button small"><span>See more</span></button>
+                        <button type="text" class="button circle-button small"
+                          onclick="location.href='./information-form-personal.html';"><span>See more</span></button>
                       </div>
                       <div class="card-body-wrapper">
                         <div class="row-card row-card-body">
@@ -203,24 +139,84 @@
                   <div class="row form-card-wrapper form-card-wrapper-bordered">
                     <div class="card form-card form-card-bordered">
                       <div class="row-card">
-                        <h3 class="form-card-title">Personal information</h3>
-                        <button type="text" class="button circle-button small"><span>See more</span></button>
+                        <h3 class="form-card-title">Income information</h3>
+                        <button type="text" class="button circle-button small"
+                          onclick="location.href='./information-form-income.html';"><span>See more</span></button>
                       </div>
                       <div class="card-body-wrapper">
                         <div class="row-card row-card-body">
-                          <span class="body-label">Social status</span>
-                          <span class="body-value">Single</span>
+                          <span class="body-label">Monthly salary</span>
+                          <span class="body-value">10K</span>
                         </div>
                         <div class="row-card row-card-body">
-                          <span class="body-label">Number of family</span>
+                          <span class="body-label">Housing allowance</span>
                           <span class="body-value">1</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row form-card-wrapper form-card-wrapper-bordered">
+                    <div class="card form-card form-card-bordered">
+                      <div class="row-card">
+                        <h3 class="form-card-title">Job information</h3>
+                        <button type="text" class="button circle-button small"
+                          onclick="location.href='./information-form-job.html';"><span>See more</span></button>
+                      </div>
+                      <div class="card-body-wrapper">
+                        <div class="row-card row-card-body">
+                          <span class="body-label">Job sector</span>
+                          <span class="body-value">Governmental</span>
+                        </div>
+                        <div class="row-card row-card-body">
+                          <span class="body-label">Employer name</span>
+                          <span class="body-value">Tammwel</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row form-card-wrapper form-card-wrapper-bordered">
+                    <div class="card form-card form-card-bordered">
+                      <div class="row-card">
+                        <h3 class="form-card-title">Other commitments</h3>
+                        <button type="text" class="button circle-button small"
+                          onclick="location.href='./information-form-commitment.html';"><span>See more</span></button>
+                      </div>
+                      <div class="card-body-wrapper">
+                        <div class="row-card row-card-body">
+                          <span class="body-label">Commitment type</span>
+                          <span class="body-value">Commitment type</span>
+                        </div>
+                        <div class="row-card row-card-body">
+                          <span class="body-label">Frequency</span>
+                          <span class="body-value">Monthly</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row form-card-wrapper form-card-wrapper-bordered">
+                    <div class="card form-card form-card-bordered">
+                      <div class="row-card">
+                        <h3 class="form-card-title">Expenses disclosure</h3>
+                        <button type="text" class="button circle-button small"
+                          onclick="location.href='./information-form-expanses.html';"><span>See more</span></button>
+                      </div>
+                      <div class="card-body-wrapper">
+                        <div class="row-card row-card-body">
+                          <span class="body-label">Grocery</span>
+                          <span class="body-value">1000 SAR</span>
+                        </div>
+                        <div class="row-card row-card-body">
+                          <span class="body-label">Rent</span>
+                          <span class="body-value">2200 SAR</span>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="row">
-                  <button type="submit" class="button" onclick="">Save and Continue</button>
+                  <input type="text" placeholder="" name="input" style="display: none;" required />
+                  <button type="submit" class="button" onclick="location.href='./payment.html';">Submit your
+                    order</button>
                 </div>
               </div>
             </form>

@@ -79,6 +79,54 @@
     margin-top: 10px;
 }
 
+#progress-bar-1 {
+    width: 30px;
+}
+
+#progress-1 {
+    margin-left: 0%;
+}
+
+#progress-bar-2 {
+    width: 20%;
+}
+
+#progress-2 {
+    margin-left: 10%;
+}
+
+#progress-bar-3 {
+    width: 40%;
+}
+
+#progress-3 {
+    margin-left: 30%;
+}
+
+#progress-bar-4 {
+    width: 60%;
+}
+
+#progress-4 {
+    margin-left: 50%;
+}
+
+#progress-bar-5 {
+    width: 80%;
+}
+
+#progress-5 {
+    margin-left: 70%;
+}
+
+#progress-bar-6 {
+    width: 100%;
+}
+
+#progress-6 {
+    margin-left: 90%;
+}
+
 .header-image {
     height: 180px;
     overflow: hidden;
@@ -355,6 +403,7 @@ span.icon-warning {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 25px;
 }
 
 .row-card-block {
@@ -380,6 +429,7 @@ span.icon-warning {
     box-sizing: border-box;
     border-radius: 10px;
     padding: 25px;
+    margin-bottom: 15px;
 }
 
 .form-note>span {

@@ -16,8 +16,7 @@
   <link href="./styles/main.css" rel="stylesheet" />
   <link href="./styles/home/form-section.css" rel="stylesheet" />
   <link href="./styles/home/offers.css" rel="stylesheet" />
-  <link href="./styles/offers/form-section.css" rel="stylesheet" />
-  <link href="./styles/offers/offers.css" rel="stylesheet" />
+  <link href="./styles/preliminary-search/preliminary-search.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" type="text/css"
     href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
@@ -37,21 +36,80 @@
       <li><a href="login.html" onclick='closeMenu()' class="button-header">LOGIN</a></li>
     </ul>
     <div class="button-header" id="outher-button-header">
-      <a href="login.html" onclick='closeMenu()' class="button" style="display: block;">Login</a>
-      <a href="login.html" onclick='closeMenu()' class="account" style="display: none;">
-        <img src="./assets/images/photo-cs.png" alt="" class="photo-profile">
-        <span class="name">Khalid Al Ameri</span>
+      <a href="login.html" onclick='closeMenu()' class="button" style="display: none;">Login</a>
+      <a href="account.html" onclick='closeMenu()' class="account" style="display: flex;">
+        <img src="./assets/images/profile-image.png" alt="" class="photo-profile">
+      <span class="name">Khalid Al Ameri</span>
       </a>
     </div>
   </header>
   <content class="content">
     <div class="main head-section">
       <div class="container column-2">
-        <h1 class="title-head-section">Recommended Offers</h1>
-        <a href="#" class="icon icon-filter"><span></span></a>
+        <div class="main" id="form-section">
+          <div class="container" id="container-form-bottom">
+            <div class="card">
+              <div class="card-content">
+                <div class="form-block" id="block-form">
+                  <form>
+                    <div class="container-form">
+                      <div class="row">
+                        <div class="column">
+                          <h2>Find the loan offers that match with your preferences</h2>
+                        </div>
+
+                        <div class="column">
+                          <label for="input"><b>How much you want to borrow?</b></label>
+                          <input type="text" placeholder="10.000" name="input" required />
+                          <span class="input-money">SAR</span>
+                        </div>
+
+                        <div class="column">
+                          <label for="input"><b>How long?</b></label>
+                          <select name="input">
+                            <option value="1">12 Months</option>
+                            <option value="2">12 Months</option>
+                            <option value="3">12 Months</option>
+                          </select>
+                        </div>
+
+                        <div class="column">
+                          <label for="input"><b>For what?</b></label>
+                          <select name="input">
+                            <option value="1">Tammwel Inc</option>
+                            <option value="2">Tammwel Inc</option>
+                            <option value="3">Tammwel Inc</option>
+                          </select>
+                        </div>
+
+                        <div class="column">
+                          <label for="input"></label>
+                          <button type="submit" class="button"
+                            onclick="location.href='./offers-confirmed.html';">Start Comparing</button>
+                        </div>
+                      </div>
+
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="main offers-clean" id="offers">
+      <div class="container">
+        <div class="row">
+          <div class="column">
+            <h2>Here are 30 of your search results</h2>
+            <p>You can change the results of this search by pressing the 'Change searching data' button above</p>
+          </div>
+          <div class="column">
+            <a href="#" data-target="simpleModal_5" data-toggle="modal" class="icon icon-filter"><span></span></a>
+          </div>
+        </div>
+      </div>
       <div class="container">
         <div class="card-bg">
           <div class="card">
@@ -108,11 +166,11 @@
                 <div class="row">
                   <span class="text-big"><b>2.5</b>%</span>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                   <span class="text-range">to 5,5%</span>
-                </div>
+                </div> -->
               </div>
-              <button type="submit" class="button" onclick="location.href='./information-form-personal.html';">TAMMAWAL</button>
+              <button type="submit" class="button" onclick="location.href='./track.html';">TAMMAWAL</button>
             </div>
           </div>
           <div class="card-footer">
@@ -189,11 +247,11 @@
                 <div class="row">
                   <span class="text-big"><b>2.5</b>%</span>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                   <span class="text-range">to 5,5%</span>
-                </div>
+                </div> -->
               </div>
-              <button type="submit" class="button" onclick="location.href='./information-form-personal.html';">TAMMAWAL</button>
+              <button type="submit" class="button" onclick="location.href='./track.html';">TAMMAWAL</button>
             </div>
           </div>
           <div class="card-footer">
@@ -270,11 +328,11 @@
                 <div class="row">
                   <span class="text-big"><b>2.5</b>%</span>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                   <span class="text-range">to 5,5%</span>
-                </div>
+                </div> -->
               </div>
-              <button type="submit" class="button" onclick="location.href='./information-form-personal.html';">TAMMAWAL</button>
+              <button type="submit" class="button" onclick="location.href='./track.html';">TAMMAWAL</button>
             </div>
           </div>
           <div class="card-footer">
@@ -351,11 +409,11 @@
                 <div class="row">
                   <span class="text-big"><b>2.5</b>%</span>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                   <span class="text-range">to 5,5%</span>
-                </div>
+                </div> -->
               </div>
-              <button type="submit" class="button" onclick="location.href='./information-form-personal.html';">TAMMAWAL</button>
+              <button type="submit" class="button" onclick="location.href='./track.html';">TAMMAWAL</button>
             </div>
           </div>
           <div class="card-footer">
@@ -432,11 +490,11 @@
                 <div class="row">
                   <span class="text-big"><b>2.5</b>%</span>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                   <span class="text-range">to 5,5%</span>
-                </div>
+                </div> -->
               </div>
-              <button type="submit" class="button" onclick="location.href='./information-form-personal.html';">TAMMAWAL</button>
+              <button type="submit" class="button" onclick="location.href='./track.html';">TAMMAWAL</button>
             </div>
           </div>
           <div class="card-footer">
@@ -460,53 +518,28 @@
         </div>
       </div>
     </div>
-    <div class="main" id="form-section">
-      <div class="container" id="container-form-bottom">
-        <div class="card">
-          <div class="card-content">
-            <div class="form-block" id="block-form">
-              <form>
-                <div class="container-form">
-                  <div class="row">
-                    <div class="column">
-                      <h2>Find the loan offers that match with your preferences</h2>
-                    </div>
-
-                    <div class="column">
-                      <label for="input"><b>How much you want to borrow?</b></label>
-                      <input type="text" placeholder="10.000" name="input" required />
-                      <span class="input-money">SAR</span>
-                    </div>
-
-                    <div class="column">
-                      <label for="input"><b>How long?</b></label>
-                      <select name="input">
-                        <option value="1">12 Months</option>
-                        <option value="2">12 Months</option>
-                        <option value="3">12 Months</option>
-                      </select>
-                    </div>
-
-                    <div class="column">
-                      <label for="input"><b>For what?</b></label>
-                      <select name="input">
-                        <option value="1">Tammwel Inc</option>
-                        <option value="2">Tammwel Inc</option>
-                        <option value="3">Tammwel Inc</option>
-                      </select>
-                    </div>
-
-                    <div class="column">
-                      <label for="input"></label>
-                      <button type="submit" class="button"
-                        onclick="location.href='./preliminary-search-result.html';">Start Comparing</button>
-                    </div>
-                  </div>
-
-                </div>
-              </form>
-            </div>
-          </div>
+    <div id="simpleModal_5" class="modal">
+      <div class="modal-window">
+        <span class="close" data-dismiss="modal">&times;</span>
+        <h3>Filter the Result</h3>
+        <div class="row">
+          <label for="input">Select a certain bank</label>
+          <input type="text" placeholder="On 25 every month" name="input" required />
+        </div>
+        <div class="row">
+          <label for="input">Select repayment term by year</label>
+          <input type="text" placeholder="Hospitality" name="input" required />
+        </div>
+        <div class="row">
+          <label for="input">Salary (SAR)</label>
+          <input type="text" placeholder="0" name="input" required />
+        </div>
+        <div class="row">
+          <label for="input">APR (%)</label>
+          <input type="text" placeholder="0" name="input" required />
+        </div>
+        <div class="row">
+          <button type="submit" class="button" onclick="">APPLY THE FILTER</button>
         </div>
       </div>
     </div>
@@ -567,6 +600,7 @@
       </div>
     </div>
   </footer>
+  <script src="./scripts/popup.js"></script>
 </body>
 
 </html>

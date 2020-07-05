@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="tammwel" content="Tammwel" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="shortcut icon"
+    href="https://www.gstatic.com/devrel-devsite/v6bd5a0b4c9254732f5f201c272fcfb160f0efe389bcfbc2a4719d82eac4acb09/firebase/images/favicon.png">
+  <title>Tammwel</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link href="./styles/main.css" rel="stylesheet" />
+  <link href="./styles/information-form/information-form.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html" class="logo" onclick='closeMenu()'><span></span></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="index.html" onclick='closeMenu()'>HOME</a></li>
+      <li><a href="offers.html" onclick='closeMenu()'>OFFERS</a></li>
+      <li><a href="news.html" onclick='closeMenu()'>NEWS</a></li>
+      <li><a href="about.html" onclick='closeMenu()'>TAMMWEL</a></li>
+      <li><a href="contact.html" onclick='closeMenu()'>CONTACT</a></li>
+      <li><a href="login.html" onclick='closeMenu()' class="button-header">LOGIN</a></li>
+    </ul>
+    <div class="button-header" id="outher-button-header">
+      <a href="login.html" onclick='closeMenu()' class="button" style="display: none;">Login</a>
+      <a href="account.html" onclick='closeMenu()' class="account" style="display: flex;">
+        <img src="./assets/images/profile-image.png" alt="" class="photo-profile">
+      <span class="name">Khalid Al Ameri</span>
+      </a>
+    </div>
+  </header>
+  <content class="content">
+    <div class="main head-section head-section-overlay">
+    </div>
+    <div class="main content-overlay">
+      <div class="container column-2">
+        <h1 class="title-head-section"><a href="./preliminary-search-result.html">Search results</a> <a href="./details.html">AL BILAD Product Name </a> <span>Completeness of information</span></h1>
+      </div>
+      <div class="container" id="information-form">
+        <div class="card" id="card-information">
+          <div class="header-image">
+            <img src="./assets/images/bg-about.jpg" alt="vendor bg" />
+            <div class="header-text">
+              <span>Selected Offer Product</span>
+            </div>
+          </div>
+          <div class="image-wrapper">
+            <img src="./assets/images/logo-vendor-1.png" alt="venfor logo">
+          </div>
+          <div class="row">
+            <div class="column">
+              <div class="row">
+                <span class="text-big-label">Repayments</span>
+              </div>
+              <div class="row">
+                <span class="text-big"><b>2550</b>SR</span>
+              </div>
+              <div class="row">
+                <span class="text-desc">Monthly</span>
+              </div>
+            </div>
+            <div class="column">
+              <div class="row">
+                <span class="text-big-label">APR</span>
+              </div>
+              <div class="row">
+                <span class="text-big"><b>2.5</b>%</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <div class="star-wrapper">
+                <a href="./review.html">
+                  <div class="stars">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star-half"></span>
+                    <span class="star-line"></span>
+                  </div>
+                  <span class="star-label">3.5</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="information-form-content">
+            <div class="progress-bar-wrapper">
+              <div class="progress-bar">
+                <div class="progress-active" id="progress-bar-2"></div>
+              </div>
+              <span class="progress-bar-text" id="progress-2">Income Information</span>
+            </div>
+            <form>
+              <div class="container-form">
+                <div class="row">
+                  <label for="input">What’s your monthly salary (without allowances)</label>
+                  <input type="text" placeholder="10.000" name="input" required />
+                  <span class="input-money">SAR</span>
+                </div>
+                <div class="row">
+                  <label for="input">Housing allowance</label>
+                  <input type="text" placeholder="10.000" name="input" required />
+                  <span class="input-money">SAR</span>
+                </div>
+                <div class="row">
+                  <label for="input">Transportation allowances</label>
+                  <input type="text" placeholder="700" name="input" required />
+                  <span class="input-money">SAR</span>
+                </div>
+                <div class="row form-card-wrapper">
+                  <div class="card form-card">
+                    <div class="row-card">
+                      <h3 class="form-card-title">Other allowance</h3>
+                      <button type="text" class="button circle-button red"><span>x</span></button>
+                    </div>
+                    <div class="row">
+                      <label for="input">Allowance name</label>
+                      <select name="input">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </div>
+                    <div class="row">
+                      <label for="input">Frequency</label>
+                      <select name="input">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </div>
+                    <div class="row">
+                      <label for="input">Amount</label>
+                      <input type="text" placeholder="" name="input" required />
+                      <span class="input-money">SAR</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-picker">
+                    <span class="picker-label">Add other allowance (optional)</span>
+                    <button type="text" class="button circle-button blue"><span>+</span></button>
+                  </div>
+                </div>
+                <div class="row form-card-wrapper">
+                  <div class="card form-card">
+                    <div class="row-card">
+                      <h3 class="form-card-title">Other income</h3>
+                      <button type="text" class="button circle-button red"><span>x</span></button>
+                    </div>
+                    <div class="row">
+                      <label for="input">Income name</label>
+                      <select name="input">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </div>
+                    <div class="row">
+                      <label for="input">Frequency</label>
+                      <select name="input">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </div>
+                    <div class="row">
+                      <label for="input">Amount</label>
+                      <input type="text" placeholder="" name="input" required />
+                      <span class="input-money">SAR</span>
+                    </div>
+                    <div class="row">
+                      <div class="form-picker">
+                        <span class="picker-label">Additional income evidence</span>
+                        <button type="text" class="button circle-button white"><span class="icon-doc"></span></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-picker">
+                    <span class="picker-label">Add other additional income (optional)</span>
+                    <button type="text" class="button circle-button blue"><span>+</span></button>
+                  </div>
+                </div>
+                <div class="row">
+                  <button type="submit" class="button" onclick="location.href='./information-form-job.html';">Save and Continue</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </content>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <a href="#section1" class="logo"><span></span></a>
+          <span class="text-footer">Your broker financing application to get the best financing deals for you!</span>
+        </div>
+        <div class="column">
+          <span class="list-title">Explore</span>
+          <ul>
+            <li><a href="index.html"><span>Home</span></a></li>
+            <li><a href="offers.html"><span>Offers</span></a></li>
+            <li><a href="news.html"><span>News</span></a></li>
+            <li><a href="about.html"><span>Tammwel</span></a></li>
+            <li><a href="contact.html"><span>Contact</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">Visit</span>
+          <ul>
+            <li><a target="_blank"
+                href="https://www.google.com/maps/place/2191+Abdulwahid+Ibn+Ahmad,+An+Nakheel,+Riyadh+12385%C2%A07351,+Saudi+Arabia/data=!4m2!3m1!1s0x3e2ee2438efc068d:0x7abee7cf303c3a40?sa=X&ved=2ahUKEwiltZDRwY7qAhXkILcAHQqMARoQ8gEwAHoECAkQAQ&hl=id"><span>2191
+                  Abdulwahid Ibn Ahmad, An Nakhil, Riyadh 12385 7351 Abdulwahid Ibn Ahmad, An
+                  Nakheel, Riyadh 12385 7351, Saudi Arabia</span></a></li>
+          </ul>
+          <span class="list-title">Contact Us</span>
+          <ul>
+            <li><a href="mailto:info@tammwel.com"><span>info@tammwel.com</span></a></li>
+            <li><a href="tel:+9345799898"><span>+9345799898</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">Follow</span>
+          <ul>
+            <li><a target="_blank" href="https://www.instagram.com/tammwelinc"><span>Instagram</span></a></li>
+            <li><a target="_blank" href="https://twitter.com/tammwelinc"><span>Twitter</span></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/tammwel/"><span>Linkedin</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">Legal</span>
+          <ul>
+            <li><a href="termspolicies.html"><span>Terms</span></a></li>
+            <li><a href="termspolicies.html"><span>Privacy</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">HOTLINE</span>
+          <a href="tel:+9345799898"><span class="text-right-footer">+9345799898</span></a>
+        </div>
+      </div>
+      <div class="row flex-left">
+        <span class="copyright">©2020 TammwelInc. All Rights Reserved.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

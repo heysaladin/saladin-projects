@@ -134,6 +134,8 @@ a {
 .header #outher-button-header a.account .photo-profile {
     width: 32px;
     height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .header #outher-button-header a.account>span {

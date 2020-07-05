@@ -14,7 +14,7 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet" />
   <link href="./styles/main.css" rel="stylesheet" />
-  <link href="./styles/notification/notification.css" rel="stylesheet" />
+  <link href="./styles/information-form/information-form.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" type="text/css"
     href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
@@ -46,74 +46,114 @@
     </div>
     <div class="main content-overlay">
       <div class="container column-2">
-        <h1 class="title-head-section"><a href="./account.html">Account</a> <a href="./my-loan.html">AL BILAD Product Name </a> <span>Notifications</span></h1>
-        <div class="action-icon-wrapper">
-          <a href="./my-loan.html" class="icon icon-list"><span></span></a>
-          <a href="./compare.html" class="icon icon-compare"><span></span></a>
-          <a href="./notification.html" class="icon icon-notification"><span></span></a>
-        </div>
+        <h1 class="title-head-section"><a href="./preliminary-search-result.html">Search results</a> <a href="./details.html">AL BILAD Product Name </a> <span>Completeness of information</span></h1>
       </div>
-      <div class="container" id="notification">
-        <div class="card row">
-          <div class="column">
-            <div class="notification-sidebar">
-              <div class="notification-block">
-                <h2 class="notification-title">RECENT</h2>
-                <div class="notification-list">
-                  <div class="notification-item">
-                    <div class="image-wrapper">
-                      <img src="./assets/images/notification-icon-1.png" alt="Notification" />
-                    </div>
-                    <div class="text-wrapper">
-                      <h3>The loan sub. Approved!</h3>
-                      <p>Your loan submission is approve now, what the next?</p>
-                    </div>
-                  </div>
-                </div>
+      <div class="container" id="information-form">
+        <div class="card" id="card-information">
+          <div class="header-image">
+            <img src="./assets/images/bg-about.jpg" alt="vendor bg" />
+            <div class="header-text">
+              <span>Selected Offer Product</span>
+            </div>
+          </div>
+          <div class="image-wrapper">
+            <img src="./assets/images/logo-vendor-1.png" alt="venfor logo">
+          </div>
+          <div class="row">
+            <div class="column">
+              <div class="row">
+                <span class="text-big-label">Repayments</span>
               </div>
-              <div class="notification-block">
-                <h2 class="notification-title">LAST MONTH</h2>
-                <div class="notification-list">
-                  <div class="notification-item">
-                    <div class="image-wrapper">
-                      <img src="./assets/images/notification-icon-2.png" alt="Notification" />
-                    </div>
-                    <div class="text-wrapper">
-                      <h3>Personal Loan Busines</h3>
-                      <p>Enjoy a lot of benefits if you join the Personal Loan for Business</p>
-                    </div>
-                  </div>
-                  <div class="notification-item">
-                    <div class="image-wrapper">
-                      <img src="./assets/images/notification-icon-3.png" alt="Notification" />
-                    </div>
-                    <div class="text-wrapper">
-                      <h3>Dream car, be true</h3>
-                      <p>Dream car will be yours, hurry up! get loan for dream car</p>
-                    </div>
-                  </div>
-                  <div class="notification-item">
-                    <div class="image-wrapper">
-                      <img src="./assets/images/notification-icon-4.png" alt="Notification" />
-                    </div>
-                    <div class="text-wrapper">
-                      <h3>Assets for Life</h3>
-                      <p>Give the best for your family, life in the awesome dream car</p>
-                    </div>
-                  </div>
-                </div>
+              <div class="row">
+                <span class="text-big"><b>2550</b>SR</span>
+              </div>
+              <div class="row">
+                <span class="text-desc">Monthly</span>
+              </div>
+            </div>
+            <div class="column">
+              <div class="row">
+                <span class="text-big-label">APR</span>
+              </div>
+              <div class="row">
+                <span class="text-big"><b>2.5</b>%</span>
               </div>
             </div>
           </div>
-          <div class="column">
-            <div class="notification-content">
-              <div class="image-big">
-                <img src="./assets/images/illustration-large.png" alt="Tammwel">
+          <div class="row">
+            <div class="column">
+              <div class="star-wrapper">
+                <a href="./review.html">
+                  <div class="stars">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star-half"></span>
+                    <span class="star-line"></span>
+                  </div>
+                  <span class="star-label">3.5</span>
+                </a>
               </div>
-              <h1>The loan sub. Approved!</h1>
-              <p>Your loan submission is approve now, what the next?</p>
-              <button type="text" class="button button-ghost" onclick="location.href='./track.html';">VIEW TRACKING</button>
             </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="information-form-content">
+            <div class="progress-bar-wrapper">
+              <div class="progress-bar">
+                <div class="progress-active" id="progress-bar-4"></div>
+              </div>
+              <span class="progress-bar-text" id="progress-4">Other Commitments</span>
+            </div>
+            <form>
+              <div class="container-form">
+                <div class="row">
+                  <div class="form-note">
+                    <span>
+                      <b>Financial commitments:</b> here you need to state the loans that are not registered in any financial institution like debt and financial associations.
+                    </span>
+                  </div>
+                </div>
+                <div class="row form-card-wrapper">
+                  <div class="card form-card">
+                    <div class="row-card">
+                      <h3 class="form-card-title">Financial commitments</h3>
+                      <button type="text" class="button circle-button red"><span>x</span></button>
+                    </div>
+                    <div class="row">
+                      <label for="input">Commitment type</label>
+                      <select name="input">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </div>
+                    <div class="row">
+                      <label for="input">Frequency</label>
+                      <select name="input">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </div>
+                    <div class="row">
+                      <label for="input">Amount</label>
+                      <input type="text" placeholder="" name="input" required />
+                      <span class="input-money">SAR</span>
+                    </div>
+                    <div class="row">
+                      <div class="form-picker">
+                        <span class="picker-label">Add other additional commitment</span>
+                        <button type="text" class="button circle-button white"><span class="icon-doc"></span></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <button type="submit" class="button" onclick="location.href='./information-form-expanses.html';">Save and Continue</button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
