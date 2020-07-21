@@ -316,6 +316,10 @@ body {
         background: transparent url(../assets/images-special/logo-tw.svg) center center no-repeat;
     }
 
+    .showcase-content {
+        margin-top: 0px;
+    }
+
     .showcase-content .showcase-text {
         width: 50%;
     }
