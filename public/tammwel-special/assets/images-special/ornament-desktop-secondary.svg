@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-6704 -9 503 227">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #ffd50a;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_9" data-name="Rectangle 9" class="cls-1" width="503" height="227" transform="translate(-6704 -9)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_4" data-name="Mask Group 4" class="cls-2">
+    <g id="hero-section" transform="translate(-6570 -9)">
+      <g id="hero-image">
+        <g id="hero-image-bg">
+          <path id="Intersection_5" data-name="Intersection 5" class="cls-3" d="M-5080.917,252.7-4948.4,50.634c20.969-31.976,67.413-42.932,103.732-24.47l157.975,80.293,50.23,25.677s-45.237,7.222-45.24,16.645c0,112.729-97.116,129.283-225.167,129.283C-4974.264,278.061-5036.8,273.474-5080.917,252.7Z" transform="translate(-4368.638 -1848.874) rotate(-155)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

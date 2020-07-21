@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1557 -1183 118.996 118.996">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #565ceb;
+      }
+
+      .cls-2 {
+        fill: #6369f2;
+      }
+
+      .cls-3 {
+        fill: #4247d8;
+      }
+
+      .cls-4 {
+        fill: #ffd50a;
+        stroke: #fff;
+        stroke-width: 3px;
+      }
+
+      .cls-5 {
+        fill: #dbdfff;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+
+      .cls-7 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="main-icon-3" transform="translate(632 -1953)">
+    <g id="Group_430" data-name="Group 430" transform="translate(925 770)">
+      <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-1" cx="59.498" cy="59.498" r="59.498" transform="translate(0 0)"/>
+      <path id="Intersection_1" data-name="Intersection 1" class="cls-2" d="M0,52.794A59.494,59.494,0,0,1,32.031,0,59.467,59.467,0,0,1,34.8,17.993,59.493,59.493,0,0,1,2.769,70.786,59.444,59.444,0,0,1,0,52.794Z" transform="translate(0.001 6.705)"/>
+      <path id="Intersection_2" data-name="Intersection 2" class="cls-3" d="M0,44.884A59.521,59.521,0,0,1,57.69,0q.782,0,1.56.02A59.522,59.522,0,0,1,1.56,44.9Q.777,44.9,0,44.884Z" transform="translate(57.939 74.092)"/>
+      <g id="Ellipse_24" data-name="Ellipse 24" class="cls-4" transform="translate(94.299 88.686)">
+        <circle class="cls-6" cx="10.103" cy="10.103" r="10.103"/>
+        <circle class="cls-7" cx="10.103" cy="10.103" r="11.603"/>
+      </g>
+    </g>
+    <g id="Group_431" data-name="Group 431" transform="translate(-47 -314)">
+      <path id="Subtraction_3" data-name="Subtraction 3" class="cls-5" d="M13.939,31.234H0V13.473a.946.946,0,0,0,.2.022H15.908a.94.94,0,0,0,0-1.88H2.254l2.466-1.9a.947.947,0,0,0,.181.018H15.908a.94.94,0,0,0,0-1.88H7.14l2.443-1.88h6.325a.94.94,0,1,0,0-1.879H12.026L17.347,0,32.441,11.615H28.4a.94.94,0,1,0,0,1.88h6.293V31.232H21.344v-13.1h-7.4V31.233Z" transform="translate(1012.87 1131.932)"/>
+      <rect id="Rectangle_89" data-name="Rectangle 89" class="cls-5" width="4.457" height="7.132" rx="2.228" transform="translate(1038.431 1150.185)"/>
+      <rect id="Rectangle_90" data-name="Rectangle 90" class="cls-5" width="4.457" height="7.132" rx="2.228" transform="translate(1017.926 1150.185)"/>
+      <circle id="Ellipse_12" data-name="Ellipse 12" class="cls-5" cx="1.337" cy="1.337" r="1.337" transform="translate(1028.178 1155.088)"/>
+      <path id="Path_15" data-name="Path 15" class="cls-5" d="M43.292,55.886v-5.62H35.987L25.218,41.982,0,61.382l3.481,4.525L25.218,49.181,46.955,65.907l3.481-4.525Z" transform="translate(1005 1079.018)"/>
+      <rect id="Rectangle_91" data-name="Rectangle 91" class="cls-5" width="8.915" height="2.674" rx="1.337" transform="translate(1040.214 1123.44)"/>
+    </g>
+  </g>
+</svg>

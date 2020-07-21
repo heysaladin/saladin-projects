@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="2759.5 1362.5 368 199">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2151b6;
+      }
+
+      .cls-2 {
+        fill: #3162c9;
+      }
+
+      .cls-3 {
+        fill: #3563c4;
+      }
+
+      .cls-4 {
+        filter: url(#Rectangle_154);
+      }
+    </style>
+    <filter id="Rectangle_154" x="2759.5" y="1362.5" width="368" height="199" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#f5f7ff"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="box-opening-bg" transform="translate(2680 271)">
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, -2680, -271)">
+      <rect id="Rectangle_154-2" data-name="Rectangle 154" class="cls-1" width="323" height="154" transform="translate(2782 1380)"/>
+    </g>
+    <path id="Intersection_6" data-name="Intersection 6" class="cls-2" d="M-5221-302.186V-405a8,8,0,0,1,8-8h117.625A99.218,99.218,0,0,1-5094-396.5a98.5,98.5,0,0,1-98.5,98.5,98.473,98.473,0,0,1-28.5-4.186Z" transform="translate(5323 1522)"/>
+    <path id="Intersection_7" data-name="Intersection 7" class="cls-3" d="M-5037.086-259a98.454,98.454,0,0,1,84.586-48,99.069,99.069,0,0,1,17.5,1.55V-267a8,8,0,0,1-8,8Z" transform="translate(5360 1522)"/>
+  </g>
+</svg>

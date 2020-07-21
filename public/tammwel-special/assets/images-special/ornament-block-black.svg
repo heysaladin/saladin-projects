@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2773 1038 195.005 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #242424;
+      }
+
+      .cls-2 {
+        fill: #363636;
+      }
+
+      .cls-3 {
+        fill: #464646;
+      }
+    </style>
+  </defs>
+  <g id="appstore-button-hero-serction" transform="translate(2414 551)">
+    <rect id="Rectangle_191" data-name="Rectangle 191" class="cls-1" width="195" height="60" transform="translate(359 487)"/>
+    <g id="Group_454" data-name="Group 454" transform="translate(213.429)">
+      <path id="Intersection_9" data-name="Intersection 9" class="cls-2" d="M0,43.174V0H48.945a38.651,38.651,0,0,1,.536,6.429A38.408,38.408,0,0,1,0,43.174Z" transform="translate(145.571 487)"/>
+      <path id="Intersection_10" data-name="Intersection 10" class="cls-3" d="M0,18.7A39.21,39.21,0,0,1,40.35.6V18.7H0Z" transform="translate(300.226 528.298)"/>
+    </g>
+  </g>
+</svg>

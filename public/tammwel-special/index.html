@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="tammwel" content="Tammwel" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="shortcut icon"
+    href="https://www.gstatic.com/devrel-devsite/v6bd5a0b4c9254732f5f201c272fcfb160f0efe389bcfbc2a4719d82eac4acb09/firebase/images/favicon.png">
+  <title>Tammwel</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link href="./styles/main.css" rel="stylesheet" />
+  <link href="./styles/home/hero-section.css" rel="stylesheet" />
+  <link href="./styles/home/form-section.css" rel="stylesheet" />
+  <link href="./styles/home/offers.css" rel="stylesheet" />
+  <link href="./styles/home/why.css" rel="stylesheet" />
+  <!-- <link href="./styles/home/affiliate.css" rel="stylesheet" />
+  <link href="./styles/home/news.css" rel="stylesheet" />
+  <link href="./styles/home/action.css" rel="stylesheet" /> -->
+  <link href="./styles/special.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html" class="logo" onclick='closeMenu()'><span></span></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="index.html" onclick='closeMenu()'>HOME</a></li>
+      <!-- <li><a href="offers.html" onclick='closeMenu()'>OFFERS</a></li>
+      <li><a href="news.html" onclick='closeMenu()'>NEWS</a></li> -->
+      <li><a href="about.html" onclick='closeMenu()'>ABOUT</a></li>
+      <li><a href="contact.html" onclick='closeMenu()'>CONTACT</a></li>
+      <!-- <li><a href="login.html" onclick='closeMenu()' class="button-header">LOGIN</a></li> -->
+    </ul>
+    <!-- <div class="button-header" id="outher-button-header">
+      <a href="login.html" onclick='closeMenu()' class="button" style="display: block;">Login</a>
+      <a href="login.html" onclick='closeMenu()' class="account" style="display: none;">
+        <img src="./assets/images/photo-cs.png" alt="" class="photo-profile">
+        <span class="name">Khalid Al Ameri</span>
+      </a>
+    </div> -->
+  </header>
+  <content class="content">
+    <div class="main" id="hero-section">
+      <div class="container">
+
+        <div class="showcase-content">
+          <div class="showcase-content-top">
+            <span class="showcase-title">The Best Loan
+               <br />Just for You</span>
+            <p class="showcase-text">With simple easy steps, you can search for the most suitable 
+              financing offer that suits your requirements, whether it is 
+              personal or real estate financing or a car.</p>
+            <p class="showcase-text">Get up to date information and manage your loan, with our app!</p>
+          </div>
+          <div class="buttons-wrapper">
+            <button type="text" class="button" onclick="location.href='https://apps.apple.com/in/app/tammwel';"><i
+                class="icon-store app-store"></i><span>App Store</span></button>
+            <button type="text" class="button"
+              onclick="location.href='https://play.google.com/store/apps/details?id=tammwel';"><i
+                class="icon-store play-store"></i><span>Play Store</span></button>
+          </div>
+        </div>
+
+        <!-- <div class="slider slider-nav" id="hero-slider-nav">
+          <div>
+            <div class="slide-item">
+              <a href="#" target="">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/slider-1.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-title">Best Loan for Everything <br />for Daily Needs</span>
+                      <p class="news-text">A personal loan allows you to borrow money from a lender for almost any
+                        purpose, typically with a fixed-term, a fixed interest rate, and a regular monthly payment
+                        schedule. Collateral usually is not required.</p>
+                    </div>
+                    <button type="text" class="button" onclick="location.href='./offers.html';">GET NOW</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="#" target="">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/slider-2.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-title">Best Loan for Get Your <br />Dream Riding Vehicle</span>
+                      <p class="news-text">If you’re buying a new or used car, you need to borrow, and you want to own
+                        the car at the end of the deal, there are many types of finance you can get.</p>
+                    </div>
+                    <button type="text" class="button" onclick="location.href='./offers.html'">GET NOW</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="#" target="">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/slider-3.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-title">Best Loan for Get Your <br />Dream Properties & Assets</span>
+                      <p class="news-text">A home-equity loan is a consumer loan secured by a second mortgage, allowing
+                        homeowners to borrow against their equity in the home.</p>
+                    </div>
+                    <button type="text" class="button" onclick="location.href='./offers.html'">GET NOW</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <div class="overlay">
+      <span class="overlay-ornament" id="ornament-1"></span>
+      <span class="overlay-ornament" id="ornament-2"></span>
+      <span class="overlay-ornament" id="ornament-3"></span>
+      <span class="overlay-ornament" id="ornament-4"></span>
+    </div>
+    <div class="main" id="why">
+      <div class="container">
+        <!-- <h2>Tammwel Easy Steps & Benefits</h2> -->
+        <div class="row">
+          <div class="column">
+            <img src="./assets/images-special/main-icon-1.svg" alt="1">
+            <h3>Personal Loan</h3>
+            <p>Loan for everything<br/>
+              your daily needs</p>
+          </div>
+          <div class="column">
+            <img src="./assets/images-special/main-icon-2.svg" alt="1">
+            <h3>Riding Loan</h3>
+            <p>Loan for get your dream<br/>
+              riding vehicle</p>
+          </div>
+          <div class="column">
+            <img src="./assets/images-special/main-icon-3.svg" alt="1">
+            <h3>Property Loan</h3>
+            <p>Loan for get your dream<br/>
+              properties & assets</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main" id="form-section">
+      <div class="container">
+        <div class="card">
+          <div class="card-content">
+            <div class="form-block" id="block-form">
+              <form>
+                <div class="container-form">
+                  <div class="row">
+                    <div class="column">
+                      <h2>Find the loan offers that match with your preferences</h2>
+                    </div>
+
+                    <div class="column">
+                      <label for="input"><b>How much you want to borrow?</b></label>
+                      <input type="text" placeholder="10.000" name="input" required />
+                      <span class="input-money">SAR</span>
+                    </div>
+
+                    <div class="column">
+                      <label for="input"><b>How long?</b></label>
+                      <select name="input">
+                        <option value="1">12 Months</option>
+                        <option value="2">12 Months</option>
+                        <option value="3">12 Months</option>
+                      </select>
+                    </div>
+
+                    <div class="column">
+                      <label for="input"><b>For what?</b></label>
+                      <select name="input">
+                        <option value="1">Tammwel Inc</option>
+                        <option value="2">Tammwel Inc</option>
+                        <option value="3">Tammwel Inc</option>
+                      </select>
+                    </div>
+
+                    <div class="column">
+                      <label for="input"></label>
+                      <button type="submit" class="button"
+                        onclick="location.href='./preliminary-search-result.html';">Start Comparing</button>
+                    </div>
+                  </div>
+
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main" id="offers">
+      <div class="container">
+        <div class="title-block">
+          <div>
+            <h2>Top 3 Favorite Loan Offers</h2>
+            <p>This is the best offers for you, selected by Tammwel team and systems.</p>
+          </div>
+          <div>
+            <button type="text" class="button buttin-ghost" onclick="location.href='./details.html';">View All
+              Offers</button>
+          </div>
+        </div>
+        <div class="card-bg">
+          <div class="card">
+            <div class="column">
+              <div class="column-content">
+                <div class="logo-wrapper">
+                  <img src="./assets/images/logo-vendor-1.png" alt="affiliate" />
+                </div>
+              </div>
+              <span>BANK ALBILAD</span>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="icon icon-check"></span>
+                  <span>Shariah Compliant</span>
+                </div>
+                <div class="row">
+                  <span class="icon icon-check"></span>
+                  <span>Low Annual Rate</span>
+                </div>
+                <div class="row">
+                  <span class="icon icon-warning"></span>
+                  <span>Early settlement fee only available this week!</span>
+                </div>
+              </div>
+              <button type="text" class="button" onclick="location.href='tel:+9345799898';">REQUEST CALL</button>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="text-big-label">Repayments</span>
+                </div>
+                <div class="row">
+                  <span class="text-big"><b>2550</b>SR</span>
+                </div>
+                <div class="row">
+                  <span class="text-desc">Monthly</span>
+                </div>
+              </div>
+              <button type="submit" class="button" onclick="location.href='./details.html';">LOAN DETAILS</button>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="text-big-label">APR</span>
+                </div>
+                <div class="row">
+                  <span class="text-old-price">&nbsp;2.99 %&nbsp;</span>
+                </div>
+                <div class="row">
+                  <span class="text-big"><b>2.5</b>%</span>
+                </div>
+                <div class="row">
+                  <span class="text-range">to 5,5%</span>
+                </div>
+              </div>
+              <button type="text" class="button" onclick="location.href='./details.html';"
+                onclick="location.href='./information-form-personal.html';">TAMMAWAL</button>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="star-wrapper">
+              <a href="./review.html">
+                <div class="stars">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star-half"></span>
+                  <span class="star-line"></span>
+                </div>
+                <span class="star-label">3.5</span>
+              </a>
+            </div>
+            <div class="compare-check">
+              <input type="checkbox" id="compare1" name="compare1" value="Compare1" />
+              <label for="vehicle1"> Add to Compare</label>
+            </div>
+          </div>
+        </div>
+        <div class="card-bg">
+          <div class="card">
+            <div class="column">
+              <div class="column-content">
+                <div class="logo-wrapper">
+                  <img src="./assets/images/logo-vendor-2.png" alt="affiliate" />
+                </div>
+              </div>
+              <span>BANK ALBILAD</span>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="icon icon-check"></span>
+                  <span>Shariah Compliant</span>
+                </div>
+                <div class="row">
+                  <span class="icon icon-check"></span>
+                  <span>Low Annual Rate</span>
+                </div>
+                <div class="row">
+                  <span class="icon icon-warning"></span>
+                  <span>Early settlement fee only available this week!</span>
+                </div>
+              </div>
+              <button type="text" class="button" onclick="location.href='tel:+9345799898';">REQUEST CALL</button>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="text-big-label">Repayments</span>
+                </div>
+                <div class="row">
+                  <span class="text-big"><b>2550</b>SR</span>
+                </div>
+                <div class="row">
+                  <span class="text-desc">Monthly</span>
+                </div>
+              </div>
+              <button type="submit" class="button" onclick="location.href='./details.html';">LOAN DETAILS</button>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="text-big-label">APR</span>
+                </div>
+                <div class="row">
+                  <span class="text-old-price">&nbsp;2.99 %&nbsp;</span>
+                </div>
+                <div class="row">
+                  <span class="text-big"><b>2.5</b>%</span>
+                </div>
+                <div class="row">
+                  <span class="text-range">to 5,5%</span>
+                </div>
+              </div>
+              <button type="text" class="button"
+                onclick="location.href='./information-form-personal.html';">TAMMAWAL</button>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="star-wrapper">
+              <a href="./review.html">
+                <div class="stars">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star-half"></span>
+                  <span class="star-line"></span>
+                </div>
+                <span class="star-label">3.5</span>
+              </a>
+            </div>
+            <div class="compare-check">
+              <input type="checkbox" id="compare1" name="compare1" value="Compare1" />
+              <label for="vehicle1"> Add to Compare</label>
+            </div>
+          </div>
+        </div>
+        <div class="card-bg">
+          <div class="card">
+            <div class="column">
+              <div class="column-content">
+                <div class="logo-wrapper">
+                  <img src="./assets/images/logo-vendor-3.png" alt="affiliate" />
+                </div>
+              </div>
+              <span>BANK ALBILAD</span>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="icon icon-check"></span>
+                  <span>Shariah Compliant</span>
+                </div>
+                <div class="row">
+                  <span class="icon icon-check"></span>
+                  <span>Low Annual Rate</span>
+                </div>
+                <div class="row">
+                  <span class="icon icon-warning"></span>
+                  <span>Early settlement fee only available this week!</span>
+                </div>
+              </div>
+              <button type="text" class="button" onclick="location.href='tel:+9345799898';">REQUEST CALL</button>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="text-big-label">Repayments</span>
+                </div>
+                <div class="row">
+                  <span class="text-big"><b>2550</b>SR</span>
+                </div>
+                <div class="row">
+                  <span class="text-desc">Monthly</span>
+                </div>
+              </div>
+              <button type="submit" class="button" onclick="location.href='./details.html';">LOAN DETAILS</button>
+            </div>
+
+            <div class="column">
+              <div class="column-content">
+                <div class="row">
+                  <span class="text-big-label">APR</span>
+                </div>
+                <div class="row">
+                  <span class="text-old-price">&nbsp;2.99 %&nbsp;</span>
+                </div>
+                <div class="row">
+                  <span class="text-big"><b>2.5</b>%</span>
+                </div>
+                <div class="row">
+                  <span class="text-range">to 5,5%</span>
+                </div>
+              </div>
+              <button type="text" class="button"
+                onclick="location.href='./information-form-personal.html';">TAMMAWAL</button>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="star-wrapper">
+              <a href="./review.html">
+                <div class="stars">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star-half"></span>
+                  <span class="star-line"></span>
+                </div>
+                <span class="star-label">3.5</span>
+              </a>
+            </div>
+            <div class="compare-check">
+              <input type="checkbox" id="compare1" name="compare1" value="Compare1" />
+              <label for="vehicle1"> Add to Compare</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="main" id="why">
+      <div class="container">
+        <h2>Tammwel Easy Steps & Benefits</h2>
+        <div class="row">
+          <div class="column">
+            <img src="./assets/images/illustration-1.png" alt="1">
+            <h3>So Many Offers</h3>
+            <p>Tammwel has tons of interesting offers for you. You can also easily adjust to your needs in order to find
+              offers that really match.</p>
+          </div>
+          <div class="column">
+            <img src="./assets/images/illustration-2.png" alt="1">
+            <h3>Compare The Offers</h3>
+            <p>Hesitating when meeting more than one attractive offer? Don’t worry, with a sophisticated system, Tammwel
+              will help you compare offers to make your decision easier.</p>
+          </div>
+          <div class="column">
+            <img src="./assets/images/illustration-3.png" alt="1">
+            <h3>Get The Best Loan</h3>
+            <p>Yup, with all the facilities of the Tammwel system, you can easily and comfortably get a loan that suits
+              your needs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main" id="affiliate">
+      <div class="container">
+        <h2>Tammwel Partners</h2>
+        <div class="slider slider-nav" id="affiliate-slider-nav">
+          <div>
+            <div class="slide-item">
+              <div class="image-wrapper"><img src="./assets/images/afi-1.jpg" alt="affiliate" /></div>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <div class="image-wrapper"><img src="./assets/images/afi-2.jpg" alt="affiliate" /></div>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <div class="image-wrapper"><img src="./assets/images/afi-3.jpg" alt="affiliate" /></div>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <div class="image-wrapper"><img src="./assets/images/afi-1.jpg" alt="affiliate" /></div>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <div class="image-wrapper"><img src="./assets/images/afi-2.jpg" alt="affiliate" /></div>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <div class="image-wrapper"><img src="./assets/images/afi-3.jpg" alt="affiliate" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main" id="news">
+      <div class="container">
+        <h2>Explore new trends and offers on our blog</h2>
+        <div class="slider slider-nav" id="news-slider-nav">
+          <div>
+            <div class="slide-item">
+              <a href="./news-details.html">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/news-1.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-date">TRAVEL | DECEMBER 27, 2017</span>
+                      <span class="news-title">Top Saving Tips Only Known to Banking Experts</span>
+                      <p class="news-text">Monthly saving attempts often lead to failure without the right strategy.
+                        Below are 10 tips to help you achieve your target and save the amount of money you need …</p>
+                    </div>
+                    <span class="news-tag">See all banking articles</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="./news-details.html">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/news-2.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-date">BANKING | DECEMBER 17, 2017</span>
+                      <span class="news-title">Why do I Need Travel Insurance</span>
+                      <p class="news-text">Travel has become such an essential part of life – be it holidays with
+                        families and friends, or business trips.</p>
+                    </div>
+                    <span class="news-tag">See all travel articles</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="./news-details.html">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/news-3.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-date">5 Mei 2020</span>
+                      <span class="news-title">Hidden Costs of Owning your Home</span>
+                      <p class="news-text">Owning your home is one of the costliest investments you‘ll ever make. In
+                        addition to the expected costs you need to pay, a number of unexpected hidden costs will come
+                        along …</p>
+                    </div>
+                    <span class="news-tag">See all spending habits article</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="https://www.tammwel.co/news/1" target="_blank">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/news-1.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-date">TRAVEL | DECEMBER 27, 2017</span>
+                      <span class="news-title">Top Saving Tips Only Known to Banking Experts</span>
+                      <p class="news-text">Monthly saving attempts often lead to failure without the right strategy.
+                        Below are 10 tips to help you achieve your target and save the amount of money you need …</p>
+                    </div>
+                    <span class="news-tag">See all banking articles</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="https://www.tammwel.co/news/2" target="_blank">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/news-2.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-date">BANKING | DECEMBER 17, 2017</span>
+                      <span class="news-title">Why do I Need Travel Insurance</span>
+                      <p class="news-text">Travel has become such an essential part of life – be it holidays with
+                        families and friends, or business trips.</p>
+                    </div>
+                    <span class="news-tag">See all travel articles</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="slide-item">
+              <a href="https://www.tammwel.co/news/3" target="_blank">
+                <div class="card">
+                  <div class="image-wrapper"><img src="./assets/images/news-3.jpg" alt="affiliate" />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-content-top">
+                      <span class="news-date">5 Mei 2020</span>
+                      <span class="news-title">Hidden Costs of Owning your Home</span>
+                      <p class="news-text">Owning your home is one of the costliest investments you‘ll ever make. In
+                        addition to the expected costs you need to pay, a number of unexpected hidden costs will come
+                        along …</p>
+                    </div>
+                    <span class="news-tag">See all spending habits article</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-color"></div>
+    </div>
+    <div class="main" id="action">
+      <div class="container">
+        <div class="row">
+          <div class="column column-left">
+            <h1>The Tammwel App</h1>
+            <p>Saudi Arabia’s best comparisons for on the go - compare, <br />
+              change and save even easier now.</p>
+            <h2>Available for IOS and Android!</h2>
+            <div class="buttons-wrapper">
+              <button type="text" class="button" onclick="location.href='https://apps.apple.com/in/app/tammwel';"><i
+                  class="icon-store app-store"></i><span>App Store</span></button>
+              <button type="text" class="button"
+                onclick="location.href='https://play.google.com/store/apps/details?id=tammwel';"><i
+                  class="icon-store play-store"></i><span>Play Store</span></button>
+            </div>
+          </div>
+          <div class="column column-right">
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </content>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <a href="#section1" class="logo"><span></span></a>
+          <span class="text-footer">Copyright TAMMWEL 2020 . Allright reserved</span>
+        </div>
+        <div class="column">
+          <div class="row">
+            <ul class="menu">
+              <li><a href="index.html"><span>Home</span></a></li>
+              <!-- <li><a href="offers.html"><span>Offers</span></a></li>
+            <li><a href="news.html"><span>News</span></a></li> -->
+              <li><a href="about.html"><span>About us</span></a></li>
+              <li><a href="contact.html"><span>Contact</span></a></li>
+            </ul>
+          </div>
+          <div class="row">
+            <span class="label">Find us on social media!</span>
+            <ul class="social">
+              <li><a href="index.html"><span class="in"></span></a></li>
+              <li><a href="about.html"><span class="fb"></span></a></li>
+              <li><a href="contact.html"><span class="ig"></span></a></li>
+            </ul>
+          </div>
+          <div class="row">
+            <span class="label">Get up to date information and manage your loan, with our app!</span>
+            <div class="buttons-wrapper">
+              <button type="text" class="button" onclick="location.href='https://apps.apple.com/in/app/tammwel';"><i
+                  class="icon-store app-store"></i><span>App Store</span></button>
+              <button type="text" class="button"
+                onclick="location.href='https://play.google.com/store/apps/details?id=tammwel';"><i
+                  class="icon-store play-store"></i><span>Play Store</span></button>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="column">
+          <span class="list-title">Visit</span>
+          <ul>
+            <li><a target="_blank"
+                href="https://www.google.com/maps/place/2191+Abdulwahid+Ibn+Ahmad,+An+Nakheel,+Riyadh+12385%C2%A07351,+Saudi+Arabia/data=!4m2!3m1!1s0x3e2ee2438efc068d:0x7abee7cf303c3a40?sa=X&ved=2ahUKEwiltZDRwY7qAhXkILcAHQqMARoQ8gEwAHoECAkQAQ&hl=id"><span>2191
+                  Abdulwahid Ibn Ahmad, An Nakhil, Riyadh 12385 7351 Abdulwahid Ibn Ahmad, An
+                  Nakheel, Riyadh 12385 7351, Saudi Arabia</span></a></li>
+          </ul>
+          <span class="list-title">Contact Us</span>
+          <ul>
+            <li><a href="mailto:info@tammwel.com"><span>info@tammwel.com</span></a></li>
+            <li><a href="tel:+9345799898"><span>+9345799898</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">Follow</span>
+          <ul>
+            <li><a target="_blank" href="https://www.instagram.com/tammwelinc"><span>Instagram</span></a></li>
+            <li><a target="_blank" href="https://twitter.com/tammwelinc"><span>Twitter</span></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/tammwel/"><span>Linkedin</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">Legal</span>
+          <ul>
+            <li><a href="termspolicies.html"><span>Terms</span></a></li>
+            <li><a href="termspolicies.html"><span>Privacy</span></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="list-title">HOTLINE</span>
+          <a href="tel:+9345799898"><span class="text-right-footer">+9345799898</span></a>
+        </div> -->
+      </div>
+      <!-- <div class="row flex-left">
+        <span class="copyright">©2020 TammwelInc. All Rights Reserved.</span>
+      </div> -->
+    </div>
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $('#affiliate-slider-nav').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      responsive: [{
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+    $('#news-slider-nav').slick({
+      infinite: true,
+      arrows: false,
+      dots: true,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      responsive: [{
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+    $('#hero-slider-nav').slick({
+      infinite: true,
+      arrows: false,
+      dots: true,
+      autoplay: false,
+      speed: 1500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      responsive: [{
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+  </script>
+  <style>
+    #affiliate-slider-nav .slick-prev:before,
+    #affiliate-slider-nav .slick-next:before {
+      color: #C6DEFF;
+      font-size: 30px;
+      margin: -5px;
+    }
+
+    #news-slider-nav .slick-dots {
+      bottom: unset;
+      margin: 50px auto 0;
+    }
+
+    .slick-dots {
+      bottom: unset;
+    }
+
+    .slick-dots li button:before {
+      font-size: 12px;
+      opacity: 1.0;
+      color: #A5C2FF;
+    }
+
+    .slick-dots li.slick-active button:before,
+    .slick-dots li button[aria-selected=true]:before {
+      opacity: 1.0;
+      color: #FFFFFF;
+    }
+
+    #news-slider-nav .slick-dots li button:before {
+      font-size: 12px;
+      opacity: 1.0;
+      color: #A5C2FF;
+    }
+
+    #news-slider-nav .slick-dots li.slick-active button:before,
+    #news-slider-nav .slick-dots li button[aria-selected=true]:before {
+      opacity: 1.0;
+      color: #2151B6;
+    }
+  </style>
+</body>
+
+</html>

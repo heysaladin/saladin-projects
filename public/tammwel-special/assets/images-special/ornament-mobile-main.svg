@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="4525 0 375 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #2151b6;
+      }
+
+      .cls-4 {
+        fill: #ffd50a;
+      }
+
+      .cls-5 {
+        fill: #ffe45f;
+      }
+
+      .cls-6 {
+        fill: #285cc9;
+      }
+
+      .cls-7 {
+        fill: #2958bc;
+      }
+
+      .cls-8 {
+        fill: #7378ec;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_7" data-name="Rectangle 7" class="cls-1" width="375" height="500" transform="translate(4525)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_3" data-name="Mask Group 3" class="cls-2">
+    <g id="hero-image" transform="translate(3733.164 -78.248)">
+      <g id="hero-image-bg" transform="translate(528.874 -694.476)">
+        <rect id="Rectangle_200" data-name="Rectangle 200" class="cls-3" width="904.051" height="904.051" rx="47" transform="translate(452.025) rotate(30)"/>
+        <path id="Path_451" data-name="Path 451" class="cls-4" d="M31.656,0H175.792a31.656,31.656,0,0,1,31.656,31.656V185.221a31.656,31.656,0,0,1-31.656,31.656H31.656A31.656,31.656,0,0,1,0,185.221V31.656A31.656,31.656,0,0,1,31.656,0Z" transform="translate(413.307 954.942) rotate(30)"/>
+        <path id="Intersection_5" data-name="Intersection 5" class="cls-5" d="M0,118.106,54.649,23.45a47,47,0,0,1,64.2-17.2l47.042,27.16A96.664,96.664,0,0,1,0,118.106Z" transform="translate(318.157 1002.195)"/>
+        <rect id="Rectangle_162" data-name="Rectangle 162" class="cls-3" width="433.755" height="433.755" rx="47" transform="translate(443.373 610.255) rotate(30)"/>
+        <path id="Intersection_3" data-name="Intersection 3" class="cls-6" d="M74.4,73.394,0,30.439A96.66,96.66,0,0,1,148.294,39.41L138.6,56.192a46.979,46.979,0,0,1-64.2,17.2Z" transform="translate(487.034 1105.881)"/>
+        <rect id="Rectangle_163" data-name="Rectangle 163" class="cls-7" width="433.755" height="433.755" rx="47" transform="translate(728.127 533.349) rotate(30)"/>
+        <g id="Group_435" data-name="Group 435" transform="translate(458.2 876.757)">
+          <circle id="Ellipse_28" data-name="Ellipse 28" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(0 0)"/>
+          <circle id="Ellipse_34" data-name="Ellipse 34" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(0 26.941)"/>
+          <circle id="Ellipse_35" data-name="Ellipse 35" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(0 53.883)"/>
+          <circle id="Ellipse_36" data-name="Ellipse 36" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(0 80.824)"/>
+          <circle id="Ellipse_37" data-name="Ellipse 37" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(0 107.765)"/>
+          <circle id="Ellipse_38" data-name="Ellipse 38" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(0 134.706)"/>
+          <circle id="Ellipse_33" data-name="Ellipse 33" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(82.171 0)"/>
+          <circle id="Ellipse_48" data-name="Ellipse 48" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(82.171 53.883)"/>
+          <circle id="Ellipse_58" data-name="Ellipse 58" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(82.171 107.765)"/>
+          <circle id="Ellipse_41" data-name="Ellipse 41" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(82.171 26.941)"/>
+          <circle id="Ellipse_46" data-name="Ellipse 46" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(82.171 80.824)"/>
+          <circle id="Ellipse_56" data-name="Ellipse 56" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(82.171 134.706)"/>
+          <circle id="Ellipse_29" data-name="Ellipse 29" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(27.615 0)"/>
+          <circle id="Ellipse_52" data-name="Ellipse 52" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(27.615 53.883)"/>
+          <circle id="Ellipse_62" data-name="Ellipse 62" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(27.615 107.765)"/>
+          <circle id="Ellipse_39" data-name="Ellipse 39" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(27.615 26.941)"/>
+          <circle id="Ellipse_53" data-name="Ellipse 53" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(27.615 80.824)"/>
+          <circle id="Ellipse_63" data-name="Ellipse 63" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(27.615 134.706)"/>
+          <circle id="Ellipse_32" data-name="Ellipse 32" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(109.112 0)"/>
+          <circle id="Ellipse_49" data-name="Ellipse 49" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(109.112 53.883)"/>
+          <circle id="Ellipse_59" data-name="Ellipse 59" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(109.112 107.765)"/>
+          <circle id="Ellipse_42" data-name="Ellipse 42" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(109.112 26.941)"/>
+          <circle id="Ellipse_44" data-name="Ellipse 44" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(109.112 80.824)"/>
+          <circle id="Ellipse_54" data-name="Ellipse 54" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(109.112 134.706)"/>
+          <circle id="Ellipse_30" data-name="Ellipse 30" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(54.556 0)"/>
+          <circle id="Ellipse_50" data-name="Ellipse 50" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(54.556 53.883)"/>
+          <circle id="Ellipse_60" data-name="Ellipse 60" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(54.556 107.765)"/>
+          <circle id="Ellipse_40" data-name="Ellipse 40" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(54.556 26.941)"/>
+          <circle id="Ellipse_47" data-name="Ellipse 47" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(54.556 80.824)"/>
+          <circle id="Ellipse_57" data-name="Ellipse 57" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(54.556 134.706)"/>
+          <circle id="Ellipse_31" data-name="Ellipse 31" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(136.727 0)"/>
+          <circle id="Ellipse_51" data-name="Ellipse 51" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(136.727 53.883)"/>
+          <circle id="Ellipse_61" data-name="Ellipse 61" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(136.727 107.765)"/>
+          <circle id="Ellipse_43" data-name="Ellipse 43" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(136.727 26.941)"/>
+          <circle id="Ellipse_45" data-name="Ellipse 45" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(136.727 80.824)"/>
+          <circle id="Ellipse_55" data-name="Ellipse 55" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(136.727 134.706)"/>
+        </g>
+      </g>
+      <g id="hero-image-bg-2" data-name="hero-image-bg" transform="translate(528.874 -694.476)">
+        <rect id="Rectangle_200-2" data-name="Rectangle 200" class="cls-3" width="904.051" height="904.051" rx="47" transform="translate(452.025) rotate(30)"/>
+        <path id="Path_451-2" data-name="Path 451" class="cls-4" d="M31.656,0H175.792a31.656,31.656,0,0,1,31.656,31.656V185.221a31.656,31.656,0,0,1-31.656,31.656H31.656A31.656,31.656,0,0,1,0,185.221V31.656A31.656,31.656,0,0,1,31.656,0Z" transform="translate(413.307 954.942) rotate(30)"/>
+        <path id="Intersection_5-2" data-name="Intersection 5" class="cls-5" d="M0,118.106,54.649,23.45a47,47,0,0,1,64.2-17.2l47.042,27.16A96.664,96.664,0,0,1,0,118.106Z" transform="translate(318.157 1002.195)"/>
+        <rect id="Rectangle_162-2" data-name="Rectangle 162" class="cls-3" width="433.755" height="433.755" rx="47" transform="translate(443.373 610.255) rotate(30)"/>
+        <path id="Intersection_3-2" data-name="Intersection 3" class="cls-6" d="M74.4,73.394,0,30.439A96.66,96.66,0,0,1,148.294,39.41L138.6,56.192a46.979,46.979,0,0,1-64.2,17.2Z" transform="translate(487.034 1105.881)"/>
+        <rect id="Rectangle_163-2" data-name="Rectangle 163" class="cls-7" width="433.755" height="433.755" rx="47" transform="translate(728.127 533.349) rotate(30)"/>
+        <g id="Group_435-2" data-name="Group 435" transform="translate(458.2 876.757)">
+          <circle id="Ellipse_28-2" data-name="Ellipse 28" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(0 0)"/>
+          <circle id="Ellipse_34-2" data-name="Ellipse 34" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(0 26.941)"/>
+          <circle id="Ellipse_35-2" data-name="Ellipse 35" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(0 53.883)"/>
+          <circle id="Ellipse_36-2" data-name="Ellipse 36" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(0 80.824)"/>
+          <circle id="Ellipse_37-2" data-name="Ellipse 37" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(0 107.765)"/>
+          <circle id="Ellipse_38-2" data-name="Ellipse 38" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(0 134.706)"/>
+          <circle id="Ellipse_33-2" data-name="Ellipse 33" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(82.171 0)"/>
+          <circle id="Ellipse_48-2" data-name="Ellipse 48" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(82.171 53.883)"/>
+          <circle id="Ellipse_58-2" data-name="Ellipse 58" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(82.171 107.765)"/>
+          <circle id="Ellipse_41-2" data-name="Ellipse 41" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(82.171 26.941)"/>
+          <circle id="Ellipse_46-2" data-name="Ellipse 46" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(82.171 80.824)"/>
+          <circle id="Ellipse_56-2" data-name="Ellipse 56" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(82.171 134.706)"/>
+          <circle id="Ellipse_29-2" data-name="Ellipse 29" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(27.615 0)"/>
+          <circle id="Ellipse_52-2" data-name="Ellipse 52" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(27.615 53.883)"/>
+          <circle id="Ellipse_62-2" data-name="Ellipse 62" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(27.615 107.765)"/>
+          <circle id="Ellipse_39-2" data-name="Ellipse 39" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(27.615 26.941)"/>
+          <circle id="Ellipse_53-2" data-name="Ellipse 53" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(27.615 80.824)"/>
+          <circle id="Ellipse_63-2" data-name="Ellipse 63" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(27.615 134.706)"/>
+          <circle id="Ellipse_32-2" data-name="Ellipse 32" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(109.112 0)"/>
+          <circle id="Ellipse_49-2" data-name="Ellipse 49" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(109.112 53.883)"/>
+          <circle id="Ellipse_59-2" data-name="Ellipse 59" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(109.112 107.765)"/>
+          <circle id="Ellipse_42-2" data-name="Ellipse 42" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(109.112 26.941)"/>
+          <circle id="Ellipse_44-2" data-name="Ellipse 44" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(109.112 80.824)"/>
+          <circle id="Ellipse_54-2" data-name="Ellipse 54" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(109.112 134.706)"/>
+          <circle id="Ellipse_30-2" data-name="Ellipse 30" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(54.556 0)"/>
+          <circle id="Ellipse_50-2" data-name="Ellipse 50" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(54.556 53.883)"/>
+          <circle id="Ellipse_60-2" data-name="Ellipse 60" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(54.556 107.765)"/>
+          <circle id="Ellipse_40-2" data-name="Ellipse 40" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(54.556 26.941)"/>
+          <circle id="Ellipse_47-2" data-name="Ellipse 47" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(54.556 80.824)"/>
+          <circle id="Ellipse_57-2" data-name="Ellipse 57" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(54.556 134.706)"/>
+          <circle id="Ellipse_31-2" data-name="Ellipse 31" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(136.727 0)"/>
+          <circle id="Ellipse_51-2" data-name="Ellipse 51" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(136.727 53.883)"/>
+          <circle id="Ellipse_61-2" data-name="Ellipse 61" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(136.727 107.765)"/>
+          <circle id="Ellipse_43-2" data-name="Ellipse 43" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(136.727 26.941)"/>
+          <circle id="Ellipse_45-2" data-name="Ellipse 45" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(136.727 80.824)"/>
+          <circle id="Ellipse_55-2" data-name="Ellipse 55" class="cls-8" cx="4.715" cy="4.715" r="4.715" transform="translate(136.727 134.706)"/>
+        </g>
+        <path id="Intersection_12" data-name="Intersection 12" class="cls-5" d="M0,118.106,54.649,23.45a47,47,0,0,1,64.2-17.2l47.042,27.16A96.664,96.664,0,0,1,0,118.106Z" transform="translate(-145.375 1416.454) rotate(171)"/>
+      </g>
+    </g>
+  </g>
+</svg>
