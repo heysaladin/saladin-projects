@@ -40,9 +40,9 @@
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
-      <li><a href="index.html" onclick='closeMenu()'>الرئيسية</a></li>
-      <li><a href="offers.html" onclick='closeMenu()'>عروض</a></li>
-      <li><a href="news.html" onclick='closeMenu()'>أخبار</a></li>
+      <li><a href="index.html" onclick='closeMenu()'>الخدمات</a></li>
+      <li><a href="offers.html" onclick='closeMenu()'>الأسئلة الشائعة</a></li>
+      <li><a href="news.html" onclick='closeMenu()'>عن الشركة</a></li>
       <!-- <li><a href="index.html" onclick='closeMenu()'>الرئيسية</a></li>
       <li><a href="offers.html" onclick='closeMenu()'>عروض</a></li>
       <li><a href="news.html" onclick='closeMenu()'>أخبار</a></li>
@@ -82,12 +82,24 @@
         <!-- --- -->
         <div class="hero-section row">
           <div class="column hero-text">
-            <h2>xdfxxdsds</h2>
-            <h3>dsdsdsd</h3>
-            <p>fdfdfdffdffdfdf</p>
-            <p>fdfdfdffdffdfdf</p>
-            <p>fdfdfdffdffdfdf</p>
+            <h2>مقارنة منتجات التمويل مجانا وبطريقة آمنة</h2>
+            <h3>عروض تمويل تبدأ من 1,49٪</h3>
+            <p>أفضل عروض التمويل في السعودية</p>
+            <p>نسب مرابحة منافسة</p>
+            <p>معتمد من مؤسسة النقد العربي السعودي</p>
           </div>
+          <style>
+            .hero-text p::after {
+              content: "";
+              margin-left: 10px;
+              margin-bottom: -6px;
+              width: 24px;
+              height: 24px;
+              display: inline-block;
+              background: transparent url(./assets/images/check-bullet.png) center center no-repeat;
+              background-size: contain;
+            }
+          </style>
           <div class="column">
             <div class="main-image"></div>
           </div>
@@ -199,7 +211,7 @@
 
       <div class="container">
 
-        <h2>عروض القروض المفضلة الثلاثة</h2>
+        <h2>لا تحتار ،تمويل يساعدك باختيار القرار</h2>
         <div class="card">
           <div class="card-content">
             <div class="form-block" id="block-form">
@@ -210,36 +222,35 @@
                       <!-- <h2>ابحث عن عروض القرض التي تتوافق مع تفضيلاتك</h2> -->
                     </div>
 
-                    <div class="column">
-                      <label for="input"><b>كم تريد الاقتراض؟</b></label>
-                      <input type="text" placeholder="10.000" name="input" required />
-                      <span class="input-money">ريال</span>
-                    </div>
 
                     <div class="column">
-                      <label for="input"><b>حتى متى؟</b></label>
+                      <label for="input"><b>ماهو الغرض من التمويل؟</b></label>
                       <select name="input">
-                        <option value="1">12 شهر</option>
-                        <option value="2">12 شهر</option>
-                        <option value="3">12 شهر</option>
+                        <option value="1">شراء أثاث</option>
+                        <option value="2">شراء أثاث</option>
+                        <option value="3">شراء أثاث</option>
                       </select>
                     </div>
 
-                    <div class="column">
-                      <label for="input"><b>على ماذا؟</b></label>
-                      <select name="input">
-                        <option value="1">مؤسسة تمويل</option>
-                        <option value="2">مؤسسة تمويل</option>
-                        <option value="3">مؤسسة تمويل</option>
-                      </select>
-                    </div>
+<div class="column">
+  <label for="input"><b>كم مدة السداد للتمويل؟</b></label>
+  <input type="text" placeholder="5 سنوات" name="input" required />
+  <span class="input-money">ريال</span>
+</div>
+
+<div class="column">
+  <label for="input"><b>كم مبلغ التمويل المطلوب؟</b></label>
+  <input type="text" placeholder="10.000 ريال" name="input" required />
+  <span class="input-money">ريال</span>
+</div>
+
 
                     <div class="column">
-                      <label for="input"><b>على ماذا؟</b></label>
+                      <label for="input"><b>اختر نوع التمويل؟</b></label>
                       <select name="input">
-                        <option value="1">مؤسسة تمويل</option>
-                        <option value="2">مؤسسة تمويل</option>
-                        <option value="3">مؤسسة تمويل</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
                       </select>
                     </div>
 
@@ -257,15 +268,15 @@
         </div>
         <div class="button-wrapper-row">
           <a href="#" data-target="simpleModal_4" data-toggle="modal" class="icon icon-sort">
-            <span>sdsd</span>
+            <span>الترتيب</span>
             <span class="icon" id="icon-sort"></span>
           </a>
           <a href="#" data-target="simpleModal_5" data-toggle="modal" class="icon icon-filter">
-            <span>sdsd</span>
+            <span>التصفية</span>
             <span class="icon" id="icon-filter"></span>
           </a>
           <a href="#" data-target="simpleModal_6" data-toggle="modal" class="icon icon-calculate">
-            <span>sdsd</span>
+            <span>حسابية</span>
           </a>
         </div>
       </div>
@@ -321,8 +332,8 @@
     </style>
     <div class="main" id="offers">
       <div class="container">
-        <h2>عروض القروض المفضلة الثلاثة</h2>
-        <p>هذه أفضل العروض لك ، اختارها فريق وأنظمة "تمويل".</p>
+        <h2>عروض التمويل الأولية الموافقة لبحثك</h2>
+        <p>قائمة بمختارات عروض التمويل في السعودية لشهر محرم ١٤٤٢ / اغسطس ٢٠٢٠</p>
         <div class="card-bg">
           <div class="card">
             <div class="column">
@@ -620,8 +631,18 @@
 
     <div class="main" id="news">
       <div class="container">
-        <h2>اكتشف الاتجاهات والعروض الجديدة على مدونتنا</h2>
-        <p>sddddsdsdasddaads</p>
+        <p>
+          شروط القرض الخاصة بك غير مضمونة وتخضع للتحقق من هويتك ومعلومات الائتمان الخاصة بك. للحصول على قرض ، يجب عليك تقديم وثائق
+          إضافية بما في ذلك تطبيق قد يؤثر على درجة الائتمان الخاصة بك. سيختلف مدى توفر عرض القرض وشروط عرضك الفعلي بسبب عدد من
+          العوامل ، بما في ذلك غرض القرض وتقييمنا للجدارة الائتمانية الخاصة بك. تختلف الأسعار بناءً على العديد من العوامل ، مثل
+          الجدارة الائتمانية (على سبيل المثال ، درجة الائتمان وتاريخ الائتمان) وطول القرض (على سبيل المثال ، أسعار قروض 36 شهرًا
+          أقل بشكل عام من أسعار قروض لمدة 72 شهرًا). قد يختلف الحد الأقصى لمبلغ القرض حسب غرض القرض والدخل والجدارة الائتمانية.
+          يجب أن يدعم دخلك القابل للتحقق قدرتك على سداد قرضك.
+        </p>
+      </div>
+      <div class="container">
+        <h2>تحتاج لمعرفة المزيد عن التمويل الشخصي</h2>
+        <p>اخترنا لك أفضل ثلاثة مقالات متخصصة في التمويل الشخصي</p>
         <div class="slider slider-nav" id="news-slider-nav">
           <div>
             <div class="slide-item">
@@ -745,7 +766,6 @@
     <div class="main" id="affiliate">
       <div class="container">
         <h2>شركاء تمويل</h2>
-        <p>sddddsdsdasddaads</p>
         <div class="slider slider-nav" id="affiliate-slider-nav">
           <div>
             <div class="slide-item">
@@ -785,9 +805,8 @@
       <div class="container">
         <div class="row">
           <div class="column column-left">
-            <h1>تطبيق Tammwel</h1>
-            <p>أفضل مقارنات المملكة العربية السعودية أثناء التنقل - قارن ، <br />
-              تغيير وحفظ أسهل الآن.</p>
+            <h1>تطبيق تمويل</h1>
+            <p>وسيطك الرقمي المعتمد لمقارنة واستخراج أفضل عروض التمويل المخصصة لك</p>
             <h2>متاح لنظامي IOS و Android!</h2>
             <div class="buttons-wrapper">
               <button type="text" class="button" onclick="location.href='https://apps.apple.com/in/app/tammwel';"><i
@@ -805,26 +824,26 @@
     <div id="simpleModal_5" class="modal">
       <div class="modal-window">
         <span class="close" data-dismiss="modal">&times;</span>
-        <h3>تصفية النتيجة</h3>
+        <h3>تصفية النتائج</h3>
         <div class="row">
           <div class="compare-check">
-            <label for="vehicle1"> أضف للمقارنة</label>
+            <label for="vehicle1">متوافق مع أحكام الشريعة الاسلامية</label>
             <input type="checkbox" id="compare1" name="compare1" value="Compare1" />
           </div>
         </div>
         <div class="row">
 
           <select name="input">
-            <option value="1">12 شهر</option>
-            <option value="2">12 شهر</option>
-            <option value="3">12 شهر</option>
+            <option value="1">جميع الجهات الممولة</option>
+            <option value="2">جميع الجهات الممولة</option>
+            <option value="3">جميع الجهات الممولة</option>
           </select>
-          <label for="input"><b>حتى متى؟</b></label>
+          <label for="input"><b>تفضيل جهة تمويل معينة</b></label>
 
         </div>
         <div class="row">
           <div class="compare-check">
-            <label for="vehicle1"> أضف للمقارنة</label>
+            <label for="vehicle1">لايلزم تحويل الراتب على بنك معين</label>
             <input type="checkbox" id="compare1" name="compare1" value="Compare1" />
           </div>
         </div>
@@ -837,12 +856,12 @@
           <input type="text" placeholder="حسن الضيافة" name="input" required />
         </div> -->
         <div class="row">
-          <input type="text" placeholder="0" name="input" required />
-          <label for="input">الراتب (ريال سعودي)</label>
+          <input type="text" placeholder="1350 ريال سعودي" name="input" required />
+          <label for="input">اختر مقدار القسط الشهري المناسب لك</label>
         </div>
         <div class="row">
-          <input type="text" placeholder="0" name="input" required />
-          <label for="input">معدل النسبة المئوية (٪)</label>
+          <input type="text" placeholder="1.44٪" name="input" required />
+          <label for="input">حدد نسبة الفائدة المناسبة لك</label>
         </div>
         <div class="row">
           <button type="submit" class="button" onclick="">تطبيق المرشح</button>
@@ -874,10 +893,10 @@
       <div class="modal-window sort-menu">
         <span class="close" data-dismiss="modal">&times;</span>
         <div class="row">
-          <a href="#"> أضف للمقارنة</a>
+          <a href="#">ترتتيب بالأقل نسبة مرابحة</a>
         </div>
         <div class="row">
-          <a href="#"> أضف للمقارنة</a>
+          <a href="#">ترتيب بالأعلى نسبة للمرابحة</a>
         </div>
       </div>
     </div>
@@ -894,24 +913,24 @@
 
         <div class="row">
           <div class="w3-bar w3-black tab">
-            <button class="w3-bar-item w3-button" onclick="openCity('London')">London</button>
-            <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Paris</button>
+            <button class="w3-bar-item w3-button" onclick="openCity('London')">حاسبة التمويل</button>
+            <button class="w3-bar-item w3-button" onclick="openCity('Paris')">معلومات العرض</button>
           </div>
         </div>
         <div class="row body-tab">
           <div id="London" class="w3-container city">
             <table>
               <tr>
-                <th>Company</th>
-                <th>Contact</th>
-                <th>Country</th>
-                <th>Country</th>
+                <th>2200 SAR</th>
+                <th>القسط الشهري</th>
+                <th>250.000 SAR</th>
+                <th>تمويل يصل إلى</th>
               </tr>
               <tr>
-                <td>Alfreds Futterkiste</td>
-                <td>Maria Anders</td>
-                <td>Germany</td>
-                <td>Germany</td>
+                <td>5% وحتى 5%</td>
+                <td>نسبة المرابحة</td>
+                <td>1 %</td>
+                <td>الرسوم لاادارية</td>
               </tr>
             </table>
             <style>
@@ -938,13 +957,13 @@
           <div id="Paris" class="w3-container city" style="display:none">
             <div class="row">
               <div class="compare-check">
-                <label for="vehicle1"> أضف للمقارنة</label>
+                <label for="vehicle1">اضف للمقارنة (بامكانك المقارنة لحد ٥ منتجات تمويلية)</label>
                 <input type="checkbox" id="compare1" name="compare1" value="Compare1" />
               </div>
             </div>
             <div class="row">
 
-              <label for="vehicle1"> أضف للمقارنة</label>
+              <label for="vehicle1"> اطلع على تجارب العملاء الآخرين لهذا العرض التمويلي</label>
 
               <div class="star-wrapper">
                 <a href="./review.html">
@@ -960,10 +979,17 @@
               </div>
 
             </div>
-            <h2>Paris</h2>
-            <p>Paris is the capital of France.</p>
-            <h2>Paris</h2>
-            <p>Paris is the capital of France.</p>
+            <h2>Eligibility Criteria​</h2>
+            <p>Minimum employment period of 1 month and goes up to 12 months depending on the employer
+            Salary should be transferred to Al Ahli Bank
+            Minimum monthly salary starting from SR 2,000 depending on the employer
+            Age should not exceed 60 years when you settle your last installment
+            (assuming retirement age is 60 years)</p>
+            <h2>Required Documents</h2>
+            <p>Completed application form for Personal Finance
+            Valid copy of National ID
+            Salary Certificate
+            Salary transfer letter</p>
 
             <div class="video-wrapper">
               <img src="./assets/images/video-image.jpg" alt="video" />
@@ -1028,16 +1054,16 @@
       <div class="row">
         <div class="column">
           <a href="#section1" class="logo"><span></span></a>
-          <span class="text-footer">تطبيق تمويل الوسيط الخاص بك للحصول على أفضل الصفقات التمويلية لك!</span>
+          <span class="text-footer">Your broker financing
+          application to get the best
+          financing deals for you!</span>
         </div>
         <div class="column">
-          <span class="list-title">يكتشف</span>
+          <span class="list-title">روابط تهمك</span>
           <ul>
-            <li><a href="index.html"><span>الصفحة الرئيسية</span></a></li>
-            <li><a href="offers.html"><span>عروض</span></a></li>
-            <li><a href="news.html"><span>أخبار</span></a></li>
-            <li><a href="about.html"><span>تمويل</span></a></li>
-            <li><a href="contact.html"><span>اتصل</span></a></li>
+            <li><a href="index.html"><span>ساما</span></a></li>
+            <li><a href="offers.html"><span>سمة</span></a></li>
+            <li><a href="news.html"><span>فنتك السعودية</span></a></li>
           </ul>
         </div>
         <!-- <div class="column">
@@ -1055,7 +1081,7 @@
           </ul>
         </div> -->
         <div class="column">
-          <span class="list-title">إتبع</span>
+          <span class="list-title">تواصل معنا</span>
           <ul>
             <li><a target="_blank" href="https://www.instagram.com/tammwelinc"><span>Instagram</span></a></li>
             <li><a target="_blank" href="https://twitter.com/tammwelinc"><span>Twitter</span></a></li>
@@ -1063,10 +1089,10 @@
           </ul>
         </div>
         <div class="column">
-          <span class="list-title">قانوني</span>
+          <span class="list-title">القانونية</span>
           <ul>
-            <li><a href="termspolicies.html"><span>شروط</span></a></li>
-            <li><a href="termspolicies.html"><span>خصوصية</span></a></li>
+            <li><a href="termspolicies.html"><span>سياسة الخدمة</span></a></li>
+            <li><a href="termspolicies.html"><span>سياسة الخصوصية</span></a></li>
           </ul>
         </div>
         <!-- <div class="column">
@@ -1076,7 +1102,7 @@
       </div>
       <div class="row flex-left">
         <div class="column">
-          <span class="copyright">© 2020 TammwelInc. كل الحقوق محفوظة.</span>
+          <span class="copyright">©2020 TammwelInc. All Rights Reserved.</span>
         </div>
         <div class="column">
           <div class="buttons-wrapper">
