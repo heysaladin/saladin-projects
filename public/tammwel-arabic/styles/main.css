@@ -2,13 +2,15 @@
 
 html {
     scroll-behavior: smooth;
+    background: #F2F6FF;
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Nunito Sans', 'Montserrat', Helvetica, sans-serif;
+    font-family: 'Cairo', 'Nunito Sans', 'Montserrat', Helvetica, sans-serif;
     background-color: #F8FBFF;
+    background: #F2F6FF;
 }
 
 a {
@@ -24,7 +26,7 @@ a {
 }
 
 .bold {
-    font-family: 'Montserrat-Bold', 'Montserrat', Helvetica, sans-serif;
+    font-family: 'Cairo', 'Montserrat-Bold', 'Montserrat', Helvetica, sans-serif;
     font-weight: bold;
 }
 
@@ -459,7 +461,7 @@ label {
     line-height: 20px;
     margin-bottom: 5px;
     display: block;
-    font-family: Nunito Sans;
+    font-family: 'Cairo', Nunito Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -472,7 +474,7 @@ input[type=text],
 input[type=email],
 input[type=password],
 textarea {
-    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-family: 'Cairo', 'Montserrat', Helvetica, sans-serif;
     width: 90%;
     padding: 13px;
     margin: 5px 0 22px 0;
@@ -547,7 +549,7 @@ select:focus {
 
 /* Set a style for all buttons */
 button {
-    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-family: 'Cairo', 'Montserrat', Helvetica, sans-serif;
     background-color: #E5EDFD;
     padding: 14px 20px;
     margin: 8px 0 22px 0;
@@ -565,7 +567,7 @@ button {
 }
 
 button[type=submit] {
-    font-family: 'Montserrat-Bold', 'Montserrat', Helvetica, sans-serif;
+    font-family: 'Cairo', 'Montserrat-Bold', 'Montserrat', Helvetica, sans-serif;
     background-color: #2151B6;
     color: #FFFFFF;
 }
@@ -690,6 +692,10 @@ span.input-money {
     width: 50%;
     margin: 10% auto;
     padding: 20px;
+}
+
+.modal-window h3 {
+    text-align: right;
 }
 
 .modal-window.small {

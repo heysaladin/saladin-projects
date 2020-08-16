@@ -32,7 +32,7 @@
     color: white;
     width: 80%;
     line-height: 24px;
-    font-family: 'Nunito Sans';
+    font-family: 'Cairo', 'Nunito Sans';
 }
 
 #hero-section #hero-slider-nav .slide-item .card .news-content .news-title {
