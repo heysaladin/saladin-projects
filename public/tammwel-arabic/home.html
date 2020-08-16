@@ -53,10 +53,6 @@
     <a href="index.html" class="logo" onclick='closeMenu()'><span></span></a>
   </header>
   <style>
-    .header {
-      background: none;
-    }
-
     .header ul.menu li a {
       color: #2151B6;
     }
@@ -75,6 +71,22 @@
       height: 40px;
       background-size: contain;
     }
+
+    @media (min-width: 48em) {
+      .header {
+        background: none;
+      }
+    }
+
+    @media (max-width: 48em) {
+      .header .logo {
+        margin-top: -60px;
+      }
+
+      .header ul.menu li a {
+        color: #ffffff;
+      }
+    }
   </style>
   <content class="content">
     <div class="main" id="hero-section">
@@ -88,22 +100,22 @@
             <p>نسب مرابحة منافسة</p>
             <p>معتمد من مؤسسة النقد العربي السعودي</p>
           </div>
-          <style>
-            .hero-text p::after {
-              content: "";
-              margin-left: 10px;
-              margin-bottom: -6px;
-              width: 24px;
-              height: 24px;
-              display: inline-block;
-              background: transparent url(./assets/images/check-bullet.png) center center no-repeat;
-              background-size: contain;
-            }
-          </style>
           <div class="column">
             <div class="main-image"></div>
           </div>
         </div>
+        <style>
+          .hero-text p::after {
+            content: "";
+            margin-left: 10px;
+            margin-bottom: -6px;
+            width: 24px;
+            height: 24px;
+            display: inline-block;
+            background: transparent url(./assets/images/check-bullet.png) center center no-repeat;
+            background-size: contain;
+          }
+        </style>
         <style>
           .hero-section {
             min-height: 636px;
@@ -115,7 +127,14 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: row;
             padding-bottom: 30px;
+          }
+
+          @media (max-width: 48em) {
+            .hero-section {
+              flex-direction: column;
+            }
           }
 
           .hero-text {
@@ -232,17 +251,17 @@
                       </select>
                     </div>
 
-<div class="column">
-  <label for="input"><b>كم مدة السداد للتمويل؟</b></label>
-  <input type="text" placeholder="5 سنوات" name="input" required />
-  <span class="input-money">ريال</span>
-</div>
+                    <div class="column">
+                      <label for="input"><b>كم مدة السداد للتمويل؟</b></label>
+                      <input type="text" placeholder="5 سنوات" name="input" required />
+                      <span class="input-money">ريال</span>
+                    </div>
 
-<div class="column">
-  <label for="input"><b>كم مبلغ التمويل المطلوب؟</b></label>
-  <input type="text" placeholder="10.000 ريال" name="input" required />
-  <span class="input-money">ريال</span>
-</div>
+                    <div class="column">
+                      <label for="input"><b>كم مبلغ التمويل المطلوب؟</b></label>
+                      <input type="text" placeholder="10.000 ريال" name="input" required />
+                      <span class="input-money">ريال</span>
+                    </div>
 
 
                     <div class="column">
@@ -632,11 +651,16 @@
     <div class="main" id="news">
       <div class="container">
         <p>
-          شروط القرض الخاصة بك غير مضمونة وتخضع للتحقق من هويتك ومعلومات الائتمان الخاصة بك. للحصول على قرض ، يجب عليك تقديم وثائق
-          إضافية بما في ذلك تطبيق قد يؤثر على درجة الائتمان الخاصة بك. سيختلف مدى توفر عرض القرض وشروط عرضك الفعلي بسبب عدد من
-          العوامل ، بما في ذلك غرض القرض وتقييمنا للجدارة الائتمانية الخاصة بك. تختلف الأسعار بناءً على العديد من العوامل ، مثل
-          الجدارة الائتمانية (على سبيل المثال ، درجة الائتمان وتاريخ الائتمان) وطول القرض (على سبيل المثال ، أسعار قروض 36 شهرًا
-          أقل بشكل عام من أسعار قروض لمدة 72 شهرًا). قد يختلف الحد الأقصى لمبلغ القرض حسب غرض القرض والدخل والجدارة الائتمانية.
+          شروط القرض الخاصة بك غير مضمونة وتخضع للتحقق من هويتك ومعلومات الائتمان الخاصة بك. للحصول على قرض ، يجب عليك
+          تقديم وثائق
+          إضافية بما في ذلك تطبيق قد يؤثر على درجة الائتمان الخاصة بك. سيختلف مدى توفر عرض القرض وشروط عرضك الفعلي بسبب
+          عدد من
+          العوامل ، بما في ذلك غرض القرض وتقييمنا للجدارة الائتمانية الخاصة بك. تختلف الأسعار بناءً على العديد من
+          العوامل ، مثل
+          الجدارة الائتمانية (على سبيل المثال ، درجة الائتمان وتاريخ الائتمان) وطول القرض (على سبيل المثال ، أسعار قروض
+          36 شهرًا
+          أقل بشكل عام من أسعار قروض لمدة 72 شهرًا). قد يختلف الحد الأقصى لمبلغ القرض حسب غرض القرض والدخل والجدارة
+          الائتمانية.
           يجب أن يدعم دخلك القابل للتحقق قدرتك على سداد قرضك.
         </p>
       </div>
@@ -981,15 +1005,15 @@
             </div>
             <h2>Eligibility Criteria​</h2>
             <p>Minimum employment period of 1 month and goes up to 12 months depending on the employer
-            Salary should be transferred to Al Ahli Bank
-            Minimum monthly salary starting from SR 2,000 depending on the employer
-            Age should not exceed 60 years when you settle your last installment
-            (assuming retirement age is 60 years)</p>
+              Salary should be transferred to Al Ahli Bank
+              Minimum monthly salary starting from SR 2,000 depending on the employer
+              Age should not exceed 60 years when you settle your last installment
+              (assuming retirement age is 60 years)</p>
             <h2>Required Documents</h2>
             <p>Completed application form for Personal Finance
-            Valid copy of National ID
-            Salary Certificate
-            Salary transfer letter</p>
+              Valid copy of National ID
+              Salary Certificate
+              Salary transfer letter</p>
 
             <div class="video-wrapper">
               <img src="./assets/images/video-image.jpg" alt="video" />
@@ -1055,8 +1079,8 @@
         <div class="column">
           <a href="#section1" class="logo"><span></span></a>
           <span class="text-footer">Your broker financing
-          application to get the best
-          financing deals for you!</span>
+            application to get the best
+            financing deals for you!</span>
         </div>
         <div class="column">
           <span class="list-title">روابط تهمك</span>
@@ -1114,6 +1138,13 @@
           </div>
         </div>
       </div>
+      <style>
+        @media (max-width: 48em) {
+          .flex-left .buttons-wrapper {
+            flex-direction: column;
+          }
+        }
+      </style>
     </div>
     </div>
     </div>
